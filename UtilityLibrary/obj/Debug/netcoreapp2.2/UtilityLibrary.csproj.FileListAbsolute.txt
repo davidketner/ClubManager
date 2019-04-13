@@ -1,0 +1,8 @@
+C:\Users\ketne\source\repos\ClubManager\UtilityLibrary\bin\Debug\netcoreapp2.2\UtilityLibrary.deps.json
+C:\Users\ketne\source\repos\ClubManager\UtilityLibrary\bin\Debug\netcoreapp2.2\UtilityLibrary.dll
+C:\Users\ketne\source\repos\ClubManager\UtilityLibrary\obj\Debug\netcoreapp2.2\UtilityLibrary.csproj.CoreCompileInputs.cache
+C:\Users\ketne\source\repos\ClubManager\UtilityLibrary\obj\Debug\netcoreapp2.2\UtilityLibrary.AssemblyInfoInputs.cache
+C:\Users\ketne\source\repos\ClubManager\UtilityLibrary\obj\Debug\netcoreapp2.2\UtilityLibrary.AssemblyInfo.cs
+C:\Users\ketne\source\repos\ClubManager\UtilityLibrary\bin\Debug\netcoreapp2.2\UtilityLibrary.pdb
+C:\Users\ketne\source\repos\ClubManager\UtilityLibrary\obj\Debug\netcoreapp2.2\UtilityLibrary.dll
+C:\Users\ketne\source\repos\ClubManager\UtilityLibrary\obj\Debug\netcoreapp2.2\UtilityLibrary.pdb

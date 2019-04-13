@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="5-streakWin" xml:space="preserve">
+    <value>5-streak win bonus</value>
+  </data>
+  <data name="Achievements" xml:space="preserve">
+    <value>Achievements</value>
+  </data>
+  <data name="Cards" xml:space="preserve">
+    <value>Cards</value>
+  </data>
+  <data name="ChampionsLeague" xml:space="preserve">
+    <value>Champions League</value>
+  </data>
+  <data name="Coins" xml:space="preserve">
+    <value>Coins</value>
+  </data>
+  <data name="CoinsDescription" xml:space="preserve">
+    <value>Here's how to get coins free of charge. Coins are important in the game, try to get the most out of them!</value>
+  </data>
+  <data name="CoinsText" xml:space="preserve">
+    <value>&lt;p class="my-text"&gt;Coins play an important role, they can buy cards, play exhibition games, and use them to speed up. Coins can of course be bought for real money, I recommend buying a welcome package that is cheap and brings a number of benefits to the start of the game.&lt;/p&gt;
+&lt;p class="my-text"&gt;However, there are other possibilities for getting the coins in the game for free. Here are the best ways:&lt;/p&gt;
+&lt;h2 class="my-h2"&gt;Registration&lt;/h2&gt;
+&lt;p class="my-text"&gt;Immediately after registration, you will get 250 coins!&lt;/p&gt;
+&lt;h2 class="my-h2"&gt;Invite your friends&lt;/h2&gt;
+&lt;p class="my-text"&gt;Invite your friends to Club Manager 2019 and get 50 free coins for each friend who will join the game!&lt;/p&gt;
+&lt;h2 class="my-h2"&gt;Achievements&lt;/h2&gt;
+&lt;p class="my-text"&gt;There are achievements in the game, which when you do, you get a variety of coins according to the difficulty. You can earn up to 10,000 coins thanks to the tasks.&lt;/p&gt;
+&lt;h2 class="my-h2"&gt;Achievements in the league&lt;/h2&gt;
+&lt;p class="my-text"&gt;Play league games and try to succeed in them! If you move to a higher league, you get 25 coins. If you keep the league at least, you get 10 coins.&lt;/p&gt;</value>
+  </data>
+  <data name="CoinsUrl" xml:space="preserve">
+    <value>Coins</value>
+  </data>
+  <data name="EventBonus" xml:space="preserve">
+    <value>Event bonus</value>
+  </data>
+  <data name="FirstDayWin" xml:space="preserve">
+    <value>First win of the day</value>
+  </data>
+  <data name="FreeCoins" xml:space="preserve">
+    <value>Free coins</value>
+  </data>
+  <data name="HomeMatch" xml:space="preserve">
+    <value>Home match</value>
+  </data>
+  <data name="IndexAchievements" xml:space="preserve">
+    <value>You can also perform tasks in the game. You will get a variety of coins according to difficulty. Then you can buy cards for coins. You can earn up to 10,000 coins thanks to the tasks.</value>
+  </data>
+  <data name="IndexCards" xml:space="preserve">
+    <value>Cards play an important role in the game. Thanks to the cards, you get new players, managers, various upgrades, characters, exhibitions and lots more. Cards can be bought or won for matches.</value>
+  </data>
+  <data name="IndexCarousel1" xml:space="preserve">
+    <value>Online soccer manager with cards</value>
+  </data>
+  <data name="IndexCarousel2" xml:space="preserve">
+    <value>Play against friends</value>
+  </data>
+  <data name="IndexCarousel3" xml:space="preserve">
+    <value>Train your players</value>
+  </data>
+  <data name="IndexCarousel4" xml:space="preserve">
+    <value>Improve your club</value>
+  </data>
+  <data name="IndexCarousel5" xml:space="preserve">
+    <value>Choose the best roster</value>
+  </data>
+  <data name="IndexCarousel6" xml:space="preserve">
+    <value>Build the Dynasty</value>
+  </data>
+  <data name="IndexChl" xml:space="preserve">
+    <value>The manager that earns the most Trophies with its club in 2019 will win 2 tickets for the Champions League final in 2020 in Istanbul.</value>
+  </data>
+  <data name="IndexChl2" xml:space="preserve">
+    <value>You win the trophies for a weekly competition. Try playing as many Division matches as possible against similar players in order to collect points and win this competition! The Trophies will be divided at the end of this weekly competition.</value>
+  </data>
+  <data name="IndexChlTitle" xml:space="preserve">
+    <value>Win 2 Champions League tickets!</value>
+  </data>
+  <data name="IndexDescription" xml:space="preserve">
+    <value>Your career manager in Club Manager 2019 game, is just starting out! Become the best manager and win tickets for the Champions League Final in 2020!</value>
+  </data>
+  <data name="IndexLeagues" xml:space="preserve">
+    <value>There are 12 divisions in total. In the beginning, of course, you start at the lowest. To advance to a higher league, you need a certain number of points. The higher the league you play, the more cash you get from the match.</value>
+  </data>
+  <data name="IndexText" xml:space="preserve">
+    <value>&lt;p class="my-text"&gt;
+            Your career manager is just starting out! Take this opportunity to try out what it is like to lead the team to the top! Become the best manager and win tickets for the Champions League Final in 2020! Your team is waiting for you.
+        &lt;/p&gt;
+        &lt;p class="my-text"&gt;
+            You can play the game on your iOS and Android devices. Of course, it's also online in your browser. It's clear from the name of the game that you'll be bossing your football club. Right after registering, you will get your ordinary team and your goal is to look after him so he can prosper.
+        &lt;/p&gt;
+        &lt;p class="my-text"&gt;
+	The whole game is built on cards. After each match you get cards that hide new players, managers, and various upgrades. Card packs can also be bought for money and coins you also receive after the matches played.
+	&lt;/p&gt;</value>
+  </data>
+  <data name="IndexTextBottom" xml:space="preserve">
+    <value>&lt;h4 class="my-header text-center"&gt;What do you expect in the game?&lt;/h4&gt;
+            &lt;p class="my-text"&gt;Online football manager based on cards.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Matches against your friends and opponents in league and exhibition.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Training and improving your players skills.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Improving your stadium, training facilities, playgrounds, gyms and organizers.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Determining the right roster and tactics. Selection of captain and players for playing standard situations.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Improving team chemistry to concentrate the entire team and after each match.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Fulfilling the tasks for which you receive bonus coins. Chat in the game.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Purchase and pick up cards that have new players, managers, and cards needed for training, upgrades, exhibitions, and lots of others.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Scouting of new players. Do not hesitate and start playing the online game Club Manager 2019 today!&lt;/p&gt;</value>
+  </data>
+  <data name="IndexTitle" xml:space="preserve">
+    <value>Online football manager</value>
+  </data>
+  <data name="IndexUpgrades" xml:space="preserve">
+    <value>Upgrades the different components of the club to improve the team and the results. Every upgrade has its advantage, for example, by improving the stadium, you get more cash during the game.</value>
+  </data>
+  <data name="League" xml:space="preserve">
+    <value>Division</value>
+  </data>
+  <data name="LeagueConditions" xml:space="preserve">
+    <value>Conditions</value>
+  </data>
+  <data name="LeagueMultiplierTitle" xml:space="preserve">
+    <value>Multiplier title</value>
+  </data>
+  <data name="Leagues" xml:space="preserve">
+    <value>Divisions</value>
+  </data>
+  <data name="LeaguesDesc" xml:space="preserve">
+    <value>The table below shows how many points you need to earn for a higher division and how many points to keep in the league. You can also see what value is multiplied by the cash received from the league matches.</value>
+  </data>
+  <data name="LeaguesDescription" xml:space="preserve">
+    <value>Here you will learn how many points you need to stay in the division and how many points to progress to the higher league.</value>
+  </data>
+  <data name="LeaguesOther" xml:space="preserve">
+    <value>Other manager cash multipliers</value>
+  </data>
+  <data name="LeaguesUrl" xml:space="preserve">
+    <value>Divisions</value>
+  </data>
+  <data name="LeagueTableTitle1" xml:space="preserve">
+    <value>Points required to stay in division</value>
+  </data>
+  <data name="LeagueTableTitle2" xml:space="preserve">
+    <value>Points required for promotion</value>
+  </data>
+  <data name="LeagueTableTitle3" xml:space="preserve">
+    <value>Manager cash multiplier</value>
+  </data>
+  <data name="Manual" xml:space="preserve">
+    <value>Instructions</value>
+  </data>
+  <data name="ManualDescription" xml:space="preserve">
+    <value>Here you'll find the most important information about Club Manager 2019's online game</value>
+  </data>
+  <data name="ManualText1" xml:space="preserve">
+    <value>You can get new players from cards or send scouts, tell them what post you are looking for, and he goes to the field to look for the player. In 24 hours he will return and offer those players who can be bought.</value>
+  </data>
+  <data name="ManualText10" xml:space="preserve">
+    <value>You get the cash after every game you play, the value depends on the outcome of the match, you have the most, of course, the win, then the draw and the least for the win. Another way to get cash is to sell cards.</value>
+  </data>
+  <data name="ManualText11" xml:space="preserve">
+    <value>You can play league matches more often if you improve your organizer's level. You can play an exhibition match with cards or 100 coins.</value>
+  </data>
+  <data name="ManualText2" xml:space="preserve">
+    <value>Card Packages can be obtained in several ways. At the beginning of the game you get 3 opening packages, you can pick up one every 24 hours. Another option is to watch an ad video. This option always appears at a certain point. You get cards even after the matches played, whether league or exhibition. The last option is to buy cards for money or coins. Individual packages are distinguished by the number of cards inside and scarce.</value>
+  </data>
+  <data name="ManualText3" xml:space="preserve">
+    <value>Each manager prefers a particular layout. The only way to change the layout is to replace the manager. Each manager has a certain capacity, that is, the sum of the quality of all basic eleven players. If the sum exceeds the managerial capacity, team chemistry will rapidly decrease.</value>
+  </data>
+  <data name="ManualText4" xml:space="preserve">
+    <value>Team chemistry can range from 1 to 99. The higher your team's team chemistry, the better players and the manager work together to give better performance in matches. Team chemistry is changing for the following reasons: &lt;br/&gt;
+Manager Change - If you change a team manager, team chemistry will usually decrease. To reach a higher team chemistry, you need to play as many games as possible. &lt;br/&gt;
+The sum of the players' basic qualities will exceed the manager's capacity. &lt;br /&gt;
+Change of report - Each player has different relationships with the manager and team team chemistry.</value>
+  </data>
+  <data name="ManualText5" xml:space="preserve">
+    <value>Team quality is not the only aspect that will help you win the game. It is important to have a player rested, to a high team chemistry with a manager. Of course, you have to choose a good tactic and identify the right players for the standard situation. The home playground and its level also play a big part. You can also increase your chances by sending the team to a concentration camp. Of course, if you have a four-attack run, you probably have more goals, but you probably get more cash.</value>
+  </data>
+  <data name="ManualText6" xml:space="preserve">
+    <value>Player oddity is very important in matches. If players are tired, they do not perform well. Increase energy with energy cards. They are of two types, energy recovery for the whole team and energy recovery for one player. In addition, the player rests when he does not join the next match, either league or exhibition. It is therefore advantageous to alternate their basic eleven and to save their main levers in league leagues.</value>
+  </data>
+  <data name="ManualText7" xml:space="preserve">
+    <value>Each player can be trained to the 50th level. At this level, the player will improve his ability by 10 points. The higher the level your gym will have, the more effective your training will be. Training can be started using training cards. If you want to speed up the training of players, you will improve your training background. If you upgrade it to the 12th, 25th, 37th and 50th levels, you can train multiple players at the same time.</value>
+  </data>
+  <data name="ManualText8" xml:space="preserve">
+    <value>To get more clubs in the game, you do not have to create another profile. You only have to play 25 matches and get the second team, you will get it again with the basic equipment. You can easily switch between clubs. You can have up to 4 clubs in the game. After playing 100 league matches, you will get 3rd Club. Then, after 250 league games, the 4th club.</value>
+  </data>
+  <data name="ManualText9" xml:space="preserve">
+    <value>You can buy coins in real money with real money. Another option is to follow or maintain in the league. The best option is to achieve the achievements. Here you can get up to 10,000 free coins! You can also invite your friends to join the game, and everyone who joins the game gets 50 coins!</value>
+  </data>
+  <data name="ManualTitle" xml:space="preserve">
+    <value>Instructions for the game Club Manager 2019</value>
+  </data>
+  <data name="ManualTitle1" xml:space="preserve">
+    <value>How to get new players</value>
+  </data>
+  <data name="ManualTitle10" xml:space="preserve">
+    <value>Getting cash</value>
+  </data>
+  <data name="ManualTitle11" xml:space="preserve">
+    <value>How to play a game more often</value>
+  </data>
+  <data name="ManualTitle2" xml:space="preserve">
+    <value>How to Get Card Packages</value>
+  </data>
+  <data name="ManualTitle3" xml:space="preserve">
+    <value>Changing layout</value>
+  </data>
+  <data name="ManualTitle4" xml:space="preserve">
+    <value>Team chemistry</value>
+  </data>
+  <data name="ManualTitle5" xml:space="preserve">
+    <value>How is it possible that the team lost even if it was of higher quality</value>
+  </data>
+  <data name="ManualTitle6" xml:space="preserve">
+    <value>How to Increase Player Energy</value>
+  </data>
+  <data name="ManualTitle7" xml:space="preserve">
+    <value>How to improve your players</value>
+  </data>
+  <data name="ManualTitle8" xml:space="preserve">
+    <value>Getting more clubs</value>
+  </data>
+  <data name="ManualTitle9" xml:space="preserve">
+    <value>Getting coins</value>
+  </data>
+  <data name="ManualUrl" xml:space="preserve">
+    <value>Instructions</value>
+  </data>
+  <data name="Multiplier1" xml:space="preserve">
+    <value>Multiplier depending on stadium level</value>
+  </data>
+  <data name="Multiplier2" xml:space="preserve">
+    <value>Applies to all match types</value>
+  </data>
+  <data name="Multiplier3" xml:space="preserve">
+    <value>Multiplier depending on event settings</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Upgrades" xml:space="preserve">
+    <value>Upgrades</value>
+  </data>
+</root>

@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="5-streakWin" xml:space="preserve">
+    <value>Bónusz 5 nyeremény egy sorban</value>
+  </data>
+  <data name="Achievements" xml:space="preserve">
+    <value>Eredmények</value>
+  </data>
+  <data name="Cards" xml:space="preserve">
+    <value>Kártyák</value>
+  </data>
+  <data name="ChampionsLeague" xml:space="preserve">
+    <value>Bajnokok Ligája</value>
+  </data>
+  <data name="Coins" xml:space="preserve">
+    <value>Érme</value>
+  </data>
+  <data name="CoinsDescription" xml:space="preserve">
+    <value>Íme, hogyan lehet érméket ingyenesen beszerezni. Az érmék fontosak a játékban, próbálják ki a legtöbbet belőle!</value>
+  </data>
+  <data name="CoinsText" xml:space="preserve">
+    <value>&lt;p class="my-text"&gt;Az érmék fontos szerepet játszanak, kártyákat vásárolhatnak, kiállítási játékokat játszhatnak, és felgyorsíthatják őket. Az érméket természetesen valódi pénzért lehet megvásárolni, azt ajánlom, hogy vásároljon egy olcsó csomagot, amely olcsó, és számos előnyhöz juttatja a játék kezdetét.&lt;/p&gt;
+                &lt;p class="my-text"&gt;Vannak azonban más lehetőségek is, hogy az érméket a játékban ingyen szerezzük. Íme a legjobb módszerek:&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;bejegyzés&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Közvetlenül a regisztráció után 250 érmét kap!&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;Hívja meg barátait&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Hívja meg barátait a 2019-es klubmenedzserre, és kapjon 50 ingyenes érmét minden barátnak, aki csatlakozik a játékhoz!&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;Kitüntetések&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Vannak eredmények a játékban, ami akkor történik, amikor a nehézségek miatt különböző érméket kap. A feladatoknak köszönhetően akár 10 000 érmét is kereshet.&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;Eredmények a bajnokságban&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Játsszon a bajnoki játékokat, és próbálja meg sikerülni őket! Ha magasabb szintre lépsz, akkor 25 érmét kapsz. Ha legalább a bajnokságot tartod, 10 érmét kapsz.&lt;/p&gt;</value>
+  </data>
+  <data name="CoinsUrl" xml:space="preserve">
+    <value>Erme</value>
+  </data>
+  <data name="EventBonus" xml:space="preserve">
+    <value>Eseménybónusz</value>
+  </data>
+  <data name="FirstDayWin" xml:space="preserve">
+    <value>Első nap nyer</value>
+  </data>
+  <data name="FreeCoins" xml:space="preserve">
+    <value>Érmék ingyen</value>
+  </data>
+  <data name="HomeMatch" xml:space="preserve">
+    <value>Otthoni meccs</value>
+  </data>
+  <data name="IndexAchievements" xml:space="preserve">
+    <value>A játékban is végezhet feladatokat. Különböző érméket kapsz a nehézséged szerint. Kártyákat vásárolhat érmékre. A feladatoknak köszönhetően akár 10 000 érmét is kereshet.</value>
+  </data>
+  <data name="IndexCards" xml:space="preserve">
+    <value>A kártyák fontos szerepet játszanak a játékban. A kártyáknak köszönhetően új játékosokat, vezetőket, különböző frissítéseket, karaktereket, kiállításokat és még sok más adatot kap. Kártyák vásárolhatók vagy nyerhetők mérkőzésekre.</value>
+  </data>
+  <data name="IndexCarousel1" xml:space="preserve">
+    <value>Online futball menedzser kártyákkal</value>
+  </data>
+  <data name="IndexCarousel2" xml:space="preserve">
+    <value>Játssz barátokkal</value>
+  </data>
+  <data name="IndexCarousel3" xml:space="preserve">
+    <value>Képezze a játékosokat</value>
+  </data>
+  <data name="IndexCarousel4" xml:space="preserve">
+    <value>Javítsa klubját</value>
+  </data>
+  <data name="IndexCarousel5" xml:space="preserve">
+    <value>Határozza meg a helyes összeszerelést</value>
+  </data>
+  <data name="IndexCarousel6" xml:space="preserve">
+    <value>Építsd a dinasztia</value>
+  </data>
+  <data name="IndexChl" xml:space="preserve">
+    <value>A menedzser, aki 2019-ben kapja a legtöbb csésze klubját, 2 jegyet fog nyerni a Bajnokok Ligája döntőjére 2020-ban Isztambulban.</value>
+  </data>
+  <data name="IndexChl2" xml:space="preserve">
+    <value>Egy heti versenyre nyeri meg a kupákat. Játssz a lehető legtöbb bajnoki játékot, gyűjtsön pontokat, és váljon a verseny győztese, ahol hasonló szintű ellenfelek állnak ellened. A heti verseny végén eladjuk a csészéket.</value>
+  </data>
+  <data name="IndexChlTitle" xml:space="preserve">
+    <value>Nyerj 2 jegyet a Bajnokok Ligájába!</value>
+  </data>
+  <data name="IndexDescription" xml:space="preserve">
+    <value>Az Ön karriervezetője, a Club Manager 2019, most kezdődik! Legyél a legjobb menedzser és nyerj jegyeket a Bajnokok Ligája döntőjére 2020-ban!</value>
+  </data>
+  <data name="IndexLeagues" xml:space="preserve">
+    <value>Összesen 12 bajnokság van. Kezdetben természetesen a legalacsonyabbra indulsz. Ahhoz, hogy egy magasabb bajnokságra lépjünk, bizonyos számú pontra van szükséged. Minél magasabb a bajnokság, annál több pénzt kap a mérkőzésből.</value>
+  </data>
+  <data name="IndexText" xml:space="preserve">
+    <value>&lt;p class="my-text"&gt;
+            Az Ön karriervezetője most kezdődik! Használd ki ezt az alkalmat, hogy kipróbáld, mit szeretnél a csapat vezetéséhez vezetni! Legyél a legjobb menedzser és nyerj jegyeket a Bajnokok Ligája döntőjére 2020-ban! A csapat vár rád.
+        &lt;/p&gt;
+        &lt;p class="my-text"&gt;
+            A játékot lejátszhatja az iOS és az Android készülékeken. Természetesen a böngészőn is online van. A játék nevéből kitűnik, hogy a labdarúgó klubod főnöke lesz. A regisztráció után azonnal megkapja a rendes csapatot, és a cél az, hogy vigyázzon rá, hogy boldogulhasson.
+        &lt;/p&gt;
+        &lt;p class="my-text"&gt;Az egész játék kártyákra épül. Minden meccs után kapsz olyan kártyákat, amelyek elrejtik az új játékosokat, a vezetőket és a különböző frissítéseket. Kártyacsomagokat is lehet vásárolni pénzért és érmékért, amelyeket a meccsek után is kap.&lt;/p&gt;</value>
+  </data>
+  <data name="IndexTextBottom" xml:space="preserve">
+    <value>&lt;h4 class="my-header text-center"&gt;Mi vár rád a játékban?&lt;/h4&gt;
+            &lt;p class="my-text"&gt;Online labdarúgó-menedzser kártyák alapján.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Megfelel a barátaiddal és ellenfelekkel a bajnokságban és a kiállításon.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Képzés és a játékosok készségeinek javítása.&lt;/p&gt;
+            &lt;p class="my-text"&gt;A stadion, a képzési lehetőségek, a játszóterek, a tornaterem és a szervezők javítása.&lt;/p&gt;
+            &lt;p class="my-text"&gt;A megfelelő összeállítás és taktika meghatározása. A kapitány és a játékosok kiválasztása normál helyzetekben.&lt;/p&gt;
+            &lt;p class="my-text"&gt;A csapat kémia javítása az egész csapat összpontosítása és minden egyes mérkőzés után.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Azon feladatok teljesítése, amelyekre bónusz érméket kap. Csevegés a játékban.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Vásároljon és vegyen fel olyan kártyákat, amelyeken új játékosok, vezetők és kártyák szükségesek a képzéshez, a frissítésekhez, a kiállításokhoz és sok máshoz.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Új játékosok felderítése. Ne habozzon, és kezdje el játszani a Club Manager 2019 online játékot ma!&lt;/p&gt;</value>
+  </data>
+  <data name="IndexTitle" xml:space="preserve">
+    <value>Online labdarúgó-menedzser</value>
+  </data>
+  <data name="IndexUpgrades" xml:space="preserve">
+    <value>Javítja a klub különböző összetevőit és javítja az eredményeket. Minden fejlesztésnek előnye van, például a stadion javításával, a játék során több pénzt kap.</value>
+  </data>
+  <data name="League" xml:space="preserve">
+    <value>Liga</value>
+  </data>
+  <data name="LeagueConditions" xml:space="preserve">
+    <value>feltételek</value>
+  </data>
+  <data name="LeagueMultiplierTitle" xml:space="preserve">
+    <value>A szorzó neve</value>
+  </data>
+  <data name="Leagues" xml:space="preserve">
+    <value>Liga</value>
+  </data>
+  <data name="LeaguesDesc" xml:space="preserve">
+    <value>Az alábbi táblázat megmutatja, hogy hány pontot kell keresni egy magasabb bajnokságért és hány pontot a bajnokságban. Azt is láthatja, hogy melyik értéket szorozza meg a bajnoki mérkőzésekből kapott pénzzel.</value>
+  </data>
+  <data name="LeaguesDescription" xml:space="preserve">
+    <value>Itt megtudhatja, hogy hány pontra van szüksége ahhoz, hogy a bajnokságban maradjon, és hány pontot érjen el a magasabb szintre.</value>
+  </data>
+  <data name="LeaguesOther" xml:space="preserve">
+    <value>Egyéb készpénz-szorzók</value>
+  </data>
+  <data name="LeaguesUrl" xml:space="preserve">
+    <value>Liga</value>
+  </data>
+  <data name="LeagueTableTitle1" xml:space="preserve">
+    <value>A bajnoksághoz szükséges pontok</value>
+  </data>
+  <data name="LeagueTableTitle2" xml:space="preserve">
+    <value>A folytatáshoz szükséges pontok</value>
+  </data>
+  <data name="LeagueTableTitle3" xml:space="preserve">
+    <value>Készpénz-szorzó</value>
+  </data>
+  <data name="Manual" xml:space="preserve">
+    <value>Oktatás</value>
+  </data>
+  <data name="ManualDescription" xml:space="preserve">
+    <value>Itt megtalálja a legfontosabb információkat a Club Manager 2019 online játékáról</value>
+  </data>
+  <data name="ManualText1" xml:space="preserve">
+    <value>Új játékosokat kaphat kártyákból, vagy cserkészeket küldhetsz, mondd el nekik, hogy melyik posztot keresed, és ő megy a mezőbe, hogy keresse meg a lejátszót. 24 óra múlva visszatér és felajánlja a megvásárolható játékosokat.</value>
+  </data>
+  <data name="ManualText10" xml:space="preserve">
+    <value>Minden játék után megkapod a készpénzt, az érték a meccs kimenetelétől függ, természetesen a nyereményed, a döntetlen és a legkevésbé a nyeremény. A készpénz megszerzésének másik módja a kártyák eladása.</value>
+  </data>
+  <data name="ManualText11" xml:space="preserve">
+    <value>Gyorsabban játszhat a bajnoki mérkőzések, ha javítja a szervezői szintet. Játszhat egy kiállítási mérkőzést kártyákkal vagy 100 érmével.</value>
+  </data>
+  <data name="ManualText2" xml:space="preserve">
+    <value>A kártyacsomagok többféleképpen beszerezhetők. A játék elején 3 megnyitó csomagot kap, 24 óránként felveszi. Egy másik lehetőség a hirdetés videójának megtekintése. Ez az opció mindig egy bizonyos ponton jelenik meg. A kártyákat még a meccsek lejátszása után is kapja, legyen az liga vagy kiállítás. Az utolsó lehetőség, hogy pénzt vagy érméket vásároljon. Az egyes csomagok megkülönböztethetők a belső és a kevés kártyák számával.</value>
+  </data>
+  <data name="ManualText3" xml:space="preserve">
+    <value>Minden menedzser egy adott elrendezést részesít előnyben. Az elrendezés megváltoztatásának egyetlen módja a menedzser cseréje. Minden menedzser bizonyos kapacitással rendelkezik, azaz az összes tizenegy játékos alapvető minőségének összege. Ha az összeg meghaladja a vezetői kapacitást, a csapat kémia gyorsan csökken.</value>
+  </data>
+  <data name="ManualText4" xml:space="preserve">
+    <value>A csapat kémia 1 és 99 között változhat. Minél magasabb a csapat csapata, a jobb játékosok és a menedzser együtt dolgoznak, hogy jobb teljesítményt nyújtsanak a mérkőzéseken. A csapat kémia változik a következő okok miatt: &lt;br/&gt;
+Menedzserváltás - Ha megváltoztat egy csapatvezetőt, a csapat kémia általában csökken. A magasabb csapatkémia eléréséhez annyi játékot kell játszania, amennyit csak lehet. &lt;br/&gt;
+A játékosok alapvető tulajdonságainak összege meghaladja a menedzser kapacitását. &lt;br /&gt;
+A jelentés módosítása - Minden játékosnak különböző kapcsolatai vannak a menedzser és a csapatcsapat kémiaival.</value>
+  </data>
+  <data name="ManualText5" xml:space="preserve">
+    <value>A csapat minősége nem az egyetlen szempont, amely segít a játék megnyerésében. Fontos, hogy egy játékos pihenjen, egy magas csapatkémiai vezetővel. Természetesen jó taktikát kell választania, és azonosítania kell a megfelelő játékosokat a normál helyzethez. Az otthoni játszótér és szintje is nagy szerepet játszik. Ön növelheti esélyeit is, ha a csapatot egy koncentrációs táborba küldi. Természetesen, ha van egy négy támadású futamod, valószínűleg több célod van, de valószínűleg több pénzt kapsz.</value>
+  </data>
+  <data name="ManualText6" xml:space="preserve">
+    <value>A játékosok furcsasága nagyon fontos a mérkőzésekben. Ha a játékosok fáradtak, nem teljesítenek jól. Növelje az energiát az energia kártyákkal. Két típusból állnak, az egész csapat energiamegtakarítása és egy játékos energiamegtakarítása. Ezenkívül a játékos akkor nyugszik, amikor nem csatlakozik a következő mérkőzésre, sem a liga, sem a kiállításon. Ezért előnyös, ha az alap tizenegyét felváltják, és a liga-bajnokságban megtartják a fő karjukat.</value>
+  </data>
+  <data name="ManualText7" xml:space="preserve">
+    <value>Minden játékos kiképezhető az 50. szintre. Ezen a szinten a játékos 10 ponttal javítja képességét. Minél magasabb az edzőterem szintje, annál hatékonyabb lesz a képzés. A tréningeket képzési kártyákkal lehet elindítani. Ha fel szeretné gyorsítani a játékosok képzését, javíthatja képzési hátterét. Ha a 12., 25., 37. és 50. szintre frissíti, egyszerre több játékost is képezhet.</value>
+  </data>
+  <data name="ManualText8" xml:space="preserve">
+    <value>Ahhoz, hogy több klubot kapjon a játékban, nem kell más profilt létrehoznia. Csak 25 meccset kell játszanod, és meg kell kapnod a második csapatot. Könnyedén válthat a klubok között. Legfeljebb 4 klubban lehet a játékban, és 100 bajnoki mérkőzés után 3-as klubot kap. Ezután 250 bajnoki játék után a 4. klub.</value>
+  </data>
+  <data name="ManualText9" xml:space="preserve">
+    <value>Valódi pénzzel érméket vásárolhat valódi pénzzel. Egy másik lehetőség a bajnokság követése vagy fenntartása. A legjobb megoldás az eredmények elérése. Itt 10 000 ingyenes érmét kaphat! Meghívhatja barátait is, hogy csatlakozzanak a játékhoz, és mindenki, aki csatlakozik a játékhoz, 50 érmét kap!</value>
+  </data>
+  <data name="ManualTitle" xml:space="preserve">
+    <value>Utasítások a játékhoz Club Manager 2019</value>
+  </data>
+  <data name="ManualTitle1" xml:space="preserve">
+    <value>Hogyan lehet új játékosokat kapni?</value>
+  </data>
+  <data name="ManualTitle10" xml:space="preserve">
+    <value>Készpénz</value>
+  </data>
+  <data name="ManualTitle11" xml:space="preserve">
+    <value>Hogyan kell játszani egy játékot gyakrabban</value>
+  </data>
+  <data name="ManualTitle2" xml:space="preserve">
+    <value>Hogyan juthat el a kártyacsomagokhoz?</value>
+  </data>
+  <data name="ManualTitle3" xml:space="preserve">
+    <value>Elrendezés módosítása</value>
+  </data>
+  <data name="ManualTitle4" xml:space="preserve">
+    <value>Csapat kémia</value>
+  </data>
+  <data name="ManualTitle5" xml:space="preserve">
+    <value>Hogyan lehet elveszteni a csapatot még akkor is, ha magasabb színvonalú volt</value>
+  </data>
+  <data name="ManualTitle6" xml:space="preserve">
+    <value>Hogyan lehet növelni a játékosok energiáját</value>
+  </data>
+  <data name="ManualTitle7" xml:space="preserve">
+    <value>Hogyan lehet javítani a játékosokat</value>
+  </data>
+  <data name="ManualTitle8" xml:space="preserve">
+    <value>További klubok beszerzése</value>
+  </data>
+  <data name="ManualTitle9" xml:space="preserve">
+    <value>Érmék beszerzése</value>
+  </data>
+  <data name="ManualUrl" xml:space="preserve">
+    <value>Oktatas</value>
+  </data>
+  <data name="Multiplier1" xml:space="preserve">
+    <value>A szorzó a stadion szintjétől függ</value>
+  </data>
+  <data name="Multiplier2" xml:space="preserve">
+    <value>Minden egyezés típusra vonatkozik</value>
+  </data>
+  <data name="Multiplier3" xml:space="preserve">
+    <value>A szorzó az esemény beállításától függ</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Más</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Játék</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Előző</value>
+  </data>
+  <data name="Upgrades" xml:space="preserve">
+    <value>Fejlesztések</value>
+  </data>
+</root>

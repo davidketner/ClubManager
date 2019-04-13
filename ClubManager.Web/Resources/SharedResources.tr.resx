@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="5-streakWin" xml:space="preserve">
+    <value>Art arda 5 kazanç</value>
+  </data>
+  <data name="Achievements" xml:space="preserve">
+    <value>Başarılar</value>
+  </data>
+  <data name="Cards" xml:space="preserve">
+    <value>Kartları</value>
+  </data>
+  <data name="ChampionsLeague" xml:space="preserve">
+    <value>Şampiyonlar Ligi</value>
+  </data>
+  <data name="Coins" xml:space="preserve">
+    <value>Sikke</value>
+  </data>
+  <data name="CoinsDescription" xml:space="preserve">
+    <value>İşte paraları ücretsiz olarak almanın yolu. Paralar oyunda önemlidir, bunlardan en iyi şekilde yararlanmaya çalışın!</value>
+  </data>
+  <data name="CoinsText" xml:space="preserve">
+    <value>&lt;p class="my-text"&gt;Paralar önemli bir rol oynar, kart alabilir, sergi oyunları oynayabilir ve bunları hızlandırmak için kullanabilir. Paralar elbette gerçek parayla satın alınabilir, ucuz olan ve oyunun başlangıcına birçok avantaj sağlayan bir karşılama paketi satın almanızı öneririm.&lt;/p&gt;
+                &lt;p class="my-text"&gt;Ancak, oyunda paraları ücretsiz olarak alabilmenin başka olasılıkları da var. İşte en iyi yollar:&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;kayıt&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Kayıttan hemen sonra 250 jeton kazanacaksınız!&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;Arkadaşlarını davet et&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Arkadaşlarınızı Club Manager 2019'a davet edin ve oyuna katılacak her arkadaşınız için 50 bedava jeton kazanın!&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;Başarılar&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Oyunda, yaptığınız zaman, zorluk derecesine göre çeşitli madeni paralar elde edebileceğiniz başarılar var. Görevler sayesinde 10.000 jetona kadar para kazanabilirsiniz.&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;Ligdeki başarılar&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Lig oyunları oynayın ve onlarda başarılı olmaya çalışın! Daha yüksek bir ligde yer alırsanız, 25 jeton kazanırsınız. Eğer ligleri en az tutarsan, 10 jeton kazanırsın.&lt;/p&gt;</value>
+  </data>
+  <data name="CoinsUrl" xml:space="preserve">
+    <value>Sikke</value>
+  </data>
+  <data name="EventBonus" xml:space="preserve">
+    <value>Etkinlik Bonusu</value>
+  </data>
+  <data name="FirstDayWin" xml:space="preserve">
+    <value>İlk Gün Kazandı</value>
+  </data>
+  <data name="FreeCoins" xml:space="preserve">
+    <value>Paraları ücretsiz</value>
+  </data>
+  <data name="HomeMatch" xml:space="preserve">
+    <value>Ev maçı</value>
+  </data>
+  <data name="IndexAchievements" xml:space="preserve">
+    <value>Oyunda görevleri de gerçekleştirebilirsiniz. Zorluğunuza göre çeşitli madeni paralar alacaksınız. Madeni paralar için kart satın alabilirsiniz. Görevler sayesinde 10.000 jetona kadar para kazanabilirsiniz.</value>
+  </data>
+  <data name="IndexCards" xml:space="preserve">
+    <value>Kartlar oyunda önemli bir rol oynamaktadır. Kartlar sayesinde yeni oyuncular, menajerler, çeşitli geliştirmeler, karakterler, sergiler ve daha birçok şey kazanırsınız. Maçlar için kartlar satın alınabilir veya kazanılabilir.</value>
+  </data>
+  <data name="IndexCarousel1" xml:space="preserve">
+    <value>Kartları ile çevrimiçi futbol menajeri</value>
+  </data>
+  <data name="IndexCarousel2" xml:space="preserve">
+    <value>Arkadaşlarına karşı oyna</value>
+  </data>
+  <data name="IndexCarousel3" xml:space="preserve">
+    <value>Oyuncularınızı eğitin</value>
+  </data>
+  <data name="IndexCarousel4" xml:space="preserve">
+    <value>Kulübünü geliştir</value>
+  </data>
+  <data name="IndexCarousel5" xml:space="preserve">
+    <value>Doğru montajı tanımlayın</value>
+  </data>
+  <data name="IndexCarousel6" xml:space="preserve">
+    <value>Hanedanı inşa et</value>
+  </data>
+  <data name="IndexChl" xml:space="preserve">
+    <value>2019'da kulübü ile en fazla kupa alan menajer, 2020'de İstanbul'da Şampiyonlar Ligi finaline 2 bilet kazanacak.</value>
+  </data>
+  <data name="IndexChl2" xml:space="preserve">
+    <value>Kupayı haftalık bir yarışma için kazanırsınız. Mümkün olduğunca çok lig maçı oynayın, puan toplayın ve benzer seviyedeki rakiplerin size karşı durduğu bu yarışmanın galibi olun. Haftalık yarışmanın sonunda bardakları elden çıkaracağız.</value>
+  </data>
+  <data name="IndexChlTitle" xml:space="preserve">
+    <value>Şampiyonlar Ligi'ne 2 bilet kazanın!</value>
+  </data>
+  <data name="IndexDescription" xml:space="preserve">
+    <value>Kariyer müdürünüz, Club Manager 2019, daha yeni başlıyor! En iyi menajer ol ve 2020'de Şampiyonlar Ligi Finali için bilet kazan!</value>
+  </data>
+  <data name="IndexLeagues" xml:space="preserve">
+    <value>Toplam 12 lig var. Tabii ki başlangıçta, en düşükte başlarsınız. Daha yüksek bir ligde ilerlemek için belirli sayıda puana ihtiyacınız vardır. Oynadığınız lig yükseldikçe, maçtan daha fazla para kazanırsınız.</value>
+  </data>
+  <data name="IndexText" xml:space="preserve">
+    <value>&lt;p class="my-text"&gt;
+            Kariyer yöneticiniz daha yeni başlıyor! Takımı zirveye ulaştırmanın nasıl bir şey olduğunu denemek için bu fırsatı kullanın! En iyi menajer ol ve 2020'de Şampiyonlar Ligi Finali için bilet kazan! Takımın seni bekliyor.
+        &lt;/p&gt;
+        &lt;p class="my-text"&gt;
+            Oyunu iOS ve Android cihazlarınızda oynayabilirsiniz. Tabii ki, tarayıcınızda da çevrimiçi. Oyunun adından açıkça anlaşılıyor ki futbol kulübünüze patronluk yapacaksınız. Kaydolduktan hemen sonra sıradan ekibinize ulaşacaksınız ve hedefiniz zenginleşmek için ona göz kulak olmak.
+        &lt;/p&gt;
+        &lt;p class="my-text"&gt;Bütün oyun kartlara dayanıyor. Her maçtan sonra yeni oyuncuları, menajerleri ve çeşitli yükseltmeleri saklayan kartlar kazanırsın. Kart paketleri ayrıca oynanan maçlardan sonra elde ettiğiniz para ve paralar için de satın alınabilir.&lt;/p&gt;</value>
+  </data>
+  <data name="IndexTextBottom" xml:space="preserve">
+    <value>&lt;h4 class="my-header text-center"&gt;Oyunda seni neler bekliyor?&lt;/h4&gt;
+            &lt;p class="my-text"&gt;Kartlara dayalı çevrimiçi futbol menajeri.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Ligde ve sergide arkadaşlarına ve rakiplerine karşı eşleşir.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Oyuncularınızın becerilerini geliştirmek ve geliştirmek.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Stadyumunuzun, antrenman tesislerinin, oyun alanlarının, spor salonlarının ve organizatörlerin iyileştirilmesi.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Doğru montaj ve taktikleri belirlemek. Standart durumlarda oynamak için kaptan ve oyuncu seçimi.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Tüm ekibi ve her maçtan sonra konsantre olacak şekilde takım kimyasının geliştirilmesi.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Bonus para alacağınız görevlerin yerine getirilmesi. Oyunda doğru sohbet edin.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Antrenman, yükseltmeler, sergiler ve diğerleri için gerekli olan yeni oyuncuları, yöneticileri ve kartları olan kartları satın alın ve alın.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Yeni oyuncuların izlenmesi. Tereddüt etmeyin ve bugün çevrimiçi olan Club Manager 2019 oyununu oynamaya başlayın!&lt;/p&gt;</value>
+  </data>
+  <data name="IndexTitle" xml:space="preserve">
+    <value>Çevrimiçi futbol menajeri</value>
+  </data>
+  <data name="IndexUpgrades" xml:space="preserve">
+    <value>Kulübün çeşitli bileşenlerini geliştirecek ve sonuçları geliştirecektir. Her bir donanımın avantajı vardır, örneğin, stadyumu iyileştirerek, maç sırasında daha fazla para kazanırsınız.</value>
+  </data>
+  <data name="League" xml:space="preserve">
+    <value>Lig</value>
+  </data>
+  <data name="LeagueConditions" xml:space="preserve">
+    <value>koşullar</value>
+  </data>
+  <data name="LeagueMultiplierTitle" xml:space="preserve">
+    <value>Çarpanın adı</value>
+  </data>
+  <data name="Leagues" xml:space="preserve">
+    <value>Lig</value>
+  </data>
+  <data name="LeaguesDesc" xml:space="preserve">
+    <value>Aşağıdaki tablo daha yüksek bir lig için kaç puan kazanmanız gerektiğini ve ligde kaç puan kazanmanız gerektiğini gösterir. Lig maçlarından elde edilen parayla hangi değerin çarpıldığını da görebilirsiniz.</value>
+  </data>
+  <data name="LeaguesDescription" xml:space="preserve">
+    <value>Burada ligde kaç puan kalmanız gerektiğini ve daha yüksek ligde kaç puan ilerlemeniz gerektiğini öğreneceksiniz.</value>
+  </data>
+  <data name="LeaguesOther" xml:space="preserve">
+    <value>Diğer nakit çarpanları</value>
+  </data>
+  <data name="LeaguesUrl" xml:space="preserve">
+    <value>Lig</value>
+  </data>
+  <data name="LeagueTableTitle1" xml:space="preserve">
+    <value>Ligde devam etmek için gereken puanlar</value>
+  </data>
+  <data name="LeagueTableTitle2" xml:space="preserve">
+    <value>Devam etmek için gereken puanlar</value>
+  </data>
+  <data name="LeagueTableTitle3" xml:space="preserve">
+    <value>Nakit çarpanı</value>
+  </data>
+  <data name="Manual" xml:space="preserve">
+    <value>Talimat</value>
+  </data>
+  <data name="ManualDescription" xml:space="preserve">
+    <value>Burada Club Manager 2019'un online oyunuyla ilgili en önemli bilgileri bulacaksınız.</value>
+  </data>
+  <data name="ManualText1" xml:space="preserve">
+    <value>Kartlardan yeni oyuncular alabilir veya izci gönderebilir, onlara hangi yazıyı aradığınızı söyleyebilirsiniz ve o oyuncuya bakmak için sahaya gider. 24 saat içinde geri dönüp satın alınabilecek oyuncuları teklif edecek.</value>
+  </data>
+  <data name="ManualText10" xml:space="preserve">
+    <value>Oynadığınız her oyundan sonra para kazanırsınız, bu değer maçın sonucuna bağlıdır, elbette en fazla kazanma, daha sonra berabere ve en az kazanma şansına sahip olursunuz. Nakit almanın bir başka yolu da kart satmak.</value>
+  </data>
+  <data name="ManualText11" xml:space="preserve">
+    <value>Organizatörünüzün seviyesini yükseltirseniz lig maçlarını daha sık oynayabilirsiniz. Kart veya 100 jetonla sergi maçı oynayabilirsiniz.</value>
+  </data>
+  <data name="ManualText2" xml:space="preserve">
+    <value>Kart Paketleri çeşitli şekillerde elde edilebilir. Oyunun başında 3 açılış paketi alırsın, 24 saatte bir tane alabilirsin. Diğer bir seçenek de bir reklam videosunu izlemektir. Bu seçenek her zaman belirli bir noktada görünür. İster lig, ister sergi olsun, oynanan maçlardan sonra bile kart alırsınız. Son seçenek para ya da madeni para için kart almaktır. Bireysel paketler, içindeki kartların sayısı ve kıtlıkla ayırt edilir.</value>
+  </data>
+  <data name="ManualText3" xml:space="preserve">
+    <value>Her yönetici belirli bir düzeni tercih eder. Düzeni değiştirmenin tek yolu yöneticiyi değiştirmektir. Her menajer belli bir kapasiteye, yani tüm temel on bir oyuncunun kalitesinin toplamına sahiptir. Toplam yönetim kapasitesini aşarsa, takım kimyası hızla düşecektir.</value>
+  </data>
+  <data name="ManualText4" xml:space="preserve">
+    <value>Takım kimyası 1 ile 99 arasında değişebilir. Takımınızın takım kimyası ne kadar yüksek olursa, takımlar o kadar iyi oyuncular ve menajer eşleşmelerde daha iyi performans vermek için birlikte çalışır. Takım kimyası aşağıdaki nedenlerden dolayı değişiyor: &lt;br/&gt;
+Yönetici Değişimi - Bir takım yöneticisini değiştirirseniz, takım kimyası genellikle azalır. Daha yüksek bir takım kimyasına ulaşmak için, mümkün olduğunca çok oyun oynamanız gerekir. &lt;br/&gt;
+Oyuncuların temel niteliklerinin toplamı, yöneticinin kapasitesini aşacaktır. &lt;br /&gt;
+Rapor değişikliği - Her oyuncunun menajer ve takım ekibi kimyasıyla farklı ilişkileri vardır.</value>
+  </data>
+  <data name="ManualText5" xml:space="preserve">
+    <value>Takım kalitesi, oyunu kazanmana yardımcı olacak tek şey değil. Bir oyuncunun dinlenmesi, bir yöneticiyle birlikte yüksek bir takım kimyasına sahip olunması önemlidir. Elbette, iyi bir taktik seçmeli ve standart durum için doğru oyuncuları belirlemelisiniz. Ev oyun alanı ve seviyesi de büyük bir rol oynamaktadır. Ayrıca ekibi toplama kampına göndererek şansınızı artırabilirsiniz. Tabii ki, dört ataklık bir koşunuz varsa, muhtemelen daha fazla hedefiniz vardır, ancak muhtemelen daha fazla para kazanırsınız.</value>
+  </data>
+  <data name="ManualText6" xml:space="preserve">
+    <value>Oyuncu oddity maçlarda çok önemlidir. Oyuncular yorgunsa, iyi performans göstermezler. Enerji kartlarıyla enerjiyi artırın. İki tiptedir, tüm takım için enerji geri kazanımı ve bir oyuncu için enerji geri kazanımı. Buna ek olarak, oyuncu bir sonraki maça, ligde veya sergide yer almadığı zaman dinlenir. Bu nedenle, temel onbirini değiştirmek ve ana kaldıraçlarını lig liglerinde kurtarmak avantajlıdır.</value>
+  </data>
+  <data name="ManualText7" xml:space="preserve">
+    <value>Her oyuncu 50. seviyeye kadar eğitilebilir. Bu seviyede oyuncu yeteneğini 10 puan artıracak. Spor salonunuzun seviyesi ne kadar yüksek olursa, antrenmanınız o kadar etkili olacaktır. Eğitim, eğitim kartları kullanılarak başlatılabilir. Eğer oyuncuların antrenmanlarını hızlandırmak istiyorsanız, antrenman geçmişinizi iyileştirirsiniz. Onu 12, 25, 37 ve 50'nci seviyelere yükseltirseniz, aynı anda birden fazla oyuncu yetiştirebilirsiniz.</value>
+  </data>
+  <data name="ManualText8" xml:space="preserve">
+    <value>Oyunda daha fazla kulüp edinmek için başka bir profil oluşturmanıza gerek yok. Sadece 25 maç oynamanız ve ikinci takımı kazanmanız yeterli, temel ekipmanla yine alacaksınız. Klüpler arasında kolayca geçiş yapabilirsiniz. Oyunda 4 tane kulübe sahip olabilirsin, 100 lig maçı yaptıktan sonra 3. Klübü alacaksın. Sonra, 250 lig maçlarından sonra, 4. kulüp.</value>
+  </data>
+  <data name="ManualText9" xml:space="preserve">
+    <value>Paraları gerçek parayla gerçek para ile satın alabilirsiniz. Diğer bir seçenek de ligde takip etmek veya devam etmektir. En iyi seçenek başarıları elde etmektir. Burada 10.000 ücretsiz jeton kazanabilirsiniz! Ayrıca arkadaşlarını oyuna katılmaya davet edebilirsin ve oyuna katılan herkes 50 jeton kazanır!</value>
+  </data>
+  <data name="ManualTitle" xml:space="preserve">
+    <value>Oyun için talimatlar Club Manager 2019</value>
+  </data>
+  <data name="ManualTitle1" xml:space="preserve">
+    <value>Yeni oyuncular nasıl edinilir?</value>
+  </data>
+  <data name="ManualTitle10" xml:space="preserve">
+    <value>Para almak</value>
+  </data>
+  <data name="ManualTitle11" xml:space="preserve">
+    <value>Bir oyun daha sık nasıl oynanır</value>
+  </data>
+  <data name="ManualTitle2" xml:space="preserve">
+    <value>Kart Paketleri Nasıl Gidilir?</value>
+  </data>
+  <data name="ManualTitle3" xml:space="preserve">
+    <value>Düzen değiştirme</value>
+  </data>
+  <data name="ManualTitle4" xml:space="preserve">
+    <value>Takım kimyası</value>
+  </data>
+  <data name="ManualTitle5" xml:space="preserve">
+    <value>Takımın daha kaliteli olmasına rağmen kaybetmesi nasıl mümkün olabilir?</value>
+  </data>
+  <data name="ManualTitle6" xml:space="preserve">
+    <value>Oyuncu Enerjisi Nasıl Artırılır?</value>
+  </data>
+  <data name="ManualTitle7" xml:space="preserve">
+    <value>Oyuncularınızı nasıl geliştirirsiniz?</value>
+  </data>
+  <data name="ManualTitle8" xml:space="preserve">
+    <value>Daha fazla kulüp almak</value>
+  </data>
+  <data name="ManualTitle9" xml:space="preserve">
+    <value>Para almak</value>
+  </data>
+  <data name="ManualUrl" xml:space="preserve">
+    <value>Talimat</value>
+  </data>
+  <data name="Multiplier1" xml:space="preserve">
+    <value>Çarpan stadyum seviyesine bağlıdır</value>
+  </data>
+  <data name="Multiplier2" xml:space="preserve">
+    <value>Tüm eşleşme türlerine uygulanır</value>
+  </data>
+  <data name="Multiplier3" xml:space="preserve">
+    <value>Çarpan olay ayarına bağlıdır</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>diğer</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Oyun</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>önceki</value>
+  </data>
+  <data name="Upgrades" xml:space="preserve">
+    <value>Iyileştirmeler</value>
+  </data>
+</root>

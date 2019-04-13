@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="5-streakWin" xml:space="preserve">
+    <value>Bonus 5 výher v řadě</value>
+  </data>
+  <data name="Achievements" xml:space="preserve">
+    <value>Úspěchy</value>
+  </data>
+  <data name="Cards" xml:space="preserve">
+    <value>Karty</value>
+  </data>
+  <data name="ChampionsLeague" xml:space="preserve">
+    <value>Liga mistrů</value>
+  </data>
+  <data name="Coins" xml:space="preserve">
+    <value>Mince</value>
+  </data>
+  <data name="CoinsDescription" xml:space="preserve">
+    <value>Zde se dozvíš o způsobech, jak ve hře získat mince zdarma. Mince jsou ve hře důležité, snaž se jich získat co nejvíce!</value>
+  </data>
+  <data name="CoinsText" xml:space="preserve">
+    <value>&lt;p class="my-text"&gt;Mince ve hře hrají důležitou roli, lze za ně koupit karty, hrát exhibiční zápasy a použít je pro urychlení. Mince si lze samozřejmě zakoupit za reálné peníze, doporučuji si koupit uvítací balíček, který je levný a přináší řadu výhod do začátku hry.&lt;/p&gt;
+                &lt;p class="my-text"&gt;Existují však i jiné možnosti jak mince ve hře získat zdarma. Zde jsou nejlepší způsoby:&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;Registrace&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Ihned po registraci získáš 250 mincí!&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;Pozvi své přátelé&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Pozvi do hry Club Manager 2019 své přátele a získej 50 mincí zdarma za každého kamaráda, který se do hry přidá!&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;Achievementy&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Ve hře se nacházejí achievementy, které když splníš, získáš různé množství mincí podle náročnosti. Díky úkolům můžeš získat až 10 000 mincí.&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;Úspěchy v lize&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Hraj ligové zápasy a snaž se v nich uspět! Pokud postoupíš do vyšší ligy, získáš 25 mincí. Pokud se v lize alespoň udržíš, získáš 10 mincí.&lt;/p&gt;</value>
+  </data>
+  <data name="CoinsUrl" xml:space="preserve">
+    <value>Mince</value>
+  </data>
+  <data name="EventBonus" xml:space="preserve">
+    <value>Bonus události</value>
+  </data>
+  <data name="FirstDayWin" xml:space="preserve">
+    <value>První výhra dne</value>
+  </data>
+  <data name="FreeCoins" xml:space="preserve">
+    <value>Mince zdarma</value>
+  </data>
+  <data name="HomeMatch" xml:space="preserve">
+    <value>Domácí zápas</value>
+  </data>
+  <data name="IndexAchievements" xml:space="preserve">
+    <value>Ve hře můžeš plnit také úkoly. Za splněný úkol získáš různé množství mincí podle náročnosti. Za mince si pak můžeš koupit karty. Díky úkolům můžeš získat až 10 000 mincí.</value>
+  </data>
+  <data name="IndexCards" xml:space="preserve">
+    <value>Karty hrají ve hře důležitou roli. Díky kartám získáváš nové hráče, manažery, různá vylepšení, znaky, exhibiční zápasy a spoustu dalšího. Karty si můžeš koupit nebo získat za odehrané zápasy.</value>
+  </data>
+  <data name="IndexCarousel1" xml:space="preserve">
+    <value>Online fotbalový manažer s kartami</value>
+  </data>
+  <data name="IndexCarousel2" xml:space="preserve">
+    <value>Hrej proti přátelům</value>
+  </data>
+  <data name="IndexCarousel3" xml:space="preserve">
+    <value>Trénuj své hráče</value>
+  </data>
+  <data name="IndexCarousel4" xml:space="preserve">
+    <value>Vylepšuj svůj klub</value>
+  </data>
+  <data name="IndexCarousel5" xml:space="preserve">
+    <value>Urči správnou sestavu</value>
+  </data>
+  <data name="IndexCarousel6" xml:space="preserve">
+    <value>Vybuduj dynastii</value>
+  </data>
+  <data name="IndexChl" xml:space="preserve">
+    <value>Manažer, který získá nejvíce pohárů se svým klubem v roce 2019 vyhraje 2 lístky na finále ligy mistrů v roce 2020 v Istanbulu.</value>
+  </data>
+  <data name="IndexChl2" xml:space="preserve">
+    <value>Poháry získáváš za umístění v týdenní soutěži. Odehraj co nejvíce ligových zápasů, sbírej body a staň se vítězem této soutěže, kde proti tobě stojí soupeři podobné úrovně. Na konci týdenní soutěže rozdělíme poháry.</value>
+  </data>
+  <data name="IndexChlTitle" xml:space="preserve">
+    <value>Vyhraj 2 lístky na ligu mistrů!</value>
+  </data>
+  <data name="IndexDescription" xml:space="preserve">
+    <value>Tvá kariéra fotbalového manažera ve hře Club Manager 2019 právě začíná! Staňte se nejlepším manažerem a vyhrajte lístky na finále ligy mistrů v roce 2020!</value>
+  </data>
+  <data name="IndexLeagues" xml:space="preserve">
+    <value>K dispozici je celkem 12 lig. Na začátku samozřejmě začínáš v té nejnižší. K postupu do vyšší ligy potřebuješ určitý počet bodů. Čím vyšší ligu hraješ, tím více hotovosti získáš ze zápasu.</value>
+  </data>
+  <data name="IndexText" xml:space="preserve">
+    <value>&lt;p class="my-text"&gt;
+            Tvá kariéra fotbalového manažera právě začíná! Využij tuto příležitost a vyzkoušej si, jaké to je vést tým na vrchol! Staňte se nejlepším manažerem a vyhrajte lístky na finále ligy mistrů v roce 2020! Tvůj tým už na tebe čeká.
+        &lt;/p&gt;
+        &lt;p class="my-text"&gt;
+            Hru můžeš hrát na svých iOS i Android zařízeních. Samozřejmostí je také online ve tvém prohlížeči. Už z názvu hry je zřejmé, že budeš šéfovat svému fotbalovému klubu. Hned po registraci dostaneš svůj obyčejný tým a tvým cílem je starat se o něj tak, aby prosperoval.
+        &lt;/p&gt;
+        &lt;p class="my-text"&gt;Celá hra je postavena na kartách. Po každém zápase dostaneš karty, ve kterých se ukrývají noví hráči, manažeři a různá vylepšení. Balíčky karet se dají i kupovat za peníze a mince, které rovněž dostáváš po odehraných zápasech.&lt;/p&gt;</value>
+  </data>
+  <data name="IndexTextBottom" xml:space="preserve">
+    <value>&lt;h4 class="my-header text-center"&gt;Co vás ve hře čeká?&lt;/h4&gt;
+            &lt;p class="my-text"&gt;Online fotbalový manažer, který je založen na kartách.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Zápasy proti svým kamarádům a protihráčům v lize a exhibici.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Trénink a zlepšování schopnosti vašich hráčů.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Vylepšování vašeho stadionu, tréninkového zázemí, hřiště, tělocvičny a pořadatelů.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Určování správné sestavy a taktiky. Výběr kapitána a hráčů na zahrávající standartní situace.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Zlepšování týmové chemie na soustředění celého týmu a po každém zápase.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Plnění úkolů, za něž dostáváš bonusové mince. Chat přímo ve hře.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Kupování a získávání balíčků karet, v niž se nacházejí nový hráči, manažeři a karty potřebné pro tréninky, vylepšení, exhibiční zápasy a spousta dalších.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Skauting nových hráčů. Neváhej a začni hrát ještě dnes online hru Club Manager 2019!&lt;/p&gt;</value>
+  </data>
+  <data name="IndexTitle" xml:space="preserve">
+    <value>Online fotbalový manažer</value>
+  </data>
+  <data name="IndexUpgrades" xml:space="preserve">
+    <value>Vylepši různé součásti klubu a zlepši tak tým i výsledky. Každé vylepšení má svou výhodu, například vylepšením stadionu získáš během zápasu více hotovosti.</value>
+  </data>
+  <data name="League" xml:space="preserve">
+    <value>Liga</value>
+  </data>
+  <data name="LeagueConditions" xml:space="preserve">
+    <value>Podmínky</value>
+  </data>
+  <data name="LeagueMultiplierTitle" xml:space="preserve">
+    <value>Název násobiče</value>
+  </data>
+  <data name="Leagues" xml:space="preserve">
+    <value>Ligy</value>
+  </data>
+  <data name="LeaguesDesc" xml:space="preserve">
+    <value>Tabulka níže zobrazuje, kolik bodů potřebuješ získat pro postup do vyšší ligy a kolik bodů pro udržení se v lize. Dále můžeš vidět, jakou hodnotou se vynásobí získaná hotovost z ligových zápasů.</value>
+  </data>
+  <data name="LeaguesDescription" xml:space="preserve">
+    <value>Zde se dozvíte, kolik bodů potřebujete pro setrvání v lize a kolik bodů pro postup do vyšší ligy.</value>
+  </data>
+  <data name="LeaguesOther" xml:space="preserve">
+    <value>Ostatní násobiče hotovosti</value>
+  </data>
+  <data name="LeaguesUrl" xml:space="preserve">
+    <value>Ligy</value>
+  </data>
+  <data name="LeagueTableTitle1" xml:space="preserve">
+    <value>Body potřebné k udržení se v lize</value>
+  </data>
+  <data name="LeagueTableTitle2" xml:space="preserve">
+    <value>Body potřebné k postupu</value>
+  </data>
+  <data name="LeagueTableTitle3" xml:space="preserve">
+    <value>Násobič hotovosti</value>
+  </data>
+  <data name="Manual" xml:space="preserve">
+    <value>Návod</value>
+  </data>
+  <data name="ManualDescription" xml:space="preserve">
+    <value>Zde se dozvíte nejdůležitější informace k online hře Club Manager 2019</value>
+  </data>
+  <data name="ManualText1" xml:space="preserve">
+    <value>Nové hráče lze získat z karet nebo vyslat skauta, tomu sdělíš, na který post hráče hledáš a on se vydá do terénu hráče hledat. Za 24 hodin se vrátí a nabídne ti hráče, kterého lze koupit.</value>
+  </data>
+  <data name="ManualText10" xml:space="preserve">
+    <value>Hotovost získáš po každém odehraném zápase, hodnota záleží na výsledku zápasu, za výhru máš samozřejmě nejvíce, následně pak za remízu a nejméně za výhru. Další možností jak získat hotovost je prodej karet.</value>
+  </data>
+  <data name="ManualText11" xml:space="preserve">
+    <value>Ligové duely můžeš hrát častěji, pokud vylepších úroveň svého pořadatele. Exhibiční utkání můžeš hrát díky kartám, či za 100 mincí.</value>
+  </data>
+  <data name="ManualText2" xml:space="preserve">
+    <value>Balíčky karet lze získat více způsoby. Na začátku hry dostaneš 3 zahajovací balíčky, každých 24 hodin si můžeš vyzvednout jeden. Další možností je zhlédnout reklamní video. Tato možnost se zobrazí vždy pouze v určitou chvíli. Karty získáváš také po odehraných zápasech, ať už ligových nebo exhibičních. Poslední varianta je si karty zakoupit za peníze nebo mince. Jednotlivé balíčky jsou rozlišeny počtem karet uvnitř a vzácností.</value>
+  </data>
+  <data name="ManualText3" xml:space="preserve">
+    <value>Každý manažer preferuje určité rozestavení. Jedinou možností jak změnit rozestavení je tedy vyměnit manažera. Každý manažer má určitou kapacitu, to je součet kvality všech hráčů základní jedenáctky. Pokud součet přesáhne manažerovu kapacitu, rapidně se sníží týmová chemie.</value>
+  </data>
+  <data name="ManualText4" xml:space="preserve">
+    <value>Týmová chemie se může pohybovat od hodnoty 1 až po 99. Čím větší má tvůj tým týmovou chemii, tím lépe hráči s manažerem spolupracují a podávají tak v zápasech lepší výkony. Týmová chemie se mění z následujících důvodu:&lt;br/ &gt;
+Změna manažera - Pokud změníš týmového manažera, většinou se týmová chemie sníží. Abys znovu dosáhl vyšší týmové chemie, je potřeba hrát co nejvíce zápasů.&lt;br/ &gt;
+Součet kvality hráčů základní jedenácky přesáhne kapacitu manažera.&lt;br /&gt;
+Změna sestavy - Každý hráč má s manažerem jiné vztahy a tím i týmovou chemii.</value>
+  </data>
+  <data name="ManualText5" xml:space="preserve">
+    <value>Kvalita týmu není jediný aspekt, který ti pomůže v zápasech vyhrávat. Důležité je mít hráče odpočaté, na vysoké týmové chemii s manažerem. Samozřejmě musíš zvolit dobrou taktiku a určit správné hráče na standartní situace. Velkou roli také hraje domací hřiště a jeho úroveň. Zvýšit šance můžeš i tím, že pošleš tým na soustředění. Samozřejmě pokud budeš mít rozestavění se čtyřmi útočníky, pravděpodobně dáš více gólů, ale zřejmě i více inkasuješ.</value>
+  </data>
+  <data name="ManualText6" xml:space="preserve">
+    <value>Odpočatost hráčů je velmi důležitá v zápasech. Pokud jsou hráči unavení, nepodávají dobré výkony. Zvýšit energii lze kartami energie. Jsou dvojího typu, obnova energie pro celý tým a obnova energie pro jednoho hráče. Dále si hráč odpočine také tak, když nenastoupí do dalšího zápasu, ať už ligového nebo exhibičního. Je tedy výhodné často střídat svou základní jedenáctku a šetřit si hlavní opory do ligových duelů.</value>
+  </data>
+  <data name="ManualText7" xml:space="preserve">
+    <value>Každého hráče můžeš vytrénovat až na 50. úroveň. Na této úrovni zlepší hráč své schopnosti o 10 bodů. Čím vyšší úroveň bude mít tvá tělocvična, tím větší efektivitu budou tvé tréninky. Trénink lze zahájit pomocí tréninkových karet. Pokud chceš trénink hráčů zrychlit, vylepši své tréninkové zázemí. Pokud jej vylepšíš na 12., 25., 37. a 50. úroveň, můžeš trénovat více hráčů současně.</value>
+  </data>
+  <data name="ManualText8" xml:space="preserve">
+    <value>Pro získání dalších klubů ve hře si nemusíš vytvářet další profil. Stačí pouze odehrát 25 zápasů a získáš druhý tým, dostaneš jej opět se základním vybavením. Mezi kluby můžeš snadno přepínat. Klubů ve hře můžeš mít až 4. Po odehrání 100 ligových zápasů dostaneš 3. klub. Dále pak po 250 ligových duelech 4. klub.</value>
+  </data>
+  <data name="ManualText9" xml:space="preserve">
+    <value>Mince ve hře můžeš získat zakoupením za reálné peníze. Další možností je postup či udržení se v lize. Vůbec nejlepší možností je plnění achievementů. Zde můžeš získat až 10000 mincí zdarma! Také můžeš do hry pozvat své kamarády, za každého který se do hry připojí získáš 50 mincí!</value>
+  </data>
+  <data name="ManualTitle" xml:space="preserve">
+    <value>Návod ke hře Club Manager 2019</value>
+  </data>
+  <data name="ManualTitle1" xml:space="preserve">
+    <value>Jak získat nové hráče</value>
+  </data>
+  <data name="ManualTitle10" xml:space="preserve">
+    <value>Získání hotovosti</value>
+  </data>
+  <data name="ManualTitle11" xml:space="preserve">
+    <value>Jak hrát častěji utkání</value>
+  </data>
+  <data name="ManualTitle2" xml:space="preserve">
+    <value>Jak získat balíčky karet</value>
+  </data>
+  <data name="ManualTitle3" xml:space="preserve">
+    <value>Změna rozestavení</value>
+  </data>
+  <data name="ManualTitle4" xml:space="preserve">
+    <value>Týmová chemie</value>
+  </data>
+  <data name="ManualTitle5" xml:space="preserve">
+    <value>Jak je možné, že tým prohrál i když měl vyšší kvalitu</value>
+  </data>
+  <data name="ManualTitle6" xml:space="preserve">
+    <value>Jak zvýšit energii hráčů</value>
+  </data>
+  <data name="ManualTitle7" xml:space="preserve">
+    <value>Jak zlepšit své hráče</value>
+  </data>
+  <data name="ManualTitle8" xml:space="preserve">
+    <value>Získání dalších klubů</value>
+  </data>
+  <data name="ManualTitle9" xml:space="preserve">
+    <value>Získání mincí</value>
+  </data>
+  <data name="ManualUrl" xml:space="preserve">
+    <value>Navod</value>
+  </data>
+  <data name="Multiplier1" xml:space="preserve">
+    <value>Násobič závisí na úrovni stadionu</value>
+  </data>
+  <data name="Multiplier2" xml:space="preserve">
+    <value>Platí pro všechny typy zápasů</value>
+  </data>
+  <data name="Multiplier3" xml:space="preserve">
+    <value>Násobič závisí na nastavení události</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Další</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Hrát</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Předchozí</value>
+  </data>
+  <data name="Upgrades" xml:space="preserve">
+    <value>Vylepšení</value>
+  </data>
+</root>

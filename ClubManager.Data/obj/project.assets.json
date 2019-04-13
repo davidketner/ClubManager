@@ -1,0 +1,66 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "UtilityLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/UtilityLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UtilityLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UtilityLibrary/1.0.0": {
+      "type": "project",
+      "path": "../UtilityLibrary/UtilityLibrary.csproj",
+      "msbuildProject": "../UtilityLibrary/UtilityLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v2.2": [
+      "UtilityLibrary >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ketne\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ketne\\source\\repos\\davidketner\\ClubManager\\ClubManager.Data\\ClubManager.Data.csproj",
+      "projectName": "ClubManager.Data",
+      "projectPath": "C:\\Users\\ketne\\source\\repos\\davidketner\\ClubManager\\ClubManager.Data\\ClubManager.Data.csproj",
+      "packagesPath": "C:\\Users\\ketne\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ketne\\source\\repos\\davidketner\\ClubManager\\ClubManager.Data\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ketne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp2.2"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "projectReferences": {
+            "C:\\Users\\ketne\\source\\repos\\davidketner\\ClubManager\\UtilityLibrary\\UtilityLibrary.csproj": {
+              "projectPath": "C:\\Users\\ketne\\source\\repos\\davidketner\\ClubManager\\UtilityLibrary\\UtilityLibrary.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "netcoreapp2.2": {}
+    }
+  }
+}

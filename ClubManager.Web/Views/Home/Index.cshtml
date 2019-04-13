@@ -1,0 +1,111 @@
+﻿@{
+    ViewData["Title"] = Localizer["IndexTitle"];
+    ViewData["Description"] = Localizer["IndexDescription"];
+    var lang = System.Globalization.CultureInfo.CurrentCulture.Name == "ja" ? "en" : System.Globalization.CultureInfo.CurrentCulture.Name;
+}
+
+@section Game{
+<div data-spy="scroll" data-target="#game-div" data-offset="0">
+    <iframe id="game" height="600" style="width:100%" src="https://www.clubmanagergame.com/@lang/iframe?aff=9" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+</div>
+}
+
+
+<div class="div-border mt-3 mb-3 rounded-top">
+    <div class="div-text">
+        <h1 class="my-title text-center text-uppercase font-weight-bold">Club Manager 2019</h1>
+        @Html.Raw(Localizer["IndexText"])
+    </div>
+    <div class="row div-text">
+        <div class="col-md-3">
+            <img src="~/images/dashboard/cards.png" class="img-fluid mx-auto d-block" alt="@Localizer["Cards"]" />
+            <h2 class="my-h2 text-center">@Localizer["Cards"]</h2>
+            <p class="my-text text-center">@Localizer["IndexCards"]</p>
+        </div>
+        <div class="col-md-3">
+            <img src="~/images/dashboard/leaderboards.png" class="img-fluid mx-auto d-block" alt="@Localizer["Leagues"]" />
+            <h2 class="my-h2 text-center">@Localizer["Leagues"]</h2>
+            <p class="my-text text-center">@Localizer["IndexLeagues"]</p>
+        </div>
+        <div class="col-md-3">
+            <img src="~/images/dashboard/achievements.png" class="img-fluid mx-auto d-block" alt="@Localizer["Achievements"]" />
+            <h2 class="my-h2 text-center">@Localizer["Achievements"]</h2>
+            <p class="my-text text-center">@Localizer["IndexAchievements"]</p>
+        </div>
+        <div class="col-md-3">
+            <img src="~/images/dashboard/club_upgrades.png" class="img-fluid mx-auto d-block" alt="@Localizer["Upgrades"]" />
+            <h2 class="my-h2 text-center">@Localizer["Upgrades"]</h2>
+            <p class="my-text text-center">@Localizer["IndexUpgrades"]</p>
+        </div>
+    </div>
+    <hr />
+    <div class="row div-text">
+        <div class="col-md-8">
+            <h4 class="my-header text-center">@Localizer["IndexChlTitle"]</h4>
+            <p class="my-text">@Localizer["IndexChl"]</p>
+            <p class="my-text">@Localizer["IndexChl2"]</p>
+        </div>
+        <div class="col-md-4">
+            <img src="~/images/misc/division-2019-prize.png" alt="@Localizer["ChampionsLeague"]" class="img-fluid mx-auto d-block" />
+        </div>
+    </div>
+    <hr />
+    <div class="row div-text">
+        <div class="col-md-6">
+            <div id="carouselManagerIndicators" class="carousel slide mt-md-5" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselManagerIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselManagerIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselManagerIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselManagerIndicators" data-slide-to="3"></li>
+                    <li data-target="#carouselManagerIndicators" data-slide-to="4"></li>
+                    <li data-target="#carouselManagerIndicators" data-slide-to="5"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="~/images/carousel/football-manager-game-cards.jpg" alt="@Localizer["IndexCarousel1"]">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="~/images/carousel/play-friends.jpg" alt="@Localizer["IndexCarousel2"]">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="~/images/carousel/train-players.jpg" alt="@Localizer["IndexCarousel3"]">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="~/images/carousel/upgrade-club.jpg" alt="@Localizer["IndexCarousel4"]">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="~/images/carousel/line-up-tactics.jpg" alt="@Localizer["IndexCarousel5"]">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="~/images/carousel/history.jpg" alt="@Localizer["IndexCarousel6"]">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselManagerIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">@Localizer["Previous"]</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselManagerIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">@Localizer["Next"]</span>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-6">
+            @Html.Raw(Localizer["IndexTextBottom"])
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+        function SetIframeSize() {
+            document.getElementById("game").setAttribute("height", window.innerHeight);
+        }
+
+        $(document).ready(function () {
+            SetIframeSize();
+        });
+    </script>
+
+}

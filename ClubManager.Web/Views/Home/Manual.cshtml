@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = Localizer["ManualTitle"];
+    ViewData["Description"] = Localizer["ManualDescription"];
+}
+
+<div class="div-border mt-3 mb-3 rounded-top">
+    <div class="div-text">
+        <h1 class="my-title text-center text-uppercase font-weight-bold">@Localizer["ManualTitle"]</h1>
+        <div class="row div-text">
+            <div class="col-md-8">
+                @for (int i = 1; i <= 11; i++)
+                {
+                    <h2 class="my-h2">@Localizer["ManualTitle"+i]</h2>
+                    <p class="my-text">@Html.Raw(Localizer["ManualText" + i])</p>
+                }
+
+            </div>
+            <div class="col-md-4">
+                <img src="~/images/tactics/marking_1.png" alt="Club Manager 2019" class="img-fluid mx-auto d-block" />
+                <img src="~/images/tactics/marking_2.png" alt="Club Manager 2019" class="mt-2 img-fluid mx-auto d-block" />
+                <img src="~/images/tactics/offside_trap_1.png" alt="Club Manager 2019" class="mt-2 img-fluid mx-auto d-block" />
+                <img src="~/images/tactics/offside_trap_2.png" alt="Club Manager 2019" class="mt-2 img-fluid mx-auto d-block" />
+            </div>
+        </div>
+    </div>
+
+</div>

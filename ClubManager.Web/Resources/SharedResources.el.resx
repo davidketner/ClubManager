@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="5-streakWin" xml:space="preserve">
+    <value>Μπόνους 5 συνεχόμενες νίκες</value>
+  </data>
+  <data name="Achievements" xml:space="preserve">
+    <value>Επιτεύγματα</value>
+  </data>
+  <data name="Cards" xml:space="preserve">
+    <value>Κάρτες</value>
+  </data>
+  <data name="ChampionsLeague" xml:space="preserve">
+    <value>Champions League</value>
+  </data>
+  <data name="Coins" xml:space="preserve">
+    <value>Νομίσματα</value>
+  </data>
+  <data name="CoinsDescription" xml:space="preserve">
+    <value>Δείτε πώς μπορείτε να κερδίσετε τα κέρματα δωρεάν. Τα κέρματα είναι σημαντικά στο παιχνίδι, προσπαθήστε να εκμεταλλευτείτε τα μέγιστα από αυτά!</value>
+  </data>
+  <data name="CoinsText" xml:space="preserve">
+    <value>&lt;p class="my-text"&gt;Τα κέρματα παίζουν σημαντικό ρόλο, μπορούν να αγοράσουν κάρτες, να παίξουν εκθεσιακά παιχνίδια και να τα χρησιμοποιήσουν για να επιταχύνουν. Τα νομίσματα μπορούν φυσικά να αγοραστούν με πραγματικά χρήματα, συνιστώ να αγοράσω ένα πακέτο καλωσορίσματος που είναι φθηνό και φέρνει πολλά οφέλη στην αρχή του παιχνιδιού.&lt;/p&gt;
+                &lt;p class="my-text"&gt;Ωστόσο, υπάρχουν και άλλες δυνατότητες για δωρεάν λήψη των κερμάτων στο παιχνίδι. Εδώ είναι οι καλύτεροι τρόποι:&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;Εγγραφή&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Αμέσως μετά την εγγραφή, θα λάβετε 250 νομίσματα!&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;Προσκαλέστε τους φίλους σας&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Προσκαλέστε τους φίλους σας στο Club Manager 2019 και λάβετε 50 δωρεάν κέρματα για κάθε φίλο που θα συμμετάσχει στο παιχνίδι!&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;Επιτεύγματα&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Υπάρχουν επιτεύγματα στο παιχνίδι, τα οποία όταν το κάνετε, παίρνετε μια ποικιλία νομισμάτων ανάλογα με τη δυσκολία. Μπορείτε να κερδίσετε μέχρι και 10.000 νομίσματα χάρη στις εργασίες.&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;Επιτεύγματα στο πρωτάθλημα&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Παίξτε παιχνίδια πρωταθλήματος και προσπαθήστε να τα καταφέρετε! Αν μετακινηθείτε σε ένα υψηλότερο πρωτάθλημα, έχετε 25 νομίσματα. Εάν διατηρήσετε το πρωτάθλημα τουλάχιστον, έχετε 10 νομίσματα.&lt;/p&gt;</value>
+  </data>
+  <data name="CoinsUrl" xml:space="preserve">
+    <value>Nomismata</value>
+  </data>
+  <data name="EventBonus" xml:space="preserve">
+    <value>Μπόνους συμβάντων</value>
+  </data>
+  <data name="FirstDayWin" xml:space="preserve">
+    <value>Νίκη πρώτης ημέρας</value>
+  </data>
+  <data name="FreeCoins" xml:space="preserve">
+    <value>Κέρματα δωρεάν</value>
+  </data>
+  <data name="HomeMatch" xml:space="preserve">
+    <value>Αρχική αντιστοιχία</value>
+  </data>
+  <data name="IndexAchievements" xml:space="preserve">
+    <value>Μπορείτε επίσης να εκτελέσετε εργασίες στο παιχνίδι. Θα πάρετε μια ποικιλία νομισμάτων ανάλογα με τη δυσκολία σας. Μπορείτε να αγοράσετε κάρτες για νομίσματα. Μπορείτε να κερδίσετε μέχρι και 10.000 νομίσματα χάρη στις εργασίες.</value>
+  </data>
+  <data name="IndexCards" xml:space="preserve">
+    <value>Οι κάρτες παίζουν σημαντικό ρόλο στο παιχνίδι. Χάρη στις κάρτες, παίρνετε νέους παίκτες, διαχειριστές, διάφορες αναβαθμίσεις, χαρακτήρες, εκθέσεις και πολλά άλλα. Οι κάρτες μπορούν να αγοραστούν ή να κερδηθούν για αγώνες.</value>
+  </data>
+  <data name="IndexCarousel1" xml:space="preserve">
+    <value>Online ποδοσφαιριστής με κάρτες</value>
+  </data>
+  <data name="IndexCarousel2" xml:space="preserve">
+    <value>Παίξτε εναντίον φίλων</value>
+  </data>
+  <data name="IndexCarousel3" xml:space="preserve">
+    <value>Εκπαιδεύστε τους παίκτες σας</value>
+  </data>
+  <data name="IndexCarousel4" xml:space="preserve">
+    <value>Βελτιώστε τη λέσχη σας</value>
+  </data>
+  <data name="IndexCarousel5" xml:space="preserve">
+    <value>Ορίστε τη σωστή συναρμολόγηση</value>
+  </data>
+  <data name="IndexCarousel6" xml:space="preserve">
+    <value>Κατασκευάστε τη δυναστεία</value>
+  </data>
+  <data name="IndexChl" xml:space="preserve">
+    <value>Ο διαχειριστής που παίρνει τα περισσότερα φλιτζάνια με τη λέσχη του το 2019 θα κερδίσει 2 εισιτήρια για τον τελικό του Champions League το 2020 στην Κωνσταντινούπολη.</value>
+  </data>
+  <data name="IndexChl2" xml:space="preserve">
+    <value>Κερδίζετε τα κύπελλα για ένα εβδομαδιαίο διαγωνισμό. Παίξτε όσο το δυνατόν περισσότερα παιχνίδια πρωταθλήματος, συγκεντρώστε πόντους και κερδίστε αυτόν τον διαγωνισμό, όπου αντιπάλους παρόμοιου επιπέδου αντέχουν εναντίον σας. Στο τέλος του εβδομαδιαίου διαγωνισμού θα εκχωρήσουμε τα κύπελλα.</value>
+  </data>
+  <data name="IndexChlTitle" xml:space="preserve">
+    <value>Κερδίστε 2 εισιτήρια στο Champions League!</value>
+  </data>
+  <data name="IndexDescription" xml:space="preserve">
+    <value>Ο διευθυντής της καριέρας σας, το Club Manager 2019, ξεκινά! Γίνετε ο καλύτερος διαχειριστής και κερδίστε εισιτήρια για τον τελικό του Champions League το 2020!</value>
+  </data>
+  <data name="IndexLeagues" xml:space="preserve">
+    <value>Υπάρχουν συνολικά 12 πρωταθλήματα. Στην αρχή, φυσικά, ξεκινάτε από το χαμηλότερο. Για να προχωρήσετε σε ένα υψηλότερο πρωτάθλημα, χρειάζεστε έναν ορισμένο αριθμό πόντων. Όσο υψηλότερο είναι το πρωτάθλημα που παίζετε, τόσο περισσότερα μετρητά παίρνετε από τον αγώνα.</value>
+  </data>
+  <data name="IndexText" xml:space="preserve">
+    <value>&lt;p class="my-text"&gt;
+            Ο διευθυντής καριέρας σας μόλις ξεκινάει! Πάρτε την ευκαιρία για να δοκιμάσετε τι είναι να οδηγήσετε την ομάδα στην κορυφή! Γίνετε ο καλύτερος διαχειριστής και κερδίστε εισιτήρια για τον τελικό του Champions League το 2020! Η ομάδα σας σας περιμένει.
+        &lt;/p&gt;
+        &lt;p class="my-text"&gt;
+            Μπορείτε να παίξετε το παιχνίδι στις συσκευές σας iOS και Android. Φυσικά, είναι επίσης συνδεδεμένο στο πρόγραμμα περιήγησής σας. Είναι ξεκάθαρο από το όνομα του παιχνιδιού ότι θα διοργανώσετε το ποδόσφαιρο σας. Αμέσως μετά την εγγραφή, θα πάρετε τη συνηθισμένη ομάδα σας και ο στόχος σας είναι να τον φροντίσετε ώστε να μπορεί να ευημερήσει.
+        &lt;/p&gt;
+        &lt;p class="my-text"&gt;Το όλο παιχνίδι είναι χτισμένο σε κάρτες. Μετά από κάθε αγώνα λαμβάνετε κάρτες που κρύβουν νέους παίκτες, διαχειριστές και διάφορες αναβαθμίσεις. Τα πακέτα καρτών μπορούν επίσης να αγοραστούν για τα χρήματα και τα κέρματα που λαμβάνετε επίσης μετά τους αγώνες που παίζονται.&lt;/p&gt;</value>
+  </data>
+  <data name="IndexTextBottom" xml:space="preserve">
+    <value>&lt;h4 class="my-header text-center"&gt;Τι σας περιμένει στο παιχνίδι;&lt;/h4&gt;
+            &lt;p class="my-text"&gt;Online διαχειριστής ποδοσφαίρου με βάση κάρτες.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Αγώνες εναντίον φίλων και αντιπάλων σας στο πρωτάθλημα και την έκθεση.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Εκπαίδευση και βελτίωση των δεξιοτήτων των παικτών σας.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Βελτίωση του σταδίου, των εγκαταστάσεων προπόνησής σας, των παιδικών χαρών, των γυμναστηρίων και των διοργανωτών.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Προσδιορισμός της σωστής συναρμολόγησης και τακτικής. Επιλογή καπετάνιου και παικτών για τυποποιημένες καταστάσεις.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Βελτίωση της χημείας της ομάδας για να επικεντρωθεί ολόκληρη η ομάδα και μετά από κάθε αγώνα.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Εκτέλεση των εργασιών για τις οποίες λαμβάνετε κέρματα κέρδους. Συζητήστε δεξιά στο παιχνίδι.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Αγοράστε και παραλάβετε κάρτες με νέους παίκτες, διαχειριστές και κάρτες που χρειάζονται για εκπαίδευση, αναβαθμίσεις, εκθέσεις και πολλά άλλα.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Προσκοπισμός νέων παικτών. Μην διστάσετε να ξεκινήσετε να παίζετε σήμερα το Club Manager 2019 online παιχνίδι!&lt;/p&gt;</value>
+  </data>
+  <data name="IndexTitle" xml:space="preserve">
+    <value>Online ποδοσφαιριστής</value>
+  </data>
+  <data name="IndexUpgrades" xml:space="preserve">
+    <value>Βελτιώνει τα διάφορα στοιχεία του συλλόγου και βελτιώνει τα αποτελέσματα. Κάθε εξάρτημα έχει το πλεονέκτημά της, για παράδειγμα, βελτιώνοντας το στάδιο, παίρνετε περισσότερα μετρητά κατά τη διάρκεια του αγώνα.</value>
+  </data>
+  <data name="League" xml:space="preserve">
+    <value>Λιγκ</value>
+  </data>
+  <data name="LeagueConditions" xml:space="preserve">
+    <value>Συνθήκες</value>
+  </data>
+  <data name="LeagueMultiplierTitle" xml:space="preserve">
+    <value>Το όνομα του πολλαπλασιαστή</value>
+  </data>
+  <data name="Leagues" xml:space="preserve">
+    <value>Πρωταθλήματα</value>
+  </data>
+  <data name="LeaguesDesc" xml:space="preserve">
+    <value>Ο παρακάτω πίνακας δείχνει πόσους πόντους θα πρέπει να κερδίσετε για ένα υψηλότερο πρωτάθλημα και πόσους πόντους θα κρατήσετε στο πρωτάθλημα. Μπορείτε επίσης να δείτε ποια αξία πολλαπλασιάζεται με τα μετρητά που λαμβάνονται από τους αγώνες της διοργάνωσης.</value>
+  </data>
+  <data name="LeaguesDescription" xml:space="preserve">
+    <value>Εδώ θα μάθετε πόσους πόντους θα πρέπει να μείνετε στο πρωτάθλημα και πόσα σημεία να προχωρήσετε στο υψηλότερο πρωτάθλημα.</value>
+  </data>
+  <data name="LeaguesOther" xml:space="preserve">
+    <value>Άλλοι πολλαπλασιαστές μετρητών</value>
+  </data>
+  <data name="LeaguesUrl" xml:space="preserve">
+    <value>Protathlimata</value>
+  </data>
+  <data name="LeagueTableTitle1" xml:space="preserve">
+    <value>Σημεία που απαιτούνται για να κρατήσουν το πρωτάθλημα</value>
+  </data>
+  <data name="LeagueTableTitle2" xml:space="preserve">
+    <value>Σημεία που απαιτούνται για να προχωρήσετε</value>
+  </data>
+  <data name="LeagueTableTitle3" xml:space="preserve">
+    <value>Πολλαπλασιαστής μετρητών</value>
+  </data>
+  <data name="Manual" xml:space="preserve">
+    <value>Οδηγίες</value>
+  </data>
+  <data name="ManualDescription" xml:space="preserve">
+    <value>Εδώ θα βρείτε τις πιο σημαντικές πληροφορίες σχετικά με το online παιχνίδι Club Manager 2019</value>
+  </data>
+  <data name="ManualText1" xml:space="preserve">
+    <value>Μπορείτε να πάρετε νέους παίκτες από κάρτες ή να στείλετε προσκόπους, να τους πείτε ποια θέση ψάχνετε και πηγαίνει στο πεδίο για να αναζητήσει τον παίκτη. Σε 24 ώρες θα επιστρέψει και θα προσφέρει εκείνους τους παίκτες που μπορούν να αγοραστούν.</value>
+  </data>
+  <data name="ManualText10" xml:space="preserve">
+    <value>Παίρνετε τα μετρητά μετά από κάθε παιχνίδι που παίζετε, η αξία εξαρτάται από το αποτέλεσμα του αγώνα, έχετε την καλύτερη, βέβαια, τη νίκη, τότε την ισοπαλία και το λιγότερο για τη νίκη. Ένας άλλος τρόπος για να πάρετε μετρητά είναι να πουλήσετε κάρτες.</value>
+  </data>
+  <data name="ManualText11" xml:space="preserve">
+    <value>Μπορείτε να παίξετε πιο συχνά τις συναντήσεις πρωταθλήματος αν βελτιώσετε το επίπεδο του διοργανωτή σας. Μπορείτε να παίξετε έναν αγώνα εκθέσεων με κάρτες ή 100 νομίσματα.</value>
+  </data>
+  <data name="ManualText2" xml:space="preserve">
+    <value>Τα πακέτα καρτών μπορούν να ληφθούν με διάφορους τρόπους. Στην αρχή του παιχνιδιού παίρνετε 3 πακέτα ανοίγματος, μπορείτε να πάρετε ένα κάθε 24 ώρες. Μια άλλη επιλογή είναι να παρακολουθήσετε ένα βίντεο διαφήμισης. Αυτή η επιλογή εμφανίζεται πάντα σε ένα συγκεκριμένο σημείο. Παίρνετε κάρτες ακόμα και μετά τους αγώνες που έπαιξαν, είτε πρωτάθλημα είτε έκθεση. Η τελευταία επιλογή είναι να αγοράσετε κάρτες για χρήματα ή κέρματα. Τα μεμονωμένα πακέτα διακρίνονται από τον αριθμό των καρτών μέσα και σπάνια.</value>
+  </data>
+  <data name="ManualText3" xml:space="preserve">
+    <value>Κάθε διαχειριστής προτιμά μια συγκεκριμένη διάταξη. Ο μόνος τρόπος για να αλλάξετε τη διάταξη είναι να αντικαταστήσετε τον διαχειριστή. Κάθε διαχειριστής έχει μια συγκεκριμένη ικανότητα, δηλαδή το άθροισμα της ποιότητας όλων των βασικών έντεκα παικτών. Αν το άθροισμα υπερβεί τη διαχειριστική ικανότητα, η χημεία της ομάδας θα μειωθεί ραγδαία.</value>
+  </data>
+  <data name="ManualText4" xml:space="preserve">
+    <value>Η χημεία της ομάδας μπορεί να κυμαίνεται από 1 έως 99. Όσο υψηλότερη είναι η χημεία της ομάδας της ομάδας σας, οι καλύτεροι παίκτες και ο διευθυντής συνεργάζονται για να δώσουν καλύτερες επιδόσεις στους αγώνες. Η χημεία της ομάδας αλλάζει για τους εξής λόγους: &lt;br/&gt;
+Αλλαγή διαχειριστή - Εάν αλλάξετε έναν διαχειριστή ομάδας, η χημεία της ομάδας συνήθως θα μειωθεί. Για να φτάσετε σε μια υψηλότερη ομάδα χημείας, πρέπει να παίξετε όσο το δυνατόν περισσότερα παιχνίδια. &lt;br/&gt;
+Το άθροισμα των βασικών ιδιοτήτων των παικτών θα υπερβεί την ικανότητα του διαχειριστή. &lt;br /&gt;
+Αλλαγή της αναφοράς - Κάθε παίκτης έχει διαφορετικές σχέσεις με τη χημεία του διευθυντή και της ομάδας ομάδας.</value>
+  </data>
+  <data name="ManualText5" xml:space="preserve">
+    <value>Η ποιότητα της ομάδας δεν είναι η μόνη πτυχή που θα σας βοηθήσει να κερδίσετε το παιχνίδι. Είναι σημαντικό να έχετε έναν παίκτη ξεκούραστο, σε μια υψηλή ομάδα χημείας με έναν διαχειριστή. Φυσικά, πρέπει να επιλέξετε μια καλή τακτική και να προσδιορίσετε τους κατάλληλους παίκτες για την τυποποιημένη κατάσταση. Η οικιακή παιδική χαρά και το επίπεδο της παίζουν επίσης μεγάλο ρόλο. Μπορείτε επίσης να αυξήσετε τις πιθανότητές σας στέλνοντας την ομάδα σε στρατόπεδο συγκέντρωσης. Φυσικά, αν έχετε ένα τεστ τεσσάρων επιθέσεων, πιθανότατα έχετε περισσότερους στόχους, αλλά πιθανότατα να πάρετε περισσότερα μετρητά.</value>
+  </data>
+  <data name="ManualText6" xml:space="preserve">
+    <value>Η ιδιαιτερότητα του παίκτη είναι πολύ σημαντική στους αγώνες. Εάν οι παίκτες είναι κουρασμένοι, δεν έχουν καλές επιδόσεις. Αυξήστε την ενέργεια με κάρτες ενέργειας. Είναι δύο τύπων, η ανάκτηση ενέργειας για όλη την ομάδα και η ανάκτηση ενέργειας για έναν παίκτη. Επιπλέον, ο παίκτης στηρίζεται όταν δεν συμμετέχει στον επόμενο αγώνα, είτε σε πρωτάθλημα είτε σε έκθεση. Είναι επομένως επωφελής η εναλλαγή των βασικών έντεκα και η εξοικονόμηση των κύριων μοχλών τους σε πρωταθλήματα.</value>
+  </data>
+  <data name="ManualText7" xml:space="preserve">
+    <value>Κάθε παίκτης μπορεί να εκπαιδευτεί στο 50ο επίπεδο. Σε αυτό το επίπεδο, ο παίκτης θα βελτιώσει την ικανότητά του κατά 10 πόντους. Όσο υψηλότερο είναι το επίπεδο που θα έχει το γυμναστήριο σας, τόσο πιο αποτελεσματική θα είναι η εκπαίδευσή σας. Η εκπαίδευση μπορεί να ξεκινήσει χρησιμοποιώντας κάρτες εκπαίδευσης. Αν θέλετε να επιταχύνετε την εκπαίδευση των παικτών, θα βελτιώσετε το υπόβαθρό σας. Αν το αναβαθμίσετε στο 12ο, 25ο, 37ο και 50ο επίπεδο, μπορείτε να εκπαιδεύσετε πολλαπλούς παίκτες ταυτόχρονα.</value>
+  </data>
+  <data name="ManualText8" xml:space="preserve">
+    <value>Για να αποκτήσετε περισσότερα κλαμπ στο παιχνίδι, δεν χρειάζεται να δημιουργήσετε άλλο προφίλ. Έχετε μόνο να παίξετε 25 αγώνες και να πάρετε τη δεύτερη ομάδα, θα το πάρετε και πάλι με τον βασικό εξοπλισμό. Μπορείτε εύκολα να κάνετε εναλλαγή μεταξύ των συλλόγων. Μπορείτε να έχετε μέχρι και 4 σύλλογοι στο παιχνίδι. Αφού παίξετε 100 αγώνες πρωταθλήματος, θα πάρετε το 3ο Club. Στη συνέχεια, μετά από 250 παιχνίδια πρωταθλήματος, το 4ο κλαμπ.</value>
+  </data>
+  <data name="ManualText9" xml:space="preserve">
+    <value>Μπορείτε να αγοράσετε νομίσματα σε πραγματικά χρήματα με πραγματικά χρήματα. Μια άλλη επιλογή είναι να ακολουθήσετε ή να διατηρήσετε στο πρωτάθλημα. Η καλύτερη επιλογή είναι να επιτύχετε τα επιτεύγματα. Εδώ μπορείτε να φτάσετε μέχρι και 10.000 δωρεάν κέρματα! Μπορείτε επίσης να προσκαλέσετε τους φίλους σας να συμμετάσχουν στο παιχνίδι και όλοι όσοι εντάσσονται στο παιχνίδι παίρνουν 50 νομίσματα!</value>
+  </data>
+  <data name="ManualTitle" xml:space="preserve">
+    <value>Οδηγίες για το παιχνίδι Club Manager 2019</value>
+  </data>
+  <data name="ManualTitle1" xml:space="preserve">
+    <value>Πώς να αποκτήσετε νέους παίκτες</value>
+  </data>
+  <data name="ManualTitle10" xml:space="preserve">
+    <value>Να πάρει μετρητά</value>
+  </data>
+  <data name="ManualTitle11" xml:space="preserve">
+    <value>Πώς να παίζετε πιο συχνά ένα παιχνίδι</value>
+  </data>
+  <data name="ManualTitle2" xml:space="preserve">
+    <value>Πώς να πάρετε Πακέτα Κάρτας</value>
+  </data>
+  <data name="ManualTitle3" xml:space="preserve">
+    <value>Αλλαγή διάταξης</value>
+  </data>
+  <data name="ManualTitle4" xml:space="preserve">
+    <value>Χημεία ομάδας</value>
+  </data>
+  <data name="ManualTitle5" xml:space="preserve">
+    <value>Πώς είναι δυνατόν η ομάδα να χάσει ακόμα και αν ήταν υψηλότερης ποιότητας</value>
+  </data>
+  <data name="ManualTitle6" xml:space="preserve">
+    <value>Πώς να αυξήσετε την ενέργεια του παίκτη</value>
+  </data>
+  <data name="ManualTitle7" xml:space="preserve">
+    <value>Πώς να βελτιώσετε τους παίκτες σας</value>
+  </data>
+  <data name="ManualTitle8" xml:space="preserve">
+    <value>Να πάρει περισσότερα κλαμπ</value>
+  </data>
+  <data name="ManualTitle9" xml:space="preserve">
+    <value>Να πάρει νομίσματα</value>
+  </data>
+  <data name="ManualUrl" xml:space="preserve">
+    <value>Odigies</value>
+  </data>
+  <data name="Multiplier1" xml:space="preserve">
+    <value>Ο πολλαπλασιαστής εξαρτάται από το επίπεδο του σταδίου</value>
+  </data>
+  <data name="Multiplier2" xml:space="preserve">
+    <value>Ισχύει για όλους τους τύπους αντιστοίχισης</value>
+  </data>
+  <data name="Multiplier3" xml:space="preserve">
+    <value>Ο πολλαπλασιαστής εξαρτάται από τη ρύθμιση του συμβάντος</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Στη συνέχεια</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Παίζω</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Προηγούμενο</value>
+  </data>
+  <data name="Upgrades" xml:space="preserve">
+    <value>Βελτιώσεις</value>
+  </data>
+</root>

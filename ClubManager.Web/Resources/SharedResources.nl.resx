@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="5-streakWin" xml:space="preserve">
+    <value>Bonus 5 winsten op een rij</value>
+  </data>
+  <data name="Achievements" xml:space="preserve">
+    <value>Verwezenlijkingen</value>
+  </data>
+  <data name="Cards" xml:space="preserve">
+    <value>Kaarten</value>
+  </data>
+  <data name="ChampionsLeague" xml:space="preserve">
+    <value>Champions League</value>
+  </data>
+  <data name="Coins" xml:space="preserve">
+    <value>Muntstuk</value>
+  </data>
+  <data name="CoinsDescription" xml:space="preserve">
+    <value>Hier ziet u hoe u munten gratis krijgt. Munten zijn belangrijk in het spel, probeer er het maximale uit te halen!</value>
+  </data>
+  <data name="CoinsText" xml:space="preserve">
+    <value>&lt;p class="my-text"&gt;Munten spelen een belangrijke rol, ze kunnen kaarten kopen, oefenwedstrijden spelen en ze gebruiken om te versnellen. Munten kunnen natuurlijk worden gekocht voor echt geld, ik raad aan een welkomstpakket te kopen dat goedkoop is en een aantal voordelen biedt voor de start van het spel.&lt;/p&gt;
+                &lt;p class="my-text"&gt;Er zijn echter andere mogelijkheden om de munten gratis in de game te krijgen. Dit zijn de beste manieren:&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;registratie&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Meteen na registratie ontvang je 250 munten!&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;Nodig je vrienden uit&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Nodig je vrienden uit voor Club Manager 2019 en ontvang 50 gratis munten voor elke vriend die meedoet aan het spel!&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;Prestaties&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Er zijn prestaties in het spel, en als je dat doet, krijg je een verscheidenheid aan munten, afhankelijk van de moeilijkheidsgraad. Je kunt tot 10.000 munten verdienen dankzij de taken.&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;Prestaties in de competitie&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Speel competitiewedstrijden en probeer erin te slagen! Als je naar een hogere divisie verhuist, krijg je 25 munten. Als je de competitie op zijn minst behoudt, krijg je 10 munten.&lt;/p&gt;</value>
+  </data>
+  <data name="CoinsUrl" xml:space="preserve">
+    <value>Muntstuk</value>
+  </data>
+  <data name="EventBonus" xml:space="preserve">
+    <value>Evenementbonus</value>
+  </data>
+  <data name="FirstDayWin" xml:space="preserve">
+    <value>Eerste dag Win</value>
+  </data>
+  <data name="FreeCoins" xml:space="preserve">
+    <value>Munten gratis</value>
+  </data>
+  <data name="HomeMatch" xml:space="preserve">
+    <value>Thuiswedstrijd</value>
+  </data>
+  <data name="IndexAchievements" xml:space="preserve">
+    <value>Je kunt ook taken in het spel uitvoeren. Je zult verschillende munten krijgen, afhankelijk van je moeilijkheidsgraad. Je kunt kaarten kopen voor munten. Je kunt tot 10.000 munten verdienen dankzij de taken.</value>
+  </data>
+  <data name="IndexCards" xml:space="preserve">
+    <value>Kaarten spelen een belangrijke rol in het spel. Dankzij de kaarten krijg je nieuwe spelers, managers, verschillende upgrades, personages, tentoonstellingen en nog veel meer. Kaarten kunnen worden gekocht of gewonnen voor wedstrijden.</value>
+  </data>
+  <data name="IndexCarousel1" xml:space="preserve">
+    <value>Online voetbalmanager met kaarten</value>
+  </data>
+  <data name="IndexCarousel2" xml:space="preserve">
+    <value>Speel tegen vrienden</value>
+  </data>
+  <data name="IndexCarousel3" xml:space="preserve">
+    <value>Train je spelers</value>
+  </data>
+  <data name="IndexCarousel4" xml:space="preserve">
+    <value>Verbeter je club</value>
+  </data>
+  <data name="IndexCarousel5" xml:space="preserve">
+    <value>Bepaal de juiste samenstelling</value>
+  </data>
+  <data name="IndexCarousel6" xml:space="preserve">
+    <value>Bouw de dynastie</value>
+  </data>
+  <data name="IndexChl" xml:space="preserve">
+    <value>De manager die in 2019 de meeste bekers haalt bij zijn club, wint 2 tickets voor de finale van de Champions League in 2020 in Istanbul.</value>
+  </data>
+  <data name="IndexChl2" xml:space="preserve">
+    <value>Je wint de bekers voor een wekelijkse wedstrijd. Speel zoveel mogelijk competitiewedstrijden, verzamel punten en word de winnaar van deze competitie, waarbij tegenstanders van een vergelijkbaar niveau tegen je strijden. Aan het einde van de wekelijkse wedstrijd zullen we de cups verkopen.</value>
+  </data>
+  <data name="IndexChlTitle" xml:space="preserve">
+    <value>Win 2 kaartjes voor de Champions League!</value>
+  </data>
+  <data name="IndexDescription" xml:space="preserve">
+    <value>Je carrière manager, Club Manager 2019, begint net! Word de beste manager en win tickets voor de Champions League Finale in 2020!</value>
+  </data>
+  <data name="IndexLeagues" xml:space="preserve">
+    <value>Er zijn in totaal 12 competities. In het begin begin je natuurlijk het laagst. Om naar een hogere divisie te gaan, heb je een bepaald aantal punten nodig. Hoe hoger de competitie die je speelt, hoe meer geld je krijgt uit de wedstrijd.</value>
+  </data>
+  <data name="IndexText" xml:space="preserve">
+    <value>&lt;p class="my-text"&gt;
+            Je carrière manager is net begonnen! Grijp deze kans om uit te proberen hoe het is om het team naar de top te leiden! Word de beste manager en win tickets voor de Champions League Finale in 2020! Je team wacht op je.
+        &lt;/p&gt;
+        &lt;p class="my-text"&gt;
+            Je kunt het spel spelen op je iOS- en Android-apparaten. Natuurlijk is het ook online in uw browser. Het is duidelijk uit de naam van het spel dat je de baas bent over je voetbalclub. Direct na het registreren, krijg je je gewone team en je doel is om voor hem te zorgen zodat hij kan gedijen.
+        &lt;/p&gt;
+        &lt;p class="my-text"&gt;Het hele spel is gebouwd op kaarten. Na elke wedstrijd krijg je kaarten die nieuwe spelers, managers en verschillende upgrades verbergen. Kaartpakketten kunnen ook worden gekocht voor geld en munten die u ook ontvangt na de gespeelde wedstrijden.&lt;/p&gt;</value>
+  </data>
+  <data name="IndexTextBottom" xml:space="preserve">
+    <value>&lt;h4 class="my-header text-center"&gt;Wat staat je te wachten in de game?&lt;/h4&gt;
+            &lt;p class="my-text"&gt;Online voetbalmanager op basis van kaarten.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Komt overeen met je vrienden en tegenstanders in competitie en tentoonstelling.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Training en verbeteren van de vaardigheden van uw spelers.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Het verbeteren van je stadion, trainingsfaciliteiten, speeltuinen, sportscholen en organisatoren.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Bepalen van de juiste samenstelling en tactieken. Selectie van kapitein en spelers voor het spelen van standaardsituaties.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Teamchemie verbeteren om het hele team en na elke wedstrijd te concentreren.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Voldoen aan de taken waarvoor u bonusmunten ontvangt. Chat gewoon in het spel.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Koop en neem kaarten op die nieuwe spelers, managers en kaarten nodig hebben voor training, upgrades, tentoonstellingen en vele anderen.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Scouting van nieuwe spelers. Aarzel niet en begin vandaag met het spelen van de online game Club Manager 2019!&lt;/p&gt;</value>
+  </data>
+  <data name="IndexTitle" xml:space="preserve">
+    <value>Online voetbalmanager</value>
+  </data>
+  <data name="IndexUpgrades" xml:space="preserve">
+    <value>Verbetert de verschillende componenten van de club en verbetert de resultaten. Elke verbetering heeft zijn voordeel, bijvoorbeeld door het stadion te verbeteren, krijg je tijdens de wedstrijd meer geld.</value>
+  </data>
+  <data name="League" xml:space="preserve">
+    <value>Liga</value>
+  </data>
+  <data name="LeagueConditions" xml:space="preserve">
+    <value>voorwaarden</value>
+  </data>
+  <data name="LeagueMultiplierTitle" xml:space="preserve">
+    <value>De naam van de multiplier</value>
+  </data>
+  <data name="Leagues" xml:space="preserve">
+    <value>Liga</value>
+  </data>
+  <data name="LeaguesDesc" xml:space="preserve">
+    <value>De onderstaande tabel laat zien hoeveel punten je moet verdienen voor een hogere divisie en hoeveel punten je moet behouden in de competitie. Je kunt ook zien welke waarde wordt vermenigvuldigd met het geld dat wordt ontvangen van de competitiewedstrijden.</value>
+  </data>
+  <data name="LeaguesDescription" xml:space="preserve">
+    <value>Hier zul je leren hoeveel punten je nodig hebt om in de competitie te blijven en hoeveel punten er zijn om door te stoten naar de hogere divisie.</value>
+  </data>
+  <data name="LeaguesOther" xml:space="preserve">
+    <value>Andere geldvermenigvuldigers</value>
+  </data>
+  <data name="LeaguesUrl" xml:space="preserve">
+    <value>Liga</value>
+  </data>
+  <data name="LeagueTableTitle1" xml:space="preserve">
+    <value>Punten nodig om bij te blijven in de competitie</value>
+  </data>
+  <data name="LeagueTableTitle2" xml:space="preserve">
+    <value>Punten moesten doorgaan</value>
+  </data>
+  <data name="LeagueTableTitle3" xml:space="preserve">
+    <value>Cash multiplier</value>
+  </data>
+  <data name="Manual" xml:space="preserve">
+    <value>Instructie</value>
+  </data>
+  <data name="ManualDescription" xml:space="preserve">
+    <value>Hier vindt u de belangrijkste informatie over het online spel van Club Manager 2019</value>
+  </data>
+  <data name="ManualText1" xml:space="preserve">
+    <value>Je kunt nieuwe spelers van kaarten krijgen of scouts sturen, vertellen welke post je zoekt en hij gaat naar het veld om de speler te zoeken. Binnen 24 uur zal hij terugkeren en de spelers aanbieden die kunnen worden gekocht.</value>
+  </data>
+  <data name="ManualText10" xml:space="preserve">
+    <value>Je krijgt het geld na elk spel dat je speelt, de waarde hangt af van het resultaat van de wedstrijd, je hebt natuurlijk de meeste winst, dan de trekking en het minste voor de winst. Een andere manier om geld te krijgen is om kaarten te verkopen.</value>
+  </data>
+  <data name="ManualText11" xml:space="preserve">
+    <value>Je kunt vaker competitiewedstrijden spelen als je het niveau van je organisator verbetert. Je kunt een oefenwedstrijd spelen met kaarten of 100 munten.</value>
+  </data>
+  <data name="ManualText2" xml:space="preserve">
+    <value>Kaartpakketten kunnen op verschillende manieren worden verkregen. Aan het begin van het spel krijg je 3 openingspakketten, die je elke 24 uur kunt ophalen. Een andere optie is om een reclamevideo te bekijken. Deze optie verschijnt altijd op een bepaald punt. Je krijgt kaarten zelfs na de gespeelde wedstrijden, of het nu een competitie of een tentoonstelling is. De laatste optie is om kaarten voor geld of munten te kopen. Individuele pakketten onderscheiden zich door het aantal kaarten binnen en schaars.</value>
+  </data>
+  <data name="ManualText3" xml:space="preserve">
+    <value>Elke manager geeft de voorkeur aan een bepaalde lay-out. De enige manier om de lay-out te wijzigen, is door de manager te vervangen. Elke manager heeft een bepaalde capaciteit, dat is de som van de kwaliteit van alle elf basisspelers. Als de som hoger is dan de managementcapaciteit, zal de teamchemie snel afnemen.</value>
+  </data>
+  <data name="ManualText4" xml:space="preserve">
+    <value>Teamscheikunde kan variëren van 1 tot 99. Hoe hoger de chemie van uw team, hoe betere spelers en de manager samenwerken om betere prestaties te leveren in wedstrijden. Teamscheikunde verandert om de volgende redenen: &lt;br/&gt;
+Veranderen van manager - Als u een teammanager wijzigt, neemt de teamchemie gewoonlijk af. Om de chemie van een hoger team te bereiken, moet je zoveel mogelijk spellen spelen. &lt;br/&gt;
+De som van de basiskwaliteiten van de speler zal de capaciteit van de manager te boven gaan. &lt;br /&gt;
+Verandering van rapport - Elke speler heeft verschillende relaties met de chemie van de manager en teamteam.</value>
+  </data>
+  <data name="ManualText5" xml:space="preserve">
+    <value>Teamkwaliteit is niet het enige aspect dat je zal helpen om het spel te winnen. Het is belangrijk om een speler uitgerust te hebben, om een high team chemie te hebben met een manager. Natuurlijk moet je een goede tactiek kiezen en de juiste spelers identificeren voor de standaardsituatie. De thuis speeltuin en het niveau spelen ook een grote rol. Je kunt ook je kansen verhogen door het team naar een concentratiekamp te sturen. Natuurlijk, als je een run met vier aanvallen hebt, heb je waarschijnlijk meer doelen, maar krijg je waarschijnlijk meer geld.</value>
+  </data>
+  <data name="ManualText6" xml:space="preserve">
+    <value>De eigenaardigheid van spelers is erg belangrijk in wedstrijden. Als spelers moe zijn, presteren ze niet goed. Verhoog energie met energiekaarten. Ze zijn van twee soorten, energieterugwinning voor het hele team en energieterugwinning voor één speler. Daarnaast rust de speler wanneer hij niet deelneemt aan de volgende wedstrijd, een competitie of een tentoonstelling. Het is daarom voordelig om hun basis elf te wisselen en hun belangrijkste hefbomen in liga's te behouden.</value>
+  </data>
+  <data name="ManualText7" xml:space="preserve">
+    <value>Elke speler kan worden getraind op het 50e niveau. Op dit niveau verbetert de speler zijn vaardigheid met 10 punten. Hoe hoger het niveau van uw sportschool, des te effectiever uw training zal zijn. Training kan worden gestart met behulp van trainingskaarten. Als u de training van spelers wilt versnellen, verbetert u de achtergrond van uw training. Als je het upgrade naar het 12e, 25e, 37e en 50e niveau, kun je meerdere spelers tegelijkertijd trainen.</value>
+  </data>
+  <data name="ManualText8" xml:space="preserve">
+    <value>Om meer clubs in het spel te krijgen, hoef je geen ander profiel te maken. Je hoeft maar 25 wedstrijden te spelen en het tweede team te pakken, je krijgt het opnieuw met de basisuitrusting. Je kunt gemakkelijk schakelen tussen clubs. Je mag maximaal 4 clubs hebben in het spel. Na 100 competitiewedstrijden gespeeld te hebben, krijg je de 3e Club. Daarna, na 250 competitiewedstrijden, de 4e club.</value>
+  </data>
+  <data name="ManualText9" xml:space="preserve">
+    <value>Je kunt munten met echt geld in echt geld kopen. Een andere optie is om te volgen of te behouden in de competitie. De beste optie is om de prestaties te bereiken. Hier kun je tot 10.000 gratis munten krijgen! Je kunt ook je vrienden uitnodigen om deel te nemen aan het spel en iedereen die meedoet aan het spel krijgt 50 munten!</value>
+  </data>
+  <data name="ManualTitle" xml:space="preserve">
+    <value>Instructies voor het spel Club Manager 2019</value>
+  </data>
+  <data name="ManualTitle1" xml:space="preserve">
+    <value>Hoe nieuwe spelers te krijgen</value>
+  </data>
+  <data name="ManualTitle10" xml:space="preserve">
+    <value>Geld krijgen</value>
+  </data>
+  <data name="ManualTitle11" xml:space="preserve">
+    <value>Hoe een spel vaker te spelen</value>
+  </data>
+  <data name="ManualTitle2" xml:space="preserve">
+    <value>Hoe kaartpakketten te krijgen</value>
+  </data>
+  <data name="ManualTitle3" xml:space="preserve">
+    <value>Van lay-out veranderen</value>
+  </data>
+  <data name="ManualTitle4" xml:space="preserve">
+    <value>Team chemie</value>
+  </data>
+  <data name="ManualTitle5" xml:space="preserve">
+    <value>Hoe is het mogelijk dat het team verloor, ook al was het van hogere kwaliteit</value>
+  </data>
+  <data name="ManualTitle6" xml:space="preserve">
+    <value>Hoe speler energie te vergroten</value>
+  </data>
+  <data name="ManualTitle7" xml:space="preserve">
+    <value>Hoe je je spelers kunt verbeteren</value>
+  </data>
+  <data name="ManualTitle8" xml:space="preserve">
+    <value>Meer clubs krijgen</value>
+  </data>
+  <data name="ManualTitle9" xml:space="preserve">
+    <value>Munten kopen</value>
+  </data>
+  <data name="ManualUrl" xml:space="preserve">
+    <value>Instructie</value>
+  </data>
+  <data name="Multiplier1" xml:space="preserve">
+    <value>De multiplier is afhankelijk van het stadionniveau</value>
+  </data>
+  <data name="Multiplier2" xml:space="preserve">
+    <value>Van toepassing op alle zoektypen</value>
+  </data>
+  <data name="Multiplier3" xml:space="preserve">
+    <value>De multiplier is afhankelijk van de gebeurtenisinstelling</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>anders</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Spelen</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>voorgaand</value>
+  </data>
+  <data name="Upgrades" xml:space="preserve">
+    <value>Verbeteringen</value>
+  </data>
+</root>

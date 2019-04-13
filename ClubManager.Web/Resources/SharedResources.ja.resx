@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="5-streakWin" xml:space="preserve">
+    <value>連続で5回の賞金</value>
+  </data>
+  <data name="Achievements" xml:space="preserve">
+    <value>実績</value>
+  </data>
+  <data name="Cards" xml:space="preserve">
+    <value>カード</value>
+  </data>
+  <data name="ChampionsLeague" xml:space="preserve">
+    <value>チャンピオンズリーグ</value>
+  </data>
+  <data name="Coins" xml:space="preserve">
+    <value>コイン</value>
+  </data>
+  <data name="CoinsDescription" xml:space="preserve">
+    <value>コインを無料で入手する方法は次のとおりです。 コインはゲームで重要です、それらを最大限に活用しよう！</value>
+  </data>
+  <data name="CoinsText" xml:space="preserve">
+    <value>&lt;p class="my-text"&gt;コインは重要な役割を果たし、カードを購入したり、展示会のゲームをしたり、スピードを上げたりするために使用できます。 コインはもちろん本物のお金で買うことができます、私は安くてゲームの開始に多くの利益をもたらす歓迎パッケージを買うことを勧めます。&lt;/p&gt;
+                &lt;p class="my-text"&gt;ただし、ゲーム内でコインを無料で入手する方法は他にもあります。 これが最良の方法です：&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;登録&lt;/h2&gt;
+                &lt;p class="my-text"&gt;登録直後に、あなたは250枚のコインを手に入れます！&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;友達を招待する&lt;/h2&gt;
+                &lt;p class="my-text"&gt;友達をClub Manager 2019に招待して、ゲームに参加しようとする各友達に50の無料コインをプレゼント！&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;実績&lt;/h2&gt;
+                &lt;p class="my-text"&gt;あなたがするときに、あなたは困難に応じて様々なコインを得るゲームには成果があります。 あなたはタスクのおかげで10,000コインまで稼ぐことができます。&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;リーグでの実績&lt;/h2&gt;
+                &lt;p class="my-text"&gt;リーグゲームをプレイし、それらに成功しよう！ あなたがより高いリーグに移動するならば、あなたは25枚のコインを手に入れます。 あなたが少なくともリーグを守れば、あなたは10枚のコインを得る。&lt;/p&gt;</value>
+  </data>
+  <data name="CoinsUrl" xml:space="preserve">
+    <value>Koin</value>
+  </data>
+  <data name="EventBonus" xml:space="preserve">
+    <value>イベントボーナス</value>
+  </data>
+  <data name="FirstDayWin" xml:space="preserve">
+    <value>初日の勝利</value>
+  </data>
+  <data name="FreeCoins" xml:space="preserve">
+    <value>無料のコイン</value>
+  </data>
+  <data name="HomeMatch" xml:space="preserve">
+    <value>ホームマッチ</value>
+  </data>
+  <data name="IndexAchievements" xml:space="preserve">
+    <value>ゲーム内でタスクを実行することもできます。 あなたはあなたの難しさに従って様々なコインを得るでしょう。 あなたはコインのためにカードを買うことができます。 あなたはタスクのおかげで10,000コインまで稼ぐことができます。</value>
+  </data>
+  <data name="IndexCards" xml:space="preserve">
+    <value>カードはゲームにおいて重要な役割を果たします。 カードのおかげで、あなたは新しい選手、管理者、様々なアップグレード、キャラクター、展示会などをたくさん手に入れることができます。 カードを購入したり、試合に勝つことができます。</value>
+  </data>
+  <data name="IndexCarousel1" xml:space="preserve">
+    <value>カードを使ってオンラインサッカーマネージャー</value>
+  </data>
+  <data name="IndexCarousel2" xml:space="preserve">
+    <value>友達と対戦する</value>
+  </data>
+  <data name="IndexCarousel3" xml:space="preserve">
+    <value>あなたの選手を訓練する</value>
+  </data>
+  <data name="IndexCarousel4" xml:space="preserve">
+    <value>クラブを充実させる</value>
+  </data>
+  <data name="IndexCarousel5" xml:space="preserve">
+    <value>正しいアセンブリを定義する</value>
+  </data>
+  <data name="IndexCarousel6" xml:space="preserve">
+    <value>王朝を築く</value>
+  </data>
+  <data name="IndexChl" xml:space="preserve">
+    <value>2019年にクラブで最も多くのカップを獲得したマネージャーは、2020年にイスタンブールで行われるチャンピオンズリーグ決勝へのチケット2枚を獲得します。</value>
+  </data>
+  <data name="IndexChl2" xml:space="preserve">
+    <value>あなたは毎週のコンテストのためにカップを獲得します。 できるだけ多くのリーグゲームをプレイし、ポイントを集めて、同レベルの対戦相手があなたに対抗するこのコンペティションの勝者になる。 毎週のコンテストの終わりに、カップを売却します。</value>
+  </data>
+  <data name="IndexChlTitle" xml:space="preserve">
+    <value>チャンピオンズリーグへの2枚のチケットを獲得してください！</value>
+  </data>
+  <data name="IndexDescription" xml:space="preserve">
+    <value>あなたのキャリアマネージャー、クラブマネージャー2019はまだ始まったばかりです！ 最高のマネージャーになって、2020年にチャンピオンズリーグ決勝のチケットを獲得しましょう！</value>
+  </data>
+  <data name="IndexLeagues" xml:space="preserve">
+    <value>全部で12のリーグがあります。 初めに、もちろん、あなたは最低で始めます。 より高いリーグに進むには、一定数のポイントが必要です。 あなたがプレイするリーグが高いほど、試合からより多くの現金を得ることができます。</value>
+  </data>
+  <data name="IndexText" xml:space="preserve">
+    <value>&lt;p class="my-text"&gt;
+            あなたのキャリアマネージャはまだ始まったばかりです！ この機会を利用して、チームをトップに導いてください。 最高のマネージャーになって、2020年にチャンピオンズリーグ決勝のチケットを獲得しましょう！ あなたのチームはあなたを待っています。
+        &lt;/p&gt;
+        &lt;p class="my-text"&gt;
+            あなたはあなたのiOSとAndroidデバイスでゲームをプレイすることができます。 もちろん、それはあなたのブラウザでもオンラインです。 フットボールクラブの主役になることは、ゲームの名前から明らかです。 登録した直後に、あなたはあなたの通常のチームを得るでしょう、そしてあなたの目標は彼が繁栄できるように彼の世話をすることです。
+        &lt;/p&gt;
+        &lt;p class="my-text"&gt;ゲーム全体はカードに基づいています。 各試合の後、あなたは新しい選手、マネージャー、そして様々なアップグレードを隠すカードを手に入れます。 カードパックはお金とコインで購入することもできます。&lt;/p&gt;</value>
+  </data>
+  <data name="IndexTextBottom" xml:space="preserve">
+    <value>&lt;h4 class="my-header text-center"&gt;あなたはゲームで何を待っていますか？&lt;/h4&gt;
+            &lt;p class="my-text"&gt;カードに基づくオンラインフットボールマネージャー。&lt;/p&gt;
+            &lt;p class="my-text"&gt;リーグや展示会であなたの友達や対戦相手と対戦します。&lt;/p&gt;
+            &lt;p class="my-text"&gt;プレーヤーのスキルをトレーニングし向上させる。&lt;/p&gt;
+            &lt;p class="my-text"&gt;あなたのスタジアム、トレーニング施設、遊び場、ジムや主催者を向上させる。&lt;/p&gt;
+            &lt;p class="my-text"&gt;正しいアセンブリと戦術を決定する 標準的な状況で遊ぶための船長と選手の選択&lt;/p&gt;
+            &lt;p class="my-text"&gt;チームの化学的性質を改善してチーム全体を集中させ、各試合の後に集中させる。&lt;/p&gt;
+            &lt;p class="my-text"&gt;あなたがボーナスコインを受け取るためのタスクを果たす。 ゲーム内でチャットできます。&lt;/p&gt;
+            &lt;p class="my-text"&gt;新しいプレーヤー、管理者、トレーニング、アップグレード、展示会、その他多数のものに必要なカードを購入して拾います。&lt;/p&gt;
+            &lt;p class="my-text"&gt;新規プレイヤーの偵察 躊躇しないで、今日オンラインゲームClub Manager 2019をプレイし始めてください！&lt;/p&gt;</value>
+  </data>
+  <data name="IndexTitle" xml:space="preserve">
+    <value>オンラインフットボールマネージャー</value>
+  </data>
+  <data name="IndexUpgrades" xml:space="preserve">
+    <value>それはクラブの様々な要素を改善し、結果を改善します。 それぞれの強化は、例えば、スタジアムを改善することによって、あなたは試合中により多くの現金を得るという利点があります。</value>
+  </data>
+  <data name="League" xml:space="preserve">
+    <value>リーグ</value>
+  </data>
+  <data name="LeagueConditions" xml:space="preserve">
+    <value>条件</value>
+  </data>
+  <data name="LeagueMultiplierTitle" xml:space="preserve">
+    <value>乗数の名前</value>
+  </data>
+  <data name="Leagues" xml:space="preserve">
+    <value>リーグ</value>
+  </data>
+  <data name="LeaguesDesc" xml:space="preserve">
+    <value>下の表は、上位リーグで獲得する必要があるポイント数と、そのリーグで保持するポイント数を示しています。 また、リーグ戦から受け取った現金にどのような価値が乗じられたかを確認することもできます。</value>
+  </data>
+  <data name="LeaguesDescription" xml:space="preserve">
+    <value>ここでは、リーグに残っている必要があるポイント数と、上位リーグに進むために必要なポイント数を学びます。</value>
+  </data>
+  <data name="LeaguesOther" xml:space="preserve">
+    <value>その他の乗数</value>
+  </data>
+  <data name="LeaguesUrl" xml:space="preserve">
+    <value>Rigu</value>
+  </data>
+  <data name="LeagueTableTitle1" xml:space="preserve">
+    <value>リーグを守るために必要なポイント</value>
+  </data>
+  <data name="LeagueTableTitle2" xml:space="preserve">
+    <value>進むために必要なポイント</value>
+  </data>
+  <data name="LeagueTableTitle3" xml:space="preserve">
+    <value>現金乗数</value>
+  </data>
+  <data name="Manual" xml:space="preserve">
+    <value>説明書</value>
+  </data>
+  <data name="ManualDescription" xml:space="preserve">
+    <value>こちらでClub Manager 2019のオンラインゲームに関する最も重要な情報が見つかります。</value>
+  </data>
+  <data name="ManualText1" xml:space="preserve">
+    <value>あなたはカードから新しいプレイヤーを入手したり、スカウトを送ったり、あなたが探している投稿を教えたりすることができ、そして彼はプレイヤーを探すためにフィールドに行きます。 24時間以内に彼は戻って購入することができますそれらの選手を提供します。</value>
+  </data>
+  <data name="ManualText10" xml:space="preserve">
+    <value>あなたはあなたがプレイするすべてのゲームの後に現金を得ます、その価値は試合の結果によります、あなたは最も、もちろん、勝利、そして引き分けと最低の勝利を得ています。 現金を得るもう一つの方法はカードを販売することです。</value>
+  </data>
+  <data name="ManualText11" xml:space="preserve">
+    <value>オーガナイザーのレベルを向上させると、リーグ戦をより頻繁にプレーできます。 あなたはカードまたは100枚のコインで展覧会の試合をすることができます。</value>
+  </data>
+  <data name="ManualText2" xml:space="preserve">
+    <value>カードパッケージはいくつかの方法で入手できます。 ゲームの開始時に、3つの開始パッケージを受け取ります、あなたは24時間ごとに1つを選ぶことができます。 他の選択肢は広告ビデオを見ることである。 このオプションは常に特定の時点で表示されます。 リーグでも展覧会でも、試合が終わった後でもカードを入手できます。 最後のオプションは、お金やコインでカードを買うことです。 個々のパッケージは、内部のカードの数と数が少ないことで区別されます。</value>
+  </data>
+  <data name="ManualText3" xml:space="preserve">
+    <value>各マネージャは特定のレイアウトを好みます。 レイアウトを変更する唯一の方法は、マネージャを置き換えることです。 各マネージャは一定の能力、すなわちすべての基本的な11人のプレーヤーの質の合計を持っています。 合計が管理能力を超えると、チームの化学的性質は急速に減少します。</value>
+  </data>
+  <data name="ManualText4" xml:space="preserve">
+    <value>チームの化学的性質は1から99の範囲で指定できます。チームのチームの化学的性質が高いほど、優れた選手とマネージャが協力して試合のパフォーマンスを向上させます。 チーム化学は次のような理由で変化しています。&lt;br/&gt;
+マネージャの変更 - チームマネージャを変更すると、チームの化学的性質は通常低下します。 より高いチームケミストリーに到達するには、できるだけ多くのゲームをプレイする必要があります。&lt;br/&gt;
+プレイヤーの基本的な資質の合計がマネージャの能力を超えます。&lt;br /&gt;
+レポートの変更 - 各プレイヤーは、マネージャーとチームチームの化学的性質と異なる関係を持ちます。</value>
+  </data>
+  <data name="ManualText5" xml:space="preserve">
+    <value>チームの質があなたがゲームに勝つのを助ける唯一の局面ではありません。 選手とマネージャの高いチームケミストリーに休憩させることが重要です。 もちろん、適切な戦術を選択し、標準的な状況に適したプレイヤーを特定する必要があります。 家の遊び場とそのレベルも大きな役割を果たしています。 チームを強制収容所に送ることでチャンスを増やすこともできます。 もちろん、4回の攻撃を実行した場合、おそらくより多くの目標がありますが、おそらくより多くの現金が得られます。</value>
+  </data>
+  <data name="ManualText6" xml:space="preserve">
+    <value>プレーヤーの奇妙さは試合で非常に重要です。 選手が疲れていると、彼らはうまく行かない。 エネルギーカードでエネルギーを増やしましょう。 チーム全体のエネルギー回収と1人のプレイヤーのエネルギー回収の2種類があります。 さらに、プレーヤーは次の試合、リーグか展示会のいずれかに参加しないときにかかっています。 したがって、基本的な11を交互に使用して、メインリーグをリーグリーグに保存することが有利です。</value>
+  </data>
+  <data name="ManualText7" xml:space="preserve">
+    <value>各プレイヤーは50レベルまで訓練することができます。 このレベルで、プレイヤーは自分の能力を10ポイント向上させるでしょう。 ジムのレベルが高いほど、トレーニングはより効果的になります。 トレーニングはトレーニングカードを使って開始できます。 あなたが選手のトレーニングをスピードアップしたい場合は、あなたはあなたのトレーニングの背景を向上させます。 12、25、37、50レベルにアップグレードすると、同時に複数のプレイヤーをトレーニングできます。</value>
+  </data>
+  <data name="ManualText8" xml:space="preserve">
+    <value>ゲームでクラブを増やすには、別のプロフィールを作成する必要はありません。 あなたは25試合をプレイして2番目のチームを取得する必要があります、あなたは基本的な機器で再びそれを取得します。 あなたは簡単にクラブを切り替えることができます。 あなたはゲーム内に最大4つのクラブを持つことができます100リーグの試合をプレイした後、あなたは3rd Clubを取得します。 それから、250のリーグ戦の後、第4のクラブ。</value>
+  </data>
+  <data name="ManualText9" xml:space="preserve">
+    <value>あなたはリアルマネーでリアルマネーでコインを買うことができます。 もう一つの選択はリーグに続くか、または維持することです。 最善の選択肢は、成果を達成することです。 ここであなたは最大10,000の無料コインを手に入れることができます！ また、友達をゲームに招待することもできます。そして、ゲームに参加した人全員が50コインを獲得します！</value>
+  </data>
+  <data name="ManualTitle" xml:space="preserve">
+    <value>ゲームのための指示 Club Manager 2019</value>
+  </data>
+  <data name="ManualTitle1" xml:space="preserve">
+    <value>新規プレイヤーを獲得する方法</value>
+  </data>
+  <data name="ManualTitle10" xml:space="preserve">
+    <value>現金を得る</value>
+  </data>
+  <data name="ManualTitle11" xml:space="preserve">
+    <value>より頻繁にゲームをプレイする方法</value>
+  </data>
+  <data name="ManualTitle2" xml:space="preserve">
+    <value>カードパッケージの入手方法</value>
+  </data>
+  <data name="ManualTitle3" xml:space="preserve">
+    <value>レイアウト変更</value>
+  </data>
+  <data name="ManualTitle4" xml:space="preserve">
+    <value>チーム化学</value>
+  </data>
+  <data name="ManualTitle5" xml:space="preserve">
+    <value>たとえ高品質であったとしても、チームがどのようにして負けたのか</value>
+  </data>
+  <data name="ManualTitle6" xml:space="preserve">
+    <value>プレイヤーのエネルギーを増やす方法</value>
+  </data>
+  <data name="ManualTitle7" xml:space="preserve">
+    <value>プレーヤーを向上させる方法</value>
+  </data>
+  <data name="ManualTitle8" xml:space="preserve">
+    <value>クラブを増やす</value>
+  </data>
+  <data name="ManualTitle9" xml:space="preserve">
+    <value>コインをもらう</value>
+  </data>
+  <data name="ManualUrl" xml:space="preserve">
+    <value>Setsumeisho</value>
+  </data>
+  <data name="Multiplier1" xml:space="preserve">
+    <value>乗数は競技場のレベルによって異なります</value>
+  </data>
+  <data name="Multiplier2" xml:space="preserve">
+    <value>すべてのマッチタイプに適用</value>
+  </data>
+  <data name="Multiplier3" xml:space="preserve">
+    <value>乗数はイベント設定によって異なります</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>次へ</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>遊びます</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>前の</value>
+  </data>
+  <data name="Upgrades" xml:space="preserve">
+    <value>改良点</value>
+  </data>
+</root>

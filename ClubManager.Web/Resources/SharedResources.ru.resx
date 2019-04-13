@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="5-streakWin" xml:space="preserve">
+    <value>Бонус 5 выигрышей подряд</value>
+  </data>
+  <data name="Achievements" xml:space="preserve">
+    <value>достижения</value>
+  </data>
+  <data name="Cards" xml:space="preserve">
+    <value>карты</value>
+  </data>
+  <data name="ChampionsLeague" xml:space="preserve">
+    <value>Лига Чемпионов</value>
+  </data>
+  <data name="Coins" xml:space="preserve">
+    <value>монета</value>
+  </data>
+  <data name="CoinsDescription" xml:space="preserve">
+    <value>Вот как можно получить монеты бесплатно. Монеты важны в игре, постарайтесь извлечь из них максимум пользы!</value>
+  </data>
+  <data name="CoinsText" xml:space="preserve">
+    <value>&lt;p class="my-text"&gt;Монеты играют важную роль, они могут покупать карты, играть в выставочные игры и использовать их для ускорения. Конечно, монеты можно купить за реальные деньги, я рекомендую купить приветственный пакет, который стоит дешево и приносит ряд преимуществ в начале игры.&lt;/p&gt;
+                &lt;p class="my-text"&gt;Однако есть и другие возможности получить монеты в игре бесплатно. Вот лучшие способы:&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;регистрация&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Сразу после регистрации вы получите 250 монет!&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;Пригласите своих друзей&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Пригласите своих друзей в Club Manager 2019 и получите 50 бесплатных монет для каждого друга, который присоединится к игре!&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;достижения&lt;/h2&gt;
+                &lt;p class="my-text"&gt;В игре есть достижения, которые, когда вы делаете, вы получаете различные монеты в зависимости от сложности. Вы можете заработать до 10000 монет благодаря заданиям.&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;Достижения в лиге&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Играйте в игры лиги и постарайтесь добиться успеха в них! Если вы перейдете в высшую лигу, вы получите 25 монет. Если вы сохраните лигу хотя бы, вы получите 10 монет.&lt;/p&gt;</value>
+  </data>
+  <data name="CoinsUrl" xml:space="preserve">
+    <value>Moneta</value>
+  </data>
+  <data name="EventBonus" xml:space="preserve">
+    <value>Событие Бонус</value>
+  </data>
+  <data name="FirstDayWin" xml:space="preserve">
+    <value>Первый день Победа</value>
+  </data>
+  <data name="FreeCoins" xml:space="preserve">
+    <value>Монеты бесплатно</value>
+  </data>
+  <data name="HomeMatch" xml:space="preserve">
+    <value>Домашний матч</value>
+  </data>
+  <data name="IndexAchievements" xml:space="preserve">
+    <value>Вы также можете выполнять задания в игре. Вы получите различные монеты в зависимости от вашей сложности. Вы можете купить карты для монет. Вы можете заработать до 10000 монет благодаря заданиям.</value>
+  </data>
+  <data name="IndexCards" xml:space="preserve">
+    <value>Карты играют важную роль в игре. Благодаря карточкам вы получаете новых игроков, менеджеров, различные улучшения, персонажей, выставки и многое другое. Карты могут быть куплены или выиграны для матчей.</value>
+  </data>
+  <data name="IndexCarousel1" xml:space="preserve">
+    <value>Футбольный онлайн менеджер с карточками</value>
+  </data>
+  <data name="IndexCarousel2" xml:space="preserve">
+    <value>Играть против друзей</value>
+  </data>
+  <data name="IndexCarousel3" xml:space="preserve">
+    <value>Тренируйте своих игроков</value>
+  </data>
+  <data name="IndexCarousel4" xml:space="preserve">
+    <value>Улучши свой клуб</value>
+  </data>
+  <data name="IndexCarousel5" xml:space="preserve">
+    <value>Определите правильную сборку</value>
+  </data>
+  <data name="IndexCarousel6" xml:space="preserve">
+    <value>Построить династию</value>
+  </data>
+  <data name="IndexChl" xml:space="preserve">
+    <value>Менеджер, который получит больше всего кубков со своим клубом в 2019 году, выиграет 2 билета на финал Лиги чемпионов в 2020 году в Стамбуле.</value>
+  </data>
+  <data name="IndexChl2" xml:space="preserve">
+    <value>Вы выигрываете кубки для еженедельного конкурса. Играйте в как можно больше игр лиги, набирайте очки и станьте победителем этого соревнования, где против вас выступают противники аналогичного уровня. В конце еженедельного конкурса мы избавимся от кубков.</value>
+  </data>
+  <data name="IndexChlTitle" xml:space="preserve">
+    <value>Выиграй 2 билета в Лигу Чемпионов!</value>
+  </data>
+  <data name="IndexDescription" xml:space="preserve">
+    <value>Ваша карьера менеджера, Club Manager 2019, только начинается! Стань лучшим менеджером и выиграй билеты на Финал Лиги Чемпионов 2020 года!</value>
+  </data>
+  <data name="IndexLeagues" xml:space="preserve">
+    <value>Всего 12 лиг. В начале, конечно, вы начинаете с самого низкого. Чтобы перейти в высшую лигу, вам нужно определенное количество очков. Чем выше лига, в которую вы играете, тем больше денег вы получите от матча.</value>
+  </data>
+  <data name="IndexText" xml:space="preserve">
+    <value>&lt;p class="my-text"&gt;
+            Ваша карьера менеджера только начинается! Воспользуйтесь этой возможностью, чтобы попробовать, каково это - привести команду к вершине! Стань лучшим менеджером и выиграй билеты на Финал Лиги Чемпионов 2020 года! Ваша команда ждет вас.
+        &lt;/p&gt;
+        &lt;p class="my-text"&gt;
+            Вы можете играть в эту игру на своих устройствах iOS и Android. Конечно, это также онлайн в вашем браузере. Из названия игры видно, что вы будете руководить своим футбольным клубом. Сразу после регистрации вы получите свою обычную команду, и ваша цель - ухаживать за ним, чтобы он мог процветать.
+        &lt;/p&gt;
+        &lt;p class="my-text"&gt;Вся игра построена на картах. После каждого матча вы получаете карты, которые скрывают новых игроков, менеджеров и различные улучшения. Пакеты карт также можно купить за деньги и монеты, которые вы также получите после сыгранных матчей.&lt;/p&gt;</value>
+  </data>
+  <data name="IndexTextBottom" xml:space="preserve">
+    <value>&lt;h4 class="my-header text-center"&gt;Что ждет вас в игре?&lt;/h4&gt;
+            &lt;p class="my-text"&gt;Онлайн футбольный менеджер по картам.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Матчи против ваших друзей и противников в лиге и на выставке.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Тренировка и улучшение навыков ваших игроков.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Улучшение вашего стадиона, тренировок, игровых площадок, спортивных залов и организаторов.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Определение правильной сборки и тактики. Выбор капитана и игроков для игры в стандартных ситуациях.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Совершенствуем командную химию, чтобы сконцентрировать всю команду и после каждого матча.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Выполняя задания, за которые вы получаете бонусные монеты. Чат прямо в игре.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Покупайте и подбирайте карты, в которых есть новые игроки, менеджеры и карты, необходимые для тренировок, улучшений, выставок и многих других.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Скаутинг новых игроков. Не стесняйтесь и начните играть в онлайн-игру Club Manager 2019 уже сегодня!&lt;/p&gt;</value>
+  </data>
+  <data name="IndexTitle" xml:space="preserve">
+    <value>Футбольный менеджер онлайн</value>
+  </data>
+  <data name="IndexUpgrades" xml:space="preserve">
+    <value>Это улучшит различные составляющие клуба и улучшит результаты. Каждое улучшение имеет свое преимущество, например, улучшая стадион, вы получаете больше денег во время матча.</value>
+  </data>
+  <data name="League" xml:space="preserve">
+    <value>лига</value>
+  </data>
+  <data name="LeagueConditions" xml:space="preserve">
+    <value>условия</value>
+  </data>
+  <data name="LeagueMultiplierTitle" xml:space="preserve">
+    <value>Наименование множителя</value>
+  </data>
+  <data name="Leagues" xml:space="preserve">
+    <value>лига</value>
+  </data>
+  <data name="LeaguesDesc" xml:space="preserve">
+    <value>В таблице ниже показано, сколько очков вам нужно заработать в высшей лиге и сколько очков нужно сохранить в лиге. Вы также можете увидеть, какое значение умножается на деньги, полученные в матчах лиги.</value>
+  </data>
+  <data name="LeaguesDescription" xml:space="preserve">
+    <value>Здесь вы узнаете, сколько очков вам нужно для того, чтобы остаться в лиге, и сколько очков нужно для перехода в высшую лигу.</value>
+  </data>
+  <data name="LeaguesOther" xml:space="preserve">
+    <value>Другие денежные мультипликаторы</value>
+  </data>
+  <data name="LeaguesUrl" xml:space="preserve">
+    <value>Liga</value>
+  </data>
+  <data name="LeagueTableTitle1" xml:space="preserve">
+    <value>Очки, необходимые, чтобы не отставать в лиге</value>
+  </data>
+  <data name="LeagueTableTitle2" xml:space="preserve">
+    <value>Очки, необходимые для продолжения</value>
+  </data>
+  <data name="LeagueTableTitle3" xml:space="preserve">
+    <value>Денежный мультипликатор</value>
+  </data>
+  <data name="Manual" xml:space="preserve">
+    <value>инструкция</value>
+  </data>
+  <data name="ManualDescription" xml:space="preserve">
+    <value>Здесь вы найдете самую важную информацию о онлайн-игре Club Manager 2019</value>
+  </data>
+  <data name="ManualText1" xml:space="preserve">
+    <value>Вы можете получать новых игроков с карт или отправлять разведчиков, сообщать им, какую должность вы ищете, и он отправляется на поле, чтобы найти игрока. Через 24 часа он вернется и предложит тех игроков, которых можно купить.</value>
+  </data>
+  <data name="ManualText10" xml:space="preserve">
+    <value>Вы получаете деньги после каждой игры, которую вы играете, значение зависит от исхода матча, у вас больше всего, конечно, выигрыш, затем ничья и наименьшее количество за победу. Другой способ получить наличные деньги - продать карты.</value>
+  </data>
+  <data name="ManualText11" xml:space="preserve">
+    <value>Вы можете чаще играть в матчах лиги, если повышаете уровень своего организатора. Вы можете сыграть выставочный матч с карточками или 100 монетами.</value>
+  </data>
+  <data name="ManualText2" xml:space="preserve">
+    <value>Пакеты карт можно получить несколькими способами. В начале игры вы получаете 3 начальных пакета, которые вы можете получить один раз в 24 часа. Другой вариант - посмотреть рекламное видео. Эта опция всегда появляется в определенной точке. Вы получаете карты даже после сыгранных матчей, будь то лига или выставка. Последний вариант - купить карты за деньги или монеты. Индивидуальные пакеты различаются по количеству карточек внутри и мало.</value>
+  </data>
+  <data name="ManualText3" xml:space="preserve">
+    <value>Каждый менеджер предпочитает определенный макет. Единственный способ изменить макет - заменить менеджера. Каждый менеджер обладает определенной способностью, то есть суммой качества всех основных одиннадцати игроков. Если сумма превышает управленческий потенциал, командная химия быстро уменьшится.</value>
+  </data>
+  <data name="ManualText4" xml:space="preserve">
+    <value>Командный химический состав может варьироваться от 1 до 99. Чем выше химический состав вашей команды, тем лучше игроки и менеджер работают вместе, чтобы обеспечить лучшую производительность в матчах. Командная химия меняется по следующим причинам: &lt;br/&gt;
+Смена менеджера - если вы смените менеджера команды, химия команды, как правило, будет уменьшаться. Чтобы достичь более высокого уровня командной химии, вам нужно сыграть как можно больше игр. &lt;br/&gt;
+Сумма базовых качеств игроков превысит возможности менеджера. &lt;br /&gt;
+Изменение отчета - У каждого игрока разные отношения с менеджером и командным составом команды.</value>
+  </data>
+  <data name="ManualText5" xml:space="preserve">
+    <value>Качество команды - не единственный аспект, который поможет вам выиграть игру. Важно, чтобы игрок отдохнул, в командную химию с менеджером. Конечно, вы должны выбрать хорошую тактику и определить правильных игроков для стандартной ситуации. Домашняя игровая площадка и ее уровень также играют большую роль. Вы также можете увеличить свои шансы, отправив команду в концлагерь. Конечно, если у вас есть четыре атаки, у вас, вероятно, больше целей, но вы, вероятно, получите больше денег.</value>
+  </data>
+  <data name="ManualText6" xml:space="preserve">
+    <value>Странность игрока очень важна в матчах. Если игроки устали, они плохо себя чувствуют. Увеличьте энергию с помощью энергетических карт. Они бывают двух типов: восстановление энергии для всей команды и восстановление энергии для одного игрока. Кроме того, игрок отдыхает, когда не присоединяется к следующему матчу, будь то лига или выставка. Поэтому выгодно чередовать их основные одиннадцать и сохранять свои главные рычаги в лигах лиги.</value>
+  </data>
+  <data name="ManualText7" xml:space="preserve">
+    <value>Каждый игрок может пройти обучение до 50-го уровня. На этом уровне игрок улучшит свои способности на 10 очков. Чем выше будет ваш тренажерный зал, тем эффективнее будут ваши тренировки. Обучение может быть начато с использованием учебных карточек. Если вы хотите ускорить обучение игроков, вы улучшите свой тренировочный фон. Если вы повысите его до 12-го, 25-го, 37-го и 50-го уровней, вы можете тренировать нескольких игроков одновременно.</value>
+  </data>
+  <data name="ManualText8" xml:space="preserve">
+    <value>Чтобы получить больше клубов в игре, вам не нужно создавать другой профиль. Вам нужно только сыграть 25 матчей и получить вторую команду, вы получите ее снова с базовым оборудованием. Вы можете легко переключаться между клубами. В игре может быть до 4 клубов, сыграв 100 матчей в лиге, вы получите 3-й клуб. Затем, после 250 матчей чемпионата, 4-й клуб.</value>
+  </data>
+  <data name="ManualText9" xml:space="preserve">
+    <value>Вы можете купить монеты на реальные деньги за реальные деньги. Другой вариант - следить или поддерживать в лиге. Лучший вариант - добиться достижений. Здесь вы можете получить до 10000 бесплатных монет! Вы также можете пригласить своих друзей присоединиться к игре, и каждый, кто присоединится к игре, получит 50 монет!</value>
+  </data>
+  <data name="ManualTitle" xml:space="preserve">
+    <value>Инструкция к игре Club Manager 2019</value>
+  </data>
+  <data name="ManualTitle1" xml:space="preserve">
+    <value>Как получить новых игроков</value>
+  </data>
+  <data name="ManualTitle10" xml:space="preserve">
+    <value>Получать деньги</value>
+  </data>
+  <data name="ManualTitle11" xml:space="preserve">
+    <value>Как играть в игру чаще</value>
+  </data>
+  <data name="ManualTitle2" xml:space="preserve">
+    <value>Как получить карточные пакеты</value>
+  </data>
+  <data name="ManualTitle3" xml:space="preserve">
+    <value>Изменение макета</value>
+  </data>
+  <data name="ManualTitle4" xml:space="preserve">
+    <value>Командная химия</value>
+  </data>
+  <data name="ManualTitle5" xml:space="preserve">
+    <value>Как это возможно, что команда проиграла, даже если она была более качественной?</value>
+  </data>
+  <data name="ManualTitle6" xml:space="preserve">
+    <value>Как увеличить энергию игрока</value>
+  </data>
+  <data name="ManualTitle7" xml:space="preserve">
+    <value>Как улучшить своих игроков</value>
+  </data>
+  <data name="ManualTitle8" xml:space="preserve">
+    <value>Получение больше клубов</value>
+  </data>
+  <data name="ManualTitle9" xml:space="preserve">
+    <value>Получать монеты</value>
+  </data>
+  <data name="ManualUrl" xml:space="preserve">
+    <value>Instruktsiya</value>
+  </data>
+  <data name="Multiplier1" xml:space="preserve">
+    <value>Множитель зависит от уровня стадиона</value>
+  </data>
+  <data name="Multiplier2" xml:space="preserve">
+    <value>Относится ко всем типам совпадений</value>
+  </data>
+  <data name="Multiplier3" xml:space="preserve">
+    <value>Множитель зависит от настройки события</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>другой</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Играть</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>предыдущий</value>
+  </data>
+  <data name="Upgrades" xml:space="preserve">
+    <value>улучшения</value>
+  </data>
+</root>

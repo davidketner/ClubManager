@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="5-streakWin" xml:space="preserve">
+    <value>Bonus 5 câștiguri la rând</value>
+  </data>
+  <data name="Achievements" xml:space="preserve">
+    <value>Realizări</value>
+  </data>
+  <data name="Cards" xml:space="preserve">
+    <value>Carduri</value>
+  </data>
+  <data name="ChampionsLeague" xml:space="preserve">
+    <value>Liga Campionilor</value>
+  </data>
+  <data name="Coins" xml:space="preserve">
+    <value>Monedă</value>
+  </data>
+  <data name="CoinsDescription" xml:space="preserve">
+    <value>Iată cum puteți obține monedele gratuite. Monedele sunt importante în joc, încercați să obțineți mai mult din ele!</value>
+  </data>
+  <data name="CoinsText" xml:space="preserve">
+    <value>&lt;p class="my-text"&gt;Monedele joacă un rol important, pot cumpăra carduri, pot juca jocuri expoziționale și le pot folosi pentru a-și accelera. Monedele pot fi, desigur, cumpărate pentru bani reali, vă recomand să cumpărați un pachet de bun venit care este ieftin și aduce un număr de beneficii la începutul jocului.&lt;/p&gt;
+                &lt;p class="my-text"&gt;Cu toate acestea, există și alte posibilități pentru obținerea monedelor în joc gratuit. Iată cele mai bune modalități:&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;înregistrare&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Imediat după înregistrare, veți primi 250 de monede!&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;Invită-ți prietenii&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Invitați-vă prietenii la Club Manager 2019 și obțineți 50 de monede gratuite pentru fiecare prieten care se va alătura jocului!&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;Realizări&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Există realizări în joc, care, atunci când faci, primiți o varietate de monede în funcție de dificultate. Puteți câștiga până la 10.000 de monede datorită sarcinilor.&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;Realizări în liga&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Joacă jocuri de liga și încearcă să le reușești! Dacă vă mutați într-o ligă mai mare, primiți 25 de monede. Dacă păstrezi cel puțin liga, primești 10 monede.&lt;/p&gt;</value>
+  </data>
+  <data name="CoinsUrl" xml:space="preserve">
+    <value>Moneda</value>
+  </data>
+  <data name="EventBonus" xml:space="preserve">
+    <value>Bonus pentru eveniment</value>
+  </data>
+  <data name="FirstDayWin" xml:space="preserve">
+    <value>Prima victorie</value>
+  </data>
+  <data name="FreeCoins" xml:space="preserve">
+    <value>Monede gratuite</value>
+  </data>
+  <data name="HomeMatch" xml:space="preserve">
+    <value>Meciul de acasă</value>
+  </data>
+  <data name="IndexAchievements" xml:space="preserve">
+    <value>De asemenea, puteți efectua activități în joc. Veți obține o varietate de monede în funcție de dificultatea dvs. Puteți cumpăra carduri pentru monede. Puteți câștiga până la 10.000 de monede datorită sarcinilor.</value>
+  </data>
+  <data name="IndexCards" xml:space="preserve">
+    <value>Cartile joaca un rol important in joc. Datorită cărților, veți obține noi jucători, manageri, diferite upgrade-uri, personaje, expoziții și multe altele. Cardurile pot fi cumpărate sau câștigate pentru meciuri.</value>
+  </data>
+  <data name="IndexCarousel1" xml:space="preserve">
+    <value>Manager de fotbal online cu carduri</value>
+  </data>
+  <data name="IndexCarousel2" xml:space="preserve">
+    <value>Joaca impotriva prietenilor</value>
+  </data>
+  <data name="IndexCarousel3" xml:space="preserve">
+    <value>Antrenează-ți jucătorii</value>
+  </data>
+  <data name="IndexCarousel4" xml:space="preserve">
+    <value>Îmbunătățiți-vă clubul</value>
+  </data>
+  <data name="IndexCarousel5" xml:space="preserve">
+    <value>Definiți ansamblul corect</value>
+  </data>
+  <data name="IndexCarousel6" xml:space="preserve">
+    <value>Construiți dinastia</value>
+  </data>
+  <data name="IndexChl" xml:space="preserve">
+    <value>Managerul care primește cele mai multe cupe cu clubul său în 2019 va câștiga 2 bilete la finala Ligii Campionilor în 2020 în Istanbul.</value>
+  </data>
+  <data name="IndexChl2" xml:space="preserve">
+    <value>Câștigați cupele pentru un concurs săptămânal. Joacă cât mai multe jocuri de liga posibil, culege puncte și câștigă câștigătorul acestei competiții, unde adversarii de același nivel stau împotriva ta. La sfârșitul concursului săptămânal vom dezlipi cupele.</value>
+  </data>
+  <data name="IndexChlTitle" xml:space="preserve">
+    <value>Câștigă 2 bilete la Liga Campionilor!</value>
+  </data>
+  <data name="IndexDescription" xml:space="preserve">
+    <value>Managerul dvs. de carieră, Club Manager 2019, tocmai a început! Deveniți cel mai bun manager și câștigați bilete pentru finala Ligii Campionilor în 2020!</value>
+  </data>
+  <data name="IndexLeagues" xml:space="preserve">
+    <value>Există 12 ligi în total. La inceput, desigur, incepeti la cel mai mic. Pentru a avansa la o ligă mai mare, aveți nevoie de un anumit număr de puncte. Cu cât este mai mare liga pe care o jucați, cu atât veți câștiga mai mult bani din meci.</value>
+  </data>
+  <data name="IndexText" xml:space="preserve">
+    <value>&lt;p class="my-text"&gt;
+            Managerul tău de carieră abia începe! Folosiți această ocazie pentru a încerca ceea ce este să conduceți echipa la început! Deveniți cel mai bun manager și câștigați bilete pentru finala Ligii Campionilor în 2020! Echipa dvs. vă așteaptă.
+        &lt;/p&gt;
+        &lt;p class="my-text"&gt;
+           Puteți juca jocul pe dispozitivele iOS și Android. Desigur, este, de asemenea, on-line în browser-ul dvs. Este clar din numele jocului că vei fi șeful clubului tău de fotbal. Imediat după înregistrare, veți obține echipa obișnuită și obiectivul dvs. este să aveți grijă de el pentru a putea prospera.
+        &lt;/p&gt;
+        &lt;p class="my-text"&gt;Întregul joc este construit pe carduri. După fiecare meci, primiți cărți care ascund noi jucători, manageri și diverse actualizări. Pachetele de cărți pot fi de asemenea cumpărate pentru bani și monede pe care le primiți și după meciurile jucate.&lt;/p&gt;</value>
+  </data>
+  <data name="IndexTextBottom" xml:space="preserve">
+    <value>&lt;h4 class="my-header text-center"&gt;Ce te așteaptă în joc?&lt;/h4&gt;
+            &lt;p class="my-text"&gt;Manager de fotbal online bazat pe carduri.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Se potrivește cu prietenii și adversarii dvs. în liga și expoziția.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Formarea și îmbunătățirea abilităților jucătorilor.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Îmbunătățirea stadionului, a facilităților de antrenament, a locurilor de joacă, a săli de sport și a organizatorilor.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Determinarea asamblării și tacticii corecte. Selectarea căpitanului și a jucătorilor pentru a juca situații standard.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Îmbunătățirea chimiei echipei pentru a concentra întreaga echipă și după fiecare meci.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Îndepliniți sarcinile pentru care primiți monede bonus. Chat direct în joc.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Achiziționați și ridicați cărți care au noi jucători, manageri și cărți necesare pentru instruire, actualizări, expoziții și multe altele.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Cercetarea de noi jucători. Nu ezitați și începeți să jucați astăzi jocul Club Manager 2019!&lt;/p&gt;</value>
+  </data>
+  <data name="IndexTitle" xml:space="preserve">
+    <value>Manager de fotbal online</value>
+  </data>
+  <data name="IndexUpgrades" xml:space="preserve">
+    <value>Îmbunătățește diferitele componente ale clubului și îmbunătățește rezultatele. Fiecare accesoriu are avantajul său, de exemplu, prin îmbunătățirea stadionului, veți obține mai multe bani în timpul meciului.</value>
+  </data>
+  <data name="League" xml:space="preserve">
+    <value>Ligă</value>
+  </data>
+  <data name="LeagueConditions" xml:space="preserve">
+    <value>condiţii</value>
+  </data>
+  <data name="LeagueMultiplierTitle" xml:space="preserve">
+    <value>Numele multiplicatorului</value>
+  </data>
+  <data name="Leagues" xml:space="preserve">
+    <value>Ligă</value>
+  </data>
+  <data name="LeaguesDesc" xml:space="preserve">
+    <value>Tabelul de mai jos arată câte puncte trebuie să câștigi pentru o ligă mai mare și câte puncte să păstrezi în ligă. De asemenea, puteți vedea ce valoare se înmulțește cu numerarul primit din meciurile din liga.</value>
+  </data>
+  <data name="LeaguesDescription" xml:space="preserve">
+    <value>Aici veți afla câte puncte aveți nevoie pentru a rămâne în liga și câte puncte să progresați în liga superioară.</value>
+  </data>
+  <data name="LeaguesOther" xml:space="preserve">
+    <value>Alți multiplicatori de numerar</value>
+  </data>
+  <data name="LeaguesUrl" xml:space="preserve">
+    <value>Liga</value>
+  </data>
+  <data name="LeagueTableTitle1" xml:space="preserve">
+    <value>Punctele necesare pentru a ține pasul în liga</value>
+  </data>
+  <data name="LeagueTableTitle2" xml:space="preserve">
+    <value>Punctele necesare pentru a continua</value>
+  </data>
+  <data name="LeagueTableTitle3" xml:space="preserve">
+    <value>Multiplicatorul de numerar</value>
+  </data>
+  <data name="Manual" xml:space="preserve">
+    <value>Instrucție</value>
+  </data>
+  <data name="ManualDescription" xml:space="preserve">
+    <value>Aici veți găsi cele mai importante informații despre jocul online al Club Manager 2019</value>
+  </data>
+  <data name="ManualText1" xml:space="preserve">
+    <value>Puteți obține noi jucători din cărți sau trimiteți cercetași, spuneți-le ce post doriți și merge pe teren pentru a căuta jucătorul. În 24 de ore el se va întoarce și îi va oferi jucătorilor care pot fi cumpărați.</value>
+  </data>
+  <data name="ManualText10" xml:space="preserve">
+    <value>Veți primi numerarul după fiecare joc pe care îl jucați, valoarea depinde de rezultatul meciului, aveți cel mai bine, desigur, câștigul, apoi remiză și cel mai puțin pentru câștig. O altă modalitate de a obține bani este de a vinde cărți.</value>
+  </data>
+  <data name="ManualText11" xml:space="preserve">
+    <value>Puteți juca mai des meciuri de ligă dacă îmbunătățiți nivelul organizatorului. Puteți juca un meci de expoziție cu cărți sau 100 de monede.</value>
+  </data>
+  <data name="ManualText2" xml:space="preserve">
+    <value>Pachetele de card pot fi obținute în mai multe moduri. La începutul jocului primiți 3 pachete de deschidere, puteți alege una la 24 de ore. O altă opțiune este să vizionați un anunț video. Această opțiune apare întotdeauna la un anumit punct. Veți primi cărți chiar și după meciurile jucate, fie liga, fie expoziția. Ultima opțiune este să cumperi carduri pentru bani sau monede. Pachetele individuale se disting prin numărul de cărți din interior și rare.</value>
+  </data>
+  <data name="ManualText3" xml:space="preserve">
+    <value>Fiecare manager preferă un aspect particular. Singura modalitate de a schimba aspectul este înlocuirea managerului. Fiecare manager are o anumită capacitate, adică suma calității tuturor celor unsprezece jucători de bază. Dacă suma depășește capacitatea managerială, chimia echipei va scădea rapid.</value>
+  </data>
+  <data name="ManualText4" xml:space="preserve">
+    <value>Chimia echipei poate varia de la 1 la 99. Cu cât echipa chimică a echipei tale este mai mare, cu atât jucătorii mai buni și managerul lucrează împreună pentru a oferi performanțe mai bune în meciuri. Chimia echipei se schimbă din următoarele motive: &lt;br/&gt;
+Schimbarea managerului - dacă schimbați un manager de echipă, chimia echipei va scădea de obicei. Pentru a ajunge la o chimie mai mare a echipei, trebuie să jucați cât mai multe jocuri posibil. &lt;br/&gt;
+Suma calităților de bază ale jucătorilor va depăși capacitatea managerului. &lt;br /&gt;
+Schimbarea raportului - Fiecare jucător are relații diferite cu chimistul echipei manageriale și echipei.</value>
+  </data>
+  <data name="ManualText5" xml:space="preserve">
+    <value>Calitatea echipei nu este singurul aspect care vă va ajuta să câștigați jocul. Este important ca un jucător să se odihnească, la un nivel ridicat de chimie a echipei, cu un manager. Desigur, trebuie să alegi o tactică bună și să identifici jucătorii potriviți pentru situația standard. Spațiul de joacă acasă și nivelul său joacă, de asemenea, o mare parte. De asemenea, puteți crește șansele dvs. trimițând echipa într-un lagăr de concentrare. Desigur, dacă aveți o alergare cu patru atacuri, probabil că aveți mai multe goluri, dar probabil că veți obține mai mulți bani.</value>
+  </data>
+  <data name="ManualText6" xml:space="preserve">
+    <value>Divinitatea jucătorului este foarte importantă în meciuri. Dacă jucătorii sunt obosiți, nu funcționează bine. Creșteți energia cu cardurile energetice. Ele sunt de două tipuri, recuperarea energiei pentru întreaga echipă și recuperarea energiei pentru un jucător. În plus, jucătorul se odihnește atunci când nu se alătură următorului meci, fie liga, fie expoziția. Prin urmare, este avantajoasă alternarea celor unsprezece de bază și salvarea principalelor lor pârghii în ligile ligii.</value>
+  </data>
+  <data name="ManualText7" xml:space="preserve">
+    <value>Fiecare jucător poate fi instruit la nivelul 50. La acest nivel, jucătorul își va îmbunătăți capacitatea cu 10 puncte. Cu cât este mai mare nivelul sală de gimnastică, cu atât mai eficient va fi antrenamentul. Antrenamentul poate fi inițiat prin utilizarea cardurilor de antrenament. Dacă doriți să accelerați formarea jucătorilor, vă veți îmbunătăți fundalul de pregătire. Dacă faceți upgrade la nivelurile 12, 25, 37 și 50, puteți instrui mai mulți jucători în același timp.</value>
+  </data>
+  <data name="ManualText8" xml:space="preserve">
+    <value>Pentru a obține mai multe cluburi în joc, nu trebuie să creați alt profil. Trebuie doar să jucați 25 de meciuri și să obțineți a doua echipă, veți reuși din nou cu echipamentul de bază. Puteți schimba cu ușurință între cluburi. Puteți avea până la 4 cluburi în joc. După ce ați jucat 100 de meciuri de ligă, veți obține 3-a Club. Apoi, după 250 de jocuri de ligă, al 4-lea club.</value>
+  </data>
+  <data name="ManualText9" xml:space="preserve">
+    <value>Puteți cumpăra monede în bani reali cu bani reali. O altă opțiune este urmarea sau menținerea în liga. Cea mai bună opțiune este realizarea realizărilor. Aici puteți obține până la 10.000 de monede libere! De asemenea, puteți invita prietenii să se alăture jocului, iar oricine se alătură jocului primește 50 de monede!</value>
+  </data>
+  <data name="ManualTitle" xml:space="preserve">
+    <value>Instrucțiuni pentru joc Club Manager 2019</value>
+  </data>
+  <data name="ManualTitle1" xml:space="preserve">
+    <value>Cum să obțineți noi jucători</value>
+  </data>
+  <data name="ManualTitle10" xml:space="preserve">
+    <value>Obținerea de numerar</value>
+  </data>
+  <data name="ManualTitle11" xml:space="preserve">
+    <value>Cum se joacă un joc mai des</value>
+  </data>
+  <data name="ManualTitle2" xml:space="preserve">
+    <value>Cum să obțineți pachetele de carduri</value>
+  </data>
+  <data name="ManualTitle3" xml:space="preserve">
+    <value>Schimbarea aspectului</value>
+  </data>
+  <data name="ManualTitle4" xml:space="preserve">
+    <value>Chimie de echipă</value>
+  </data>
+  <data name="ManualTitle5" xml:space="preserve">
+    <value>Cum este posibil ca echipa să fi pierdut chiar dacă era de o calitate superioară</value>
+  </data>
+  <data name="ManualTitle6" xml:space="preserve">
+    <value>Cum de a crește energia jucătorilor</value>
+  </data>
+  <data name="ManualTitle7" xml:space="preserve">
+    <value>Cum să vă îmbunătățiți jucătorii</value>
+  </data>
+  <data name="ManualTitle8" xml:space="preserve">
+    <value>Obținerea mai multor cluburi</value>
+  </data>
+  <data name="ManualTitle9" xml:space="preserve">
+    <value>Obținerea de monede</value>
+  </data>
+  <data name="ManualUrl" xml:space="preserve">
+    <value>Instructie</value>
+  </data>
+  <data name="Multiplier1" xml:space="preserve">
+    <value>Multiplicatorul depinde de nivelul stadionului</value>
+  </data>
+  <data name="Multiplier2" xml:space="preserve">
+    <value>Se aplică tuturor tipurilor de potrivire</value>
+  </data>
+  <data name="Multiplier3" xml:space="preserve">
+    <value>Multiplicatorul depinde de setarea evenimentului</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>alte</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Joaca</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>precedent</value>
+  </data>
+  <data name="Upgrades" xml:space="preserve">
+    <value>Îmbunătățiri</value>
+  </data>
+</root>

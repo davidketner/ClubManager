@@ -1,0 +1,12 @@
+C:\Users\ketne\source\repos\ClubManager\ClubManager.Data\bin\Release\netcoreapp2.2\ClubManager.Data.deps.json
+C:\Users\ketne\source\repos\ClubManager\ClubManager.Data\bin\Release\netcoreapp2.2\ClubManager.Data.dll
+C:\Users\ketne\source\repos\ClubManager\ClubManager.Data\bin\Release\netcoreapp2.2\ClubManager.Data.pdb
+C:\Users\ketne\source\repos\ClubManager\ClubManager.Data\bin\Release\netcoreapp2.2\UtilityLibrary.dll
+C:\Users\ketne\source\repos\ClubManager\ClubManager.Data\bin\Release\netcoreapp2.2\UtilityLibrary.pdb
+C:\Users\ketne\source\repos\ClubManager\ClubManager.Data\obj\Release\netcoreapp2.2\ClubManager.Data.csprojAssemblyReference.cache
+C:\Users\ketne\source\repos\ClubManager\ClubManager.Data\obj\Release\netcoreapp2.2\ClubManager.Data.csproj.CoreCompileInputs.cache
+C:\Users\ketne\source\repos\ClubManager\ClubManager.Data\obj\Release\netcoreapp2.2\ClubManager.Data.AssemblyInfoInputs.cache
+C:\Users\ketne\source\repos\ClubManager\ClubManager.Data\obj\Release\netcoreapp2.2\ClubManager.Data.AssemblyInfo.cs
+C:\Users\ketne\source\repos\ClubManager\ClubManager.Data\obj\Release\netcoreapp2.2\ClubManager.Data.csproj.CopyComplete
+C:\Users\ketne\source\repos\ClubManager\ClubManager.Data\obj\Release\netcoreapp2.2\ClubManager.Data.dll
+C:\Users\ketne\source\repos\ClubManager\ClubManager.Data\obj\Release\netcoreapp2.2\ClubManager.Data.pdb

@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="5-streakWin" xml:space="preserve">
+    <value>Bonus 5 vinster i rad</value>
+  </data>
+  <data name="Achievements" xml:space="preserve">
+    <value>Prestationer</value>
+  </data>
+  <data name="Cards" xml:space="preserve">
+    <value>Kort</value>
+  </data>
+  <data name="ChampionsLeague" xml:space="preserve">
+    <value>Champions League</value>
+  </data>
+  <data name="Coins" xml:space="preserve">
+    <value>Mynt</value>
+  </data>
+  <data name="CoinsDescription" xml:space="preserve">
+    <value>Så här får du gratis mynt. Mynt är viktiga i spelet, försök att få ut det mesta av dem!</value>
+  </data>
+  <data name="CoinsText" xml:space="preserve">
+    <value>&lt;p class="my-text"&gt;Mynt spelar en viktig roll, de kan köpa kort, spela utställningsspel och använda dem för att påskynda. Mynt kan givetvis köpas för riktiga pengar, jag rekommenderar att du köper ett välkomstpaket som är billigt och ger ett antal fördelar till början av spelet.&lt;/p&gt;
+                &lt;p class="my-text"&gt;Det finns dock andra möjligheter att få mynt i spelet gratis. Här är de bästa sätten:&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;registrering&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Omedelbart efter registrering får du 250 mynt!&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;Bjud in dina vänner&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Bjud in dina vänner till Club Manager 2019 och få 50 gratis mynt för varje vän som kommer att delta i spelet!&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;prestationer&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Det finns prestationer i spelet, som när du gör, får du en mängd mynt enligt svårigheten. Du kan tjäna upp till 10 000 mynt tack vare uppgifterna.&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;Prestationer i ligan&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Spela league-spel och försök att lyckas med dem! Om du flyttar till en högre liga får du 25 mynt. Om du håller ligan minst får du 10 mynt.&lt;/p&gt;</value>
+  </data>
+  <data name="CoinsUrl" xml:space="preserve">
+    <value>Mynt</value>
+  </data>
+  <data name="EventBonus" xml:space="preserve">
+    <value>Event Bonus</value>
+  </data>
+  <data name="FirstDayWin" xml:space="preserve">
+    <value>Första dagvinnan</value>
+  </data>
+  <data name="FreeCoins" xml:space="preserve">
+    <value>Mynt gratis</value>
+  </data>
+  <data name="HomeMatch" xml:space="preserve">
+    <value>Hem match</value>
+  </data>
+  <data name="IndexAchievements" xml:space="preserve">
+    <value>Du kan också utföra uppgifter i spelet. Du kommer att få en mängd mynt enligt din svårighet. Du kan köpa kort för mynt. Du kan tjäna upp till 10 000 mynt tack vare uppgifterna.</value>
+  </data>
+  <data name="IndexCards" xml:space="preserve">
+    <value>Kort spelar en viktig roll i spelet. Tack vare korten får du nya spelare, chefer, olika uppgraderingar, karaktärer, utställningar och mycket mer. Kort kan köpas eller vunnas för matcher.</value>
+  </data>
+  <data name="IndexCarousel1" xml:space="preserve">
+    <value>Online fotbollschef med kort</value>
+  </data>
+  <data name="IndexCarousel2" xml:space="preserve">
+    <value>Spela mot vänner</value>
+  </data>
+  <data name="IndexCarousel3" xml:space="preserve">
+    <value>Träna dina spelare</value>
+  </data>
+  <data name="IndexCarousel4" xml:space="preserve">
+    <value>Förbättra din klubb</value>
+  </data>
+  <data name="IndexCarousel5" xml:space="preserve">
+    <value>Definiera rätt montering</value>
+  </data>
+  <data name="IndexCarousel6" xml:space="preserve">
+    <value>Bygg dynastin</value>
+  </data>
+  <data name="IndexChl" xml:space="preserve">
+    <value>Chefen som får de flesta kopparna med sin klubb år 2019 kommer att vinna 2 biljetter till Champions League-finalen 2020 i Istanbul.</value>
+  </data>
+  <data name="IndexChl2" xml:space="preserve">
+    <value>Du vinner kopparna för en veckotävling. Spela så många league-spel som möjligt, samla poäng och bli vinnare av denna tävling, där motståndare på en liknande nivå står emot dig. Vid slutet av veckokonkurrensen kommer vi att avyttra kopparna.</value>
+  </data>
+  <data name="IndexChlTitle" xml:space="preserve">
+    <value>Vinn 2 biljetter till Champions League!</value>
+  </data>
+  <data name="IndexDescription" xml:space="preserve">
+    <value>Din karriärchef, Club Manager 2019, har precis börjat! Bli den bästa chefen och vinn biljetter till Champions League Final i 2020!</value>
+  </data>
+  <data name="IndexLeagues" xml:space="preserve">
+    <value>Det finns totalt 12 ligor. I början börjar du naturligtvis på lägst. För att avancera till en högre liga behöver du ett visst antal poäng. Ju högre ligan du spelar desto mer pengar får du från matchen.</value>
+  </data>
+  <data name="IndexText" xml:space="preserve">
+    <value>&lt;p class="my-text"&gt;
+            Din karriärchef har precis börjat! Ta tillfället i akt att pröva hur det är att leda laget till toppen! Bli den bästa chefen och vinn biljetter till Champions League Final i 2020! Ditt lag väntar på dig.
+        &lt;/p&gt;
+        &lt;p class="my-text"&gt;
+            Du kan spela spelet på dina iOS- och Android-enheter. Naturligtvis är det också online i din webbläsare. Det är tydligt från namnet på spelet att du kommer att vara chef för din fotbollsklubb. Strax efter att du registrerat dig får du ditt vanliga lag och ditt mål är att ta hand om honom så att han kan lyckas.
+        &lt;/p&gt;
+        &lt;p class="my-text"&gt;Hela spelet är byggt på kort. Efter varje match får du kort som gömmer nya spelare, chefer och olika uppgraderingar. Kortpaket kan också köpas för pengar och mynt som du får också efter matcherna som spelats.&lt;/p&gt;</value>
+  </data>
+  <data name="IndexTextBottom" xml:space="preserve">
+    <value>&lt;h4 class="my-header text-center"&gt;Vad väntar på dig i spelet?&lt;/h4&gt;
+            &lt;p class="my-text"&gt;Online fotbollschef baserad på kort.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Matchar mot dina vänner och motståndare i liga och utställning.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Utbildning och förbättring av spelarnas färdigheter.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Förbättra din stadion, träningsanläggningar, lekplatser, gym och arrangörer.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Bestämning av rätt montering och taktik. Val av kapten och spelare för att spela standard situationer.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Förbättra lagkemi för att koncentrera hela laget och efter varje match.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Uppfyller de uppgifter för vilka du får bonusmynt. Chatta precis i spelet.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Köp och hämta kort som har nya spelare, chefer och kort som behövs för träning, uppgraderingar, utställningar och många andra.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Scouting av nya spelare. Tveka inte och börja spela online-spel Club Manager 2019 idag!&lt;/p&gt;</value>
+  </data>
+  <data name="IndexTitle" xml:space="preserve">
+    <value>Online fotbollchef</value>
+  </data>
+  <data name="IndexUpgrades" xml:space="preserve">
+    <value>Förbättrar klubbens olika delar och förbättrar resultaten. Varje förbättring har sin fördel, till exempel genom att förbättra stadion, får du mer pengar under matchen.</value>
+  </data>
+  <data name="League" xml:space="preserve">
+    <value>Liga</value>
+  </data>
+  <data name="LeagueConditions" xml:space="preserve">
+    <value>förhållanden</value>
+  </data>
+  <data name="LeagueMultiplierTitle" xml:space="preserve">
+    <value>Multiplikatorns namn</value>
+  </data>
+  <data name="Leagues" xml:space="preserve">
+    <value>Liga</value>
+  </data>
+  <data name="LeaguesDesc" xml:space="preserve">
+    <value>Tabellen nedan visar hur många poäng du behöver tjäna för en högre liga och hur många poäng som ska behållas i ligan. Du kan också se vilket värde som multipliceras med de pengar som tas emot från ligan matchningar.</value>
+  </data>
+  <data name="LeaguesDescription" xml:space="preserve">
+    <value>Här kommer du att lära dig hur många poäng du behöver för att ligga i ligan och hur många poäng du ska gå vidare till högre ligan.</value>
+  </data>
+  <data name="LeaguesOther" xml:space="preserve">
+    <value>Andra kontantmultiplikatorer</value>
+  </data>
+  <data name="LeaguesUrl" xml:space="preserve">
+    <value>Liga</value>
+  </data>
+  <data name="LeagueTableTitle1" xml:space="preserve">
+    <value>Poäng som behövs för att hålla sig i ligan</value>
+  </data>
+  <data name="LeagueTableTitle2" xml:space="preserve">
+    <value>Poäng som behövs för att fortsätta</value>
+  </data>
+  <data name="LeagueTableTitle3" xml:space="preserve">
+    <value>Cash multiplikator</value>
+  </data>
+  <data name="Manual" xml:space="preserve">
+    <value>Instruktion</value>
+  </data>
+  <data name="ManualDescription" xml:space="preserve">
+    <value>Här hittar du den viktigaste informationen om Club Manager 2019s onlinespel</value>
+  </data>
+  <data name="ManualText1" xml:space="preserve">
+    <value>Du kan få nya spelare från kort eller skicka spejder, berätta för dem vad du söker efter, och han går till fältet för att leta efter spelaren. På 24 timmar kommer han att återvända och erbjuda de spelare som kan köpas.</value>
+  </data>
+  <data name="ManualText10" xml:space="preserve">
+    <value>Du får pengarna efter varje spel du spelar, värdet beror på resultatet av matchen, du har mest givetvis vinsten, då roten och minst för vinsten. Ett annat sätt att få pengar är att sälja kort.</value>
+  </data>
+  <data name="ManualText11" xml:space="preserve">
+    <value>Du kan spela league matcher oftare om du förbättrar din organisatörs nivå. Du kan spela en utställnings match med kort eller 100 mynt.</value>
+  </data>
+  <data name="ManualText2" xml:space="preserve">
+    <value>Kortpaket kan erhållas på flera sätt. I början av spelet får du 3 öppningspaket, du kan hämta en var 24: e timme. Ett annat alternativ är att titta på en annonsvideo. Det här alternativet visas alltid vid en viss punkt. Du får kort även efter matcherna, oavsett liga eller utställning. Det sista alternativet är att köpa kort för pengar eller mynt. Individuella paket kännetecknas av antalet kort inuti och knappa.</value>
+  </data>
+  <data name="ManualText3" xml:space="preserve">
+    <value>Varje chef föredrar en viss layout. Det enda sättet att ändra layouten är att ersätta chefen. Varje chef har en viss kapacitet, det vill säga summan av kvaliteten på alla grundläggande elva spelare. Om summan överstiger ledningskapaciteten kommer lagkemin att minska snabbt.</value>
+  </data>
+  <data name="ManualText4" xml:space="preserve">
+    <value>Lagkemi kan variera från 1 till 99. Ju högre lagets lagkemi, desto bättre spelare och chefen arbetar tillsammans för att ge bättre prestanda i matcher. Teamkemi ändras av följande skäl: &lt;br/&gt;
+Manager Change - Om du ändrar en lagledare kommer lagkemi vanligen att minska. För att nå en högre lagkemi måste du spela så många spel som möjligt. &lt;br/&gt;
+Summan av spelarnas grundläggande egenskaper kommer att överstiga förvaltarens kapacitet. &lt;br /&gt;
+Ändring av rapport - Varje spelare har olika relationer med manager och lagslagskemi.</value>
+  </data>
+  <data name="ManualText5" xml:space="preserve">
+    <value>Lagkvalitet är inte den enda aspekten som hjälper dig att vinna spelet. Det är viktigt att ha en spelare vilad, till en hög lagkemi med en chef. Självklart måste du välja en bra taktik och identifiera rätt spelare för standardläget. Hemmets lekplats och dess nivå spelar också en stor roll. Du kan också öka dina chanser genom att skicka laget till ett koncentrationsläger. Självklart har du förvisso fler mål, om du har en fyra-attack, men du får nog mer pengar.</value>
+  </data>
+  <data name="ManualText6" xml:space="preserve">
+    <value>Spelarens oddity är mycket viktigt i matcher. Om spelarna är trötta, fungerar de inte bra. Öka energi med energikort. De är av två typer, energiåtervinning för hela laget och energiåtervinning för en spelare. Dessutom vilar spelaren när han inte går med i nästa match, antingen liga eller utställning. Det är därför fördelaktigt att byta sina grundläggande elva och att rädda sina huvudspärrar i liga ligor.</value>
+  </data>
+  <data name="ManualText7" xml:space="preserve">
+    <value>Varje spelare kan träna till 50: e nivå. På denna nivå kommer spelaren att förbättra sin förmåga med 10 poäng. Ju högre nivå ditt gym kommer att ha desto effektivare blir träningen. Träning kan startas med träningskort. Om du vill påskynda träning av spelare kommer du att förbättra din träningsbakgrund. Om du uppgraderar den till 12, 25, 37 och 50 nivåer kan du träna flera spelare samtidigt.</value>
+  </data>
+  <data name="ManualText8" xml:space="preserve">
+    <value>För att få fler klubbar i spelet behöver du inte skapa en annan profil. Du behöver bara spela 25 matcher och få det andra laget, du kommer att få det igen med den grundläggande utrustningen. Du kan enkelt växla mellan klubbarna. Du kan ha upp till 4 klubbar i spelet. Efter att ha spelat 100 ligamatcher får du 3rd Club. Sedan, efter 250 league-spel, den 4: e klubben.</value>
+  </data>
+  <data name="ManualText9" xml:space="preserve">
+    <value>Du kan köpa mynt i riktiga pengar med riktiga pengar. Ett annat alternativ är att följa eller behålla i ligan. Det bästa alternativet är att uppnå prestationerna. Här kan du få upp till 10 000 gratis mynt! Du kan också bjuda in dina vänner att gå med i spelet, och alla som går med i spelet får 50 mynt!</value>
+  </data>
+  <data name="ManualTitle" xml:space="preserve">
+    <value>Instruktioner för spelet Club Manager 2019</value>
+  </data>
+  <data name="ManualTitle1" xml:space="preserve">
+    <value>Så får man nya spelare</value>
+  </data>
+  <data name="ManualTitle10" xml:space="preserve">
+    <value>Få pengar</value>
+  </data>
+  <data name="ManualTitle11" xml:space="preserve">
+    <value>Hur man spelar ett spel oftare</value>
+  </data>
+  <data name="ManualTitle2" xml:space="preserve">
+    <value>Så här får du kortpaket</value>
+  </data>
+  <data name="ManualTitle3" xml:space="preserve">
+    <value>Ändrar layout</value>
+  </data>
+  <data name="ManualTitle4" xml:space="preserve">
+    <value>Team kemi</value>
+  </data>
+  <data name="ManualTitle5" xml:space="preserve">
+    <value>Hur är det möjligt att laget förlorade även om det var av högre kvalitet</value>
+  </data>
+  <data name="ManualTitle6" xml:space="preserve">
+    <value>Hur man ökar Player Energy</value>
+  </data>
+  <data name="ManualTitle7" xml:space="preserve">
+    <value>Så här förbättrar du dina spelare</value>
+  </data>
+  <data name="ManualTitle8" xml:space="preserve">
+    <value>Få fler klubbar</value>
+  </data>
+  <data name="ManualTitle9" xml:space="preserve">
+    <value>Få mynt</value>
+  </data>
+  <data name="ManualUrl" xml:space="preserve">
+    <value>Instruktion</value>
+  </data>
+  <data name="Multiplier1" xml:space="preserve">
+    <value>Multiplikatorn beror på stadionens nivå</value>
+  </data>
+  <data name="Multiplier2" xml:space="preserve">
+    <value>Gäller alla matchtyper</value>
+  </data>
+  <data name="Multiplier3" xml:space="preserve">
+    <value>Multiplikatorn beror på händelseinställningen</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>andra</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Spela</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>föregående</value>
+  </data>
+  <data name="Upgrades" xml:space="preserve">
+    <value>Förbättringar</value>
+  </data>
+</root>

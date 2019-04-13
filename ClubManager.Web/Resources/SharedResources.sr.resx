@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="5-streakWin" xml:space="preserve">
+    <value>Bonus 5 dobitaka zaredom</value>
+  </data>
+  <data name="Achievements" xml:space="preserve">
+    <value>Dostignuća</value>
+  </data>
+  <data name="Cards" xml:space="preserve">
+    <value>Kartice</value>
+  </data>
+  <data name="ChampionsLeague" xml:space="preserve">
+    <value>Champions League</value>
+  </data>
+  <data name="Coins" xml:space="preserve">
+    <value>Kovanice</value>
+  </data>
+  <data name="CoinsDescription" xml:space="preserve">
+    <value>Evo kako možete dobiti besplatne kovanice. Kovanice su važne u igri, pokušajte da izvučete maksimum iz njih!</value>
+  </data>
+  <data name="CoinsText" xml:space="preserve">
+    <value>&lt;p class="my-text"&gt;Kovanice igraju važnu ulogu, mogu da kupe karte, igraju izložbene igre i koriste ih da ubrzaju. Kovanice se, naravno, mogu kupiti za pravi novac, preporučujem da kupite paket dobrodošlice koji je jeftin i donosi brojne pogodnosti na početku igre.&lt;/p&gt;
+                &lt;p class="my-text"&gt;Međutim, postoje i druge mogućnosti za dobijanje novca u igri besplatno. Evo najboljih načina:&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;Registracija&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Odmah nakon registracije dobićete 250 novčića!&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;Pozovite prijatelje&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Pozovite prijatelje u Club Manager 2019 i uzmite 50 besplatnih kovanica za svakog prijatelja koji će se pridružiti igri!&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;Dostignuća&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Postoje dostignuća u igri koja, kada to uradite, dobijate razne kovanice prema težini. Zahvaljujući zadacima možete zaraditi do 10.000 novčića.&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;Dostignuća u ligi&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Igrajte ligaške utakmice i pokušajte da uspete u njima! Ako se preselite u višu ligu, dobićete 25 kovanica. Ako barem zadržiš ligu, dobijaš 10 kovanica.&lt;/p&gt;</value>
+  </data>
+  <data name="CoinsUrl" xml:space="preserve">
+    <value>Kovanice</value>
+  </data>
+  <data name="EventBonus" xml:space="preserve">
+    <value>Bonus za događaj</value>
+  </data>
+  <data name="FirstDayWin" xml:space="preserve">
+    <value>Prvi dan pobede</value>
+  </data>
+  <data name="FreeCoins" xml:space="preserve">
+    <value>Coins for free</value>
+  </data>
+  <data name="HomeMatch" xml:space="preserve">
+    <value>Home match</value>
+  </data>
+  <data name="IndexAchievements" xml:space="preserve">
+    <value>Takođe možete obavljati zadatke u igri. Vi ćete dobiti razne kovanice prema vašim teškoćama. Možete kupiti kartice za kovanice. Zahvaljujući zadacima možete zaraditi do 10.000 novčića.</value>
+  </data>
+  <data name="IndexCards" xml:space="preserve">
+    <value>Karte igraju važnu ulogu u igri. Zahvaljujući kartama dobijate nove igrače, menadžere, razne nadogradnje, likove, izložbe i još mnogo toga. Karte se mogu kupiti ili osvojiti za utakmice.</value>
+  </data>
+  <data name="IndexCarousel1" xml:space="preserve">
+    <value>Online fudbalski menadžer sa kartama</value>
+  </data>
+  <data name="IndexCarousel2" xml:space="preserve">
+    <value>Igrajte protiv prijatelja</value>
+  </data>
+  <data name="IndexCarousel3" xml:space="preserve">
+    <value>Trenirajte svoje igrače</value>
+  </data>
+  <data name="IndexCarousel4" xml:space="preserve">
+    <value>Poboljšajte svoj klub</value>
+  </data>
+  <data name="IndexCarousel5" xml:space="preserve">
+    <value>Definišite ispravan sklop</value>
+  </data>
+  <data name="IndexCarousel6" xml:space="preserve">
+    <value>Izgradite Dinastiju</value>
+  </data>
+  <data name="IndexChl" xml:space="preserve">
+    <value>Menadžer koji sa svojim klubom dobije najviše kupova 2019. godine osvojit će 2 karte za finale Lige prvaka u Istanbulu 2020. godine.</value>
+  </data>
+  <data name="IndexChl2" xml:space="preserve">
+    <value>Osvajate kupove za nedeljni konkurs. Igrajte što više ligaških utakmica, sakupljajte bodove i postanite pobednik ovog takmičenja, gde protivnici sličnog nivoa stoje protiv vas. Na kraju nedeljnog takmičenja oslobodićemo čaše.</value>
+  </data>
+  <data name="IndexChlTitle" xml:space="preserve">
+    <value>Osvojite 2 karte za Ligu Šampiona!</value>
+  </data>
+  <data name="IndexDescription" xml:space="preserve">
+    <value>Vaš menadžer karijere, Club Manager 2019, tek počinje! Postanite najbolji menadžer i osvojite ulaznice za finale Lige Šampiona u 2020. godini!</value>
+  </data>
+  <data name="IndexLeagues" xml:space="preserve">
+    <value>Ukupno ima 12 liga. U početku, naravno, počinjete na najnižoj. Da biste napredovali u višu ligu, potreban vam je određeni broj poena. Što je viša liga koju igrate, više novca dobijate od utakmice.</value>
+  </data>
+  <data name="IndexText" xml:space="preserve">
+    <value>&lt;p class="my-text"&gt;
+            Tvoj karijerni menadžer tek počinje! Iskoristite priliku da isprobate kako je to da vodite tim na vrh! Postanite najbolji menadžer i osvojite ulaznice za finale Lige Šampiona u 2020. godini! Vaš tim vas čeka.
+        &lt;/p&gt;
+        &lt;p class="my-text"&gt;
+            Možete igrati igru na svojim iOS i Android uređajima. Naravno, to je i online u vašem pretraživaču. Jasno je iz imena igre da ćete biti šef vašeg fudbalskog kluba. Odmah nakon registracije, dobićete svog običnog tima i vaš cilj je da se brinete o njemu kako bi on mogao napredovati.
+        &lt;/p&gt;
+        &lt;p class="my-text"&gt;Cela igra je izgrađena na kartama. Nakon svakog meča dobijate kartice koje sakrivaju nove igrače, menadžere i razne nadogradnje. Kartice se takođe mogu kupiti za novac i kovanice koje takođe dobijate nakon odigranih utakmica.&lt;/p&gt;</value>
+  </data>
+  <data name="IndexTextBottom" xml:space="preserve">
+    <value>&lt;h4 class="my-header text-center"&gt;Šta vas čeka u igri?&lt;/h4&gt;
+            &lt;p class="my-text"&gt;Online fudbalski menadžer zasnovan na kartama.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Utakmice protiv vaših prijatelja i protivnika u ligi i izložbi.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Obuka i poboljšanje veština vaših igrača.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Poboljšajte svoj stadion, objekte za obuku, igrališta, teretane i organizatore.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Određivanje pravilnog sastava i taktike. Izbor kapetana i igrača za igranje standardnih situacija.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Poboljšanje hemije tima kako bi se koncentrisao cijeli tim i nakon svakog meča.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Ispunjavanje zadataka za koje dobijate bonus novčiće. Chat pravo u igri.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Kupite i pokupite kartice koje imaju nove igrače, menadžere i kartice potrebne za obuku, nadogradnju, izložbe i mnoge druge.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Izviđanje novih igrača. Ne oklevajte i počnite da igrate online Club Manager 2019!&lt;/p&gt;</value>
+  </data>
+  <data name="IndexTitle" xml:space="preserve">
+    <value>Online fudbalski menadžer</value>
+  </data>
+  <data name="IndexUpgrades" xml:space="preserve">
+    <value>Poboljšava različite komponente kluba i poboljšava rezultate. Svako poboljšanje ima svoju prednost, na primer, poboljšanjem stadiona, dobijate više gotovine tokom utakmice.</value>
+  </data>
+  <data name="League" xml:space="preserve">
+    <value>League</value>
+  </data>
+  <data name="LeagueConditions" xml:space="preserve">
+    <value>Uslovi</value>
+  </data>
+  <data name="LeagueMultiplierTitle" xml:space="preserve">
+    <value>Ime množitelja</value>
+  </data>
+  <data name="Leagues" xml:space="preserve">
+    <value>Leagues</value>
+  </data>
+  <data name="LeaguesDesc" xml:space="preserve">
+    <value>Tabela ispod pokazuje koliko bodova morate zaraditi za višu ligu i koliko bodova morate zadržati u ligi. Takođe možete videti koja je vrednost pomnožena sa gotovinom primljenom od ligaških utakmica.</value>
+  </data>
+  <data name="LeaguesDescription" xml:space="preserve">
+    <value>Ovde ćete saznati koliko bodova treba da ostanete u ligi i koliko bodova napredujete u višu ligu.</value>
+  </data>
+  <data name="LeaguesOther" xml:space="preserve">
+    <value>Ostali gotovinski multiplikatori</value>
+  </data>
+  <data name="LeaguesUrl" xml:space="preserve">
+    <value>Leagues</value>
+  </data>
+  <data name="LeagueTableTitle1" xml:space="preserve">
+    <value>Bodovi su potrebni za održavanje lige</value>
+  </data>
+  <data name="LeagueTableTitle2" xml:space="preserve">
+    <value>Bodovi potrebni za nastavak</value>
+  </data>
+  <data name="LeagueTableTitle3" xml:space="preserve">
+    <value>Cash multiplier</value>
+  </data>
+  <data name="Manual" xml:space="preserve">
+    <value>Упутства</value>
+  </data>
+  <data name="ManualDescription" xml:space="preserve">
+    <value>Ovde ćete naći najvažnije informacije o online igri Club Managera 2019. \ t</value>
+  </data>
+  <data name="ManualText1" xml:space="preserve">
+    <value>Možete dobiti nove igrače sa karata ili poslati izviđače, reći im koji post ste tražili, i on odlazi na polje da traži igrača. Za 24 sata će se vratiti i ponuditi igrače koji se mogu kupiti.</value>
+  </data>
+  <data name="ManualText10" xml:space="preserve">
+    <value>Novac dobijate nakon svake igre koju igrate, vrijednost zavisi od ishoda utakmice, imate najviše, naravno, pobjedu, zatim izvlačenje i najmanje za pobjedu. Drugi način da dobijete novac je da prodajete kartice.</value>
+  </data>
+  <data name="ManualText11" xml:space="preserve">
+    <value>Ligaške utakmice možete češće igrati ako poboljšate nivo organizatora. Možete igrati izlagački meč sa karticama ili sa 100 kovanica.</value>
+  </data>
+  <data name="ManualText2" xml:space="preserve">
+    <value>Paketi kartica mogu se dobiti na nekoliko načina. Na početku igre dobijate 3 otvarajuća paketa, možete ih pokupiti svakih 24 sata. Druga opcija je da pogledate video oglas. Ova opcija se uvek pojavljuje u određenoj tački. Dobijate karte čak i nakon odigranih utakmica, bilo da su u pitanju liga ili izložba. Poslednja opcija je da kupite kartice za novac ili kovanice. Pojedinačni paketi se razlikuju po broju kartica unutar i oskudnim.</value>
+  </data>
+  <data name="ManualText3" xml:space="preserve">
+    <value>Svaki menadžer preferira određeni raspored. Jedini način da promenite izgled je da zamenite menadžera. Svaki menadžer ima određeni kapacitet, odnosno zbir kvaliteta svih osnovnih igrača. Ako suma premaši menadžerski kapacitet, timska hemija će se brzo smanjiti.</value>
+  </data>
+  <data name="ManualText4" xml:space="preserve">
+    <value>Timska hemija može da se kreće od 1 do 99. Što je hemija tima više tim, bolji igrači i menadžer rade zajedno da daju bolje performanse u utakmicama. Hemijski tim se menja iz sledećih razloga: &lt;br/&gt;
+Menadžer Promene - Ako promenite menadžera tima, hemija tima će se obično smanjivati. Da biste postigli viši timski tim, morate igrati što više igara. &lt;br/&gt;
+Zbroj osnovnih kvaliteta igrača će premašiti kapacitet menadžera. &lt;br /&gt;
+Promena izveštaja - Svaki igrač ima različite odnose sa menadžmentom i timskom ekipom.</value>
+  </data>
+  <data name="ManualText5" xml:space="preserve">
+    <value>Kvalitet tima nije jedini aspekt koji će vam pomoći da osvojite igru. Važno je da igrač ima odmor, da ima visok timski tim sa menadžerom. Naravno, morate odabrati dobru taktiku i identificirati prave igrače za standardnu situaciju. Domaće igralište i njegov nivo takođe igraju veliku ulogu. Takođe možete povećati svoje šanse slanjem tima u koncentracioni logor. Naravno, ako imate četiri napada, verovatno imate više golova, ali verovatno dobijate više novca.</value>
+  </data>
+  <data name="ManualText6" xml:space="preserve">
+    <value>Čudnost igrača je veoma važna u utakmicama. Ako su igrači umorni, ne igraju dobro. Povećajte energiju sa energetskim karticama. Oni su dva tipa, energetski oporavak za ceo tim i oporavak energije za jednog igrača. Pored toga, igrač se odmara kada se ne pridruži sledećoj utakmici, ni ligi ni izložba. Stoga je korisno izmijeniti osnovnu jedanaesticu i sačuvati njihove glavne poluge u ligaškim ligama.</value>
+  </data>
+  <data name="ManualText7" xml:space="preserve">
+    <value>Svaki igrač može biti treniran do 50. nivoa. Na ovom nivou, igrač će poboljšati svoju sposobnost za 10 poena. Što je viši nivo koji će imati teretana, to će vaš trening biti efikasniji. Trening se može započeti koristeći kartice za obuku. Ako želite da ubrzate trening igrača, poboljšaćete svoju pozadinu treninga. Ako ga nadogradite na 12., 25., 37. i 50. nivo, možete trenirati više igrača istovremeno.</value>
+  </data>
+  <data name="ManualText8" xml:space="preserve">
+    <value>Da biste dobili više klubova u igri, ne morate kreirati drugi profil. Morate odigrati samo 25 utakmica i dobiti drugu ekipu, dobićete je ponovo sa osnovnom opremom. Lako se možete prebacivati između klubova. U igri možete imati do 4 kluba, nakon što odigrate 100 utakmica, dobićete treći klub. Onda, posle 250 utakmica u ligi, 4. klub.</value>
+  </data>
+  <data name="ManualText9" xml:space="preserve">
+    <value>Novac možete kupiti u pravom novcu sa pravim novcem. Druga opcija je da pratite ili održavate u ligi. Najbolja opcija je postići postignuća. Ovde možete dobiti do 10.000 besplatnih kovanica! Možete pozvati i svoje prijatelje da se pridruže igri, a svako ko se pridruži igri dobija 50 kovanica!</value>
+  </data>
+  <data name="ManualTitle" xml:space="preserve">
+    <value>Uputstva za igru Club Manager 2019</value>
+  </data>
+  <data name="ManualTitle1" xml:space="preserve">
+    <value>Kako doći do novih igrača</value>
+  </data>
+  <data name="ManualTitle10" xml:space="preserve">
+    <value>Dobijam novac</value>
+  </data>
+  <data name="ManualTitle11" xml:space="preserve">
+    <value>Kako češće igrati igru</value>
+  </data>
+  <data name="ManualTitle2" xml:space="preserve">
+    <value>Kako dobiti pakete kartica</value>
+  </data>
+  <data name="ManualTitle3" xml:space="preserve">
+    <value>Promena izgleda</value>
+  </data>
+  <data name="ManualTitle4" xml:space="preserve">
+    <value>Team chemistri</value>
+  </data>
+  <data name="ManualTitle5" xml:space="preserve">
+    <value>Kako je moguće da je tim izgubio čak i ako je bio kvalitetniji</value>
+  </data>
+  <data name="ManualTitle6" xml:space="preserve">
+    <value>Kako povećati energiju igrača</value>
+  </data>
+  <data name="ManualTitle7" xml:space="preserve">
+    <value>Kako poboljšati svoje igrače</value>
+  </data>
+  <data name="ManualTitle8" xml:space="preserve">
+    <value>Dobijam više klubova</value>
+  </data>
+  <data name="ManualTitle9" xml:space="preserve">
+    <value>Dobijam kovanice</value>
+  </data>
+  <data name="ManualUrl" xml:space="preserve">
+    <value>Uputstva</value>
+  </data>
+  <data name="Multiplier1" xml:space="preserve">
+    <value>Multiplikator zavisi od nivoa stadiona</value>
+  </data>
+  <data name="Multiplier2" xml:space="preserve">
+    <value>Primenjuje se na sve tipove podudaranja</value>
+  </data>
+  <data name="Multiplier3" xml:space="preserve">
+    <value>Množitelj zavisi od podešavanja događaja</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Sledeći</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Igra</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Upgrades" xml:space="preserve">
+    <value>Poboljšanja</value>
+  </data>
+</root>

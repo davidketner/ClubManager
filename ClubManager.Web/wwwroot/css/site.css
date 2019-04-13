@@ -1,0 +1,116 @@
+﻿html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    background: url(../images/background-cm.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.428571429;
+    color: #333333;
+}
+
+.body-content {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.navbar-brand {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+}
+
+.navbar-my {
+    border: solid 2px black;
+    box-shadow: 0 10px 15px 0 rgba(0,0,0,.7);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: rgba(19, 32, 41, .8);
+    font-weight: bold;
+}
+
+.navbar-dropdown-my {
+    background-color: rgba(19, 32, 41, 1);
+    border: solid 2px white;
+}
+
+.dropdown-item-my {
+    color: white;
+}
+
+    .dropdown-item-my:hover {
+        color: #4D9D06 !important;
+    }
+
+.scrollable-menu {
+    height: auto;
+    max-height: 400px;
+    overflow-x: hidden;
+}
+
+.div-border {
+    border-top: solid 3px black;
+    border-left: solid 3px black;
+    border-right: solid 3px black;
+    border-bottom: solid 3px black;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,.7);
+    background-color: rgba(19, 32, 41, .8);
+}
+
+
+.div-text {
+    padding: .8rem .8rem 0rem .8rem;
+}
+
+.my-title {
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.my-header {
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.my-text {
+    color: white;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid white;
+    margin: 1em 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none !important
+}
+
+    a:hover {
+        color: #4D9D06;
+    }
+
+.nav-link {
+    color: white !important;
+}
+
+    .nav-link:hover {
+        color: #4D9D06 !important;
+    }
+
+.my-h2 {
+    font-size: 1.5rem !important;
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}

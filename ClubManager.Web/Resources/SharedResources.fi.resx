@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="5-streakWin" xml:space="preserve">
+    <value>Bonus 5 voittoa peräkkäin</value>
+  </data>
+  <data name="Achievements" xml:space="preserve">
+    <value>Saavutukset</value>
+  </data>
+  <data name="Cards" xml:space="preserve">
+    <value>Kortteja</value>
+  </data>
+  <data name="ChampionsLeague" xml:space="preserve">
+    <value>Mestarien liiga</value>
+  </data>
+  <data name="Coins" xml:space="preserve">
+    <value>Kolikko</value>
+  </data>
+  <data name="CoinsDescription" xml:space="preserve">
+    <value>Näin saat kolikoita maksutta. Kolikot ovat tärkeitä pelissä, yritä saada niistä irti!</value>
+  </data>
+  <data name="CoinsText" xml:space="preserve">
+    <value>&lt;p class="my-text"&gt;Kolikoilla on tärkeä rooli, he voivat ostaa kortteja, pelata näyttelypelejä ja käyttää niitä nopeuttamaan. Kolikoita voi tietysti ostaa todellisesta rahasta. Suosittelen ostamaan tervetuliaispaketin, joka on halpa ja tuo pelin alkuun useita etuja.&lt;/p&gt;
+                &lt;p class="my-text"&gt;On kuitenkin muitakin mahdollisuuksia saada kolikot peliin ilmaiseksi. Tässä ovat parhaat keinot:&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;rekisteröinti&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Heti rekisteröinnin jälkeen saat 250 kolikkoa!&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;Kutsu ystäväsi&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Kutsu ystäväsi klubin johtajaan 2019 ja hanki 50 ilmaista kolikkoa jokaiselle ystävälle, joka osallistuu peliin!&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;saavutukset&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Pelissä on saavutuksia, jotka kun teet, saat monenlaisia kolikoita vaikeuksien mukaan. Tehtävien ansiosta voit ansaita jopa 10 000 kolikkoa.&lt;/p&gt;
+                &lt;h2 class="my-h2"&gt;Saavutukset liigassa&lt;/h2&gt;
+                &lt;p class="my-text"&gt;Pelaa liigapelejä ja yritä menestyä niissä! Jos siirryt korkeampaan liigaan, saat 25 kolikkoa. Jos pidät liigan vähintään, saat 10 kolikkoa.&lt;/p&gt;</value>
+  </data>
+  <data name="CoinsUrl" xml:space="preserve">
+    <value>Kolikko</value>
+  </data>
+  <data name="EventBonus" xml:space="preserve">
+    <value>Tapahtumabonus</value>
+  </data>
+  <data name="FirstDayWin" xml:space="preserve">
+    <value>First Day Win</value>
+  </data>
+  <data name="FreeCoins" xml:space="preserve">
+    <value>Kolikot maksutta</value>
+  </data>
+  <data name="HomeMatch" xml:space="preserve">
+    <value>Koti-ottelu</value>
+  </data>
+  <data name="IndexAchievements" xml:space="preserve">
+    <value>Voit myös suorittaa tehtäviä pelissä. Saat monenlaisia kolikoita vaikeuksienne mukaan. Voit ostaa kortteja kolikoille. Tehtävien ansiosta voit ansaita jopa 10 000 kolikkoa.</value>
+  </data>
+  <data name="IndexCards" xml:space="preserve">
+    <value>Kortilla on tärkeä rooli pelissä. Korttien ansiosta saat uusia pelaajia, johtajia, erilaisia päivityksiä, merkkejä, näyttelyitä ja paljon muuta. Kortteja voi ostaa tai voittaa otteluista.</value>
+  </data>
+  <data name="IndexCarousel1" xml:space="preserve">
+    <value>Online-jalkapallo-johtaja kortilla</value>
+  </data>
+  <data name="IndexCarousel2" xml:space="preserve">
+    <value>Pelaa ystäviä vastaan</value>
+  </data>
+  <data name="IndexCarousel3" xml:space="preserve">
+    <value>Harjoittele pelaajiasi</value>
+  </data>
+  <data name="IndexCarousel4" xml:space="preserve">
+    <value>Paranna klubiasi</value>
+  </data>
+  <data name="IndexCarousel5" xml:space="preserve">
+    <value>Määritä oikea kokoonpano</value>
+  </data>
+  <data name="IndexCarousel6" xml:space="preserve">
+    <value>Rakenna dynastia</value>
+  </data>
+  <data name="IndexChl" xml:space="preserve">
+    <value>Johtaja, joka saa eniten kuppeja klubinsa kanssa vuonna 2019, voittaa 2 lippua Mestarien liigan finaaliin vuonna 2020 Istanbulissa.</value>
+  </data>
+  <data name="IndexChl2" xml:space="preserve">
+    <value>Voit voittaa kupit viikoittaiselle kilpailulle. Pelaa niin monta liigapelejä kuin mahdollista, kerää pisteitä ja tule tämän kilpailun voittajaksi, jossa vastaavan tason vastustajat vastustavat sinua. Viikkokilpailun lopussa myymme kupit.</value>
+  </data>
+  <data name="IndexChlTitle" xml:space="preserve">
+    <value>Voita 2 lippua Mestarien liigaan!</value>
+  </data>
+  <data name="IndexDescription" xml:space="preserve">
+    <value>Sinun urasi johtajasi, Club Manager 2019, on vasta alkamassa! Ryhdy parhaaksi johtajaksi ja voita lippuja Mestarien liigan finaaliin vuonna 2020!</value>
+  </data>
+  <data name="IndexLeagues" xml:space="preserve">
+    <value>Yhteensä on 12 liigaa. Aluksi tietysti aloitat alimmasta. Jos haluat siirtyä korkeampaan liigaan, tarvitset tietyn määrän pisteitä. Mitä korkeampi liigan pelaat, sitä enemmän rahaa saat ottelusta.</value>
+  </data>
+  <data name="IndexText" xml:space="preserve">
+    <value>&lt;p class="my-text"&gt;
+            Sinun urasi johtaja on vasta alkamassa! Käytä tätä tilaisuutta kokeilla, mikä on johtaa joukkueen johtamista! Ryhdy parhaaksi johtajaksi ja voita lippuja Mestarien liigan finaaliin vuonna 2020! Joukkueesi odottaa sinua.
+        &lt;/p&gt;
+        &lt;p class="my-text"&gt;
+            Voit pelata peliä iOS- ja Android-laitteissa. Tietenkin se on myös verkossa selaimessasi. Pelin nimestä on selvää, että sinun tulee olla jalkapalloseuranne. Heti rekisteröinnin jälkeen saat tavallisen joukkueenne ja tavoite on huolehtia hänestä, jotta hän voi menestyä.
+        &lt;/p&gt;
+        &lt;p class="my-text"&gt;Koko peli on rakennettu kortteihin. Jokaisen ottelun jälkeen saat kortteja, jotka piilottavat uusia pelaajia, johtajia ja erilaisia päivityksiä. Korttipakkauksia voi ostaa myös rahoista ja kolikoista, joita saat myös ottelujen jälkeen.&lt;/p&gt;</value>
+  </data>
+  <data name="IndexTextBottom" xml:space="preserve">
+    <value>&lt;h4 class="my-header text-center"&gt;Mikä odottaa sinua pelissä?&lt;/h4&gt;
+            &lt;p class="my-text"&gt;Online-jalkapallohallinto, joka perustuu kortteihin.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Ottelut ystäviäsi ja vastustajia vastaan liigassa ja näyttelyssä.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Koulutus ja pelaajien taitojen parantaminen.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Stadionin, koulutustilojen, leikkikenttien, kuntosalien ja järjestäjien parantaminen.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Oikean kokoonpanon ja taktiikan määrittäminen. Kapteenin ja pelaajien valinta vakiotoiminnoissa.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Parantaa joukkueen kemiaa koko ryhmän keskittämiseksi ja jokaisen ottelun jälkeen.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Tehtävien suorittaminen, joihin saat bonuskolikoita. Keskustele suoraan pelissä.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Osta ja noutaa kortteja, joissa on uusia pelaajia, johtajia ja kortteja, joita tarvitaan koulutukseen, päivityksiin, näyttelyihin ja moniin muihin.&lt;/p&gt;
+            &lt;p class="my-text"&gt;Uusien pelaajien partiointi. Älä epäröi aloittaa online-pelin Club Manager 2019 pelaaminen tänään!&lt;/p&gt;</value>
+  </data>
+  <data name="IndexTitle" xml:space="preserve">
+    <value>Online-jalkapallo-johtaja</value>
+  </data>
+  <data name="IndexUpgrades" xml:space="preserve">
+    <value>Parantaa klubin eri osia ja parantaa tuloksia. Jokaisella parannuksella on etu, esimerkiksi parantamalla stadionia, saat enemmän rahaa ottelun aikana.</value>
+  </data>
+  <data name="League" xml:space="preserve">
+    <value>Liiga</value>
+  </data>
+  <data name="LeagueConditions" xml:space="preserve">
+    <value>olosuhteet</value>
+  </data>
+  <data name="LeagueMultiplierTitle" xml:space="preserve">
+    <value>Kertojan nimi</value>
+  </data>
+  <data name="Leagues" xml:space="preserve">
+    <value>Liiga</value>
+  </data>
+  <data name="LeaguesDesc" xml:space="preserve">
+    <value>Alla olevassa taulukossa näkyy, kuinka monta pistettä haluat ansaita korkeammalle liigalle ja kuinka monta pistettä pitää liigassa. Voit myös nähdä, mikä arvo kerrotaan liigan otteluista saadulla rahalla.</value>
+  </data>
+  <data name="LeaguesDescription" xml:space="preserve">
+    <value>Täällä opit, kuinka monta pistettä sinun pitää olla liigassa ja kuinka monta pistettä edetä korkeammalle liigalle.</value>
+  </data>
+  <data name="LeaguesOther" xml:space="preserve">
+    <value>Muut käteiskertoimet</value>
+  </data>
+  <data name="LeaguesUrl" xml:space="preserve">
+    <value>Liiga</value>
+  </data>
+  <data name="LeagueTableTitle1" xml:space="preserve">
+    <value>Pisteitä, joita tarvitaan liigan ylläpitämiseksi</value>
+  </data>
+  <data name="LeagueTableTitle2" xml:space="preserve">
+    <value>Pisteitä tarvitaan edetä</value>
+  </data>
+  <data name="LeagueTableTitle3" xml:space="preserve">
+    <value>Rahan kerroin</value>
+  </data>
+  <data name="Manual" xml:space="preserve">
+    <value>Opetus</value>
+  </data>
+  <data name="ManualDescription" xml:space="preserve">
+    <value>Täältä löydät tärkeimmät tiedot Club Manager 2019: n online-pelistä</value>
+  </data>
+  <data name="ManualText1" xml:space="preserve">
+    <value>Voit saada uusia pelaajia korteista tai lähettää partiolaisia, kertoa heille, mitä postia etsit, ja hän menee kenttään etsimään pelaajaa. 24 tunnin kuluessa hän palaa ja tarjoaa niille pelaajille, jotka voivat ostaa.</value>
+  </data>
+  <data name="ManualText10" xml:space="preserve">
+    <value>Saat käteisen jokaisen pelin jälkeen, arvo riippuu ottelun tuloksesta, sinulla on tietysti eniten, voitto, sitten piirtäminen ja vähiten voitto. Toinen tapa saada käteistä on myydä kortteja.</value>
+  </data>
+  <data name="ManualText11" xml:space="preserve">
+    <value>Voit pelata liigan otteluita useammin, jos parannat järjestäjän tasoa. Voit pelata näyttelypelejä kortilla tai 100 kolikolla.</value>
+  </data>
+  <data name="ManualText2" xml:space="preserve">
+    <value>Korttipaketit voidaan hankkia useilla tavoilla. Pelin alussa saat 3 avauspakettia, voit noutaa yhden 24 tunnin välein. Toinen vaihtoehto on katsella mainosvideota. Tämä vaihtoehto näkyy aina tietyssä kohdassa. Saat kortteja jopa ottelujen jälkeen, olipa kyse liigasta tai näyttelystä. Viimeinen vaihtoehto on ostaa rahoja tai kolikoita. Yksittäiset paketit erottuvat sisällä olevien korttien lukumäärän ja niukkuuden mukaan.</value>
+  </data>
+  <data name="ManualText3" xml:space="preserve">
+    <value>Kukin johtaja haluaa tietyn asettelun. Ainoa tapa muuttaa asettelua on vaihtaa johtaja. Jokaisella johtajalla on tietty kapasiteetti eli kaikkien 11 peruspelaajan laatu. Jos summa ylittää johtokapasiteetin, joukkueen kemia alenee nopeasti.</value>
+  </data>
+  <data name="ManualText4" xml:space="preserve">
+    <value>Joukkueen kemia voi vaihdella 1: stä 99: een. Mitä korkeampi joukkueesi kemia, sitä paremmat pelaajat ja johtaja työskentelevät yhdessä paremman suorituskyvyn saavuttamiseksi otteluissa. Joukkokemia muuttuu seuraavista syistä: &lt;br/&gt;
+Manager Change - Jos vaihdat joukkueen johtajan, tiimin kemia vähenee yleensä. Jotta saavutat korkeamman joukkokemian, sinun täytyy pelata niin monta peliä kuin mahdollista. &lt;br/&gt;
+Pelaajien perusominaisuuksien summa ylittää johtajan kapasiteetin. &lt;br /&gt;
+Raportin muutos - Jokaisella pelaajalla on erilaiset suhteet johtajan ja tiimiryhmän kemiaan.</value>
+  </data>
+  <data name="ManualText5" xml:space="preserve">
+    <value>Tiimin laatu ei ole ainoa näkökohta, joka auttaa sinua voittamaan pelin. On tärkeää, että pelaaja lepää, korkean joukkueen kemian kanssa johtajan kanssa. Tietenkin sinun täytyy valita hyvä taktiikka ja tunnistaa oikeat pelaajat vakiotoiminnassa. Myös kodin leikkipaikka ja sen taso ovat suuri osa. Voit myös lisätä mahdollisuuksiasi lähettämällä joukkue keskitysleirille. Tietenkin, jos sinulla on neljän hyökkäyksen ajo, sinulla on todennäköisesti enemmän tavoitteita, mutta saat todennäköisesti enemmän rahaa.</value>
+  </data>
+  <data name="ManualText6" xml:space="preserve">
+    <value>Pelaajan outoa on erittäin tärkeää otteluissa. Jos pelaajat ovat väsyneitä, he eivät toimi hyvin. Lisää energiaa energiakorttien avulla. Ne ovat kahdenlaisia, energian talteenotto koko joukkueelle ja energian talteenotto yhdelle pelaajalle. Lisäksi pelaaja lepää, kun hän ei liity seuraavaan otteluun, ei liigaan tai näyttelyyn. Siksi on edullista vaihtaa perusasetuksensa yksitoista ja tallentaa tärkeimmät vipunsa liigan liigoissa.</value>
+  </data>
+  <data name="ManualText7" xml:space="preserve">
+    <value>Jokainen pelaaja voidaan kouluttaa 50-tasolle. Tällä tasolla pelaaja parantaa kykyään 10 prosentilla. Mitä korkeampi taso on kuntosalilla, sitä tehokkaammin harjoittelu on. Koulutus voidaan aloittaa harjoittelukorttien avulla. Jos haluat nopeuttaa pelaajien koulutusta, parannat koulutustaustasi. Jos päivität sen 12., 25., 37. ja 50. tasolle, voit kouluttaa useita pelaajia samanaikaisesti.</value>
+  </data>
+  <data name="ManualText8" xml:space="preserve">
+    <value>Saat lisää klubeja peliin, joten sinun ei tarvitse luoda toista profiilia. Sinun tarvitsee vain pelata 25 ottelua ja saada toinen joukkue, saat sen uudelleen peruslaitteilla. Voit helposti vaihtaa klubien välillä. Pelissä voi olla enintään 4 klubia, kun pelaat 100 liigan ottelua, saat 3. klubin. Sitten, 250 liigan pelien jälkeen, neljäs klubi.</value>
+  </data>
+  <data name="ManualText9" xml:space="preserve">
+    <value>Voit ostaa kolikoita oikeassa rahassa. Toinen vaihtoehto on seurata tai ylläpitää liigaa. Paras vaihtoehto on saavuttaa saavutukset. Täältä saat jopa 10 000 ilmaista kolikkoa! Voit myös kutsua ystäväsi mukaan peliin, ja kaikki, jotka osallistuvat peliin, saavat 50 kolikkoa!</value>
+  </data>
+  <data name="ManualTitle" xml:space="preserve">
+    <value>Ohjeet peliin Club Manager 2019</value>
+  </data>
+  <data name="ManualTitle1" xml:space="preserve">
+    <value>Kuinka saada uusia pelaajia</value>
+  </data>
+  <data name="ManualTitle10" xml:space="preserve">
+    <value>Rahan saaminen</value>
+  </data>
+  <data name="ManualTitle11" xml:space="preserve">
+    <value>Kuinka pelata peliä useammin</value>
+  </data>
+  <data name="ManualTitle2" xml:space="preserve">
+    <value>Kuinka saada korttipaketit</value>
+  </data>
+  <data name="ManualTitle3" xml:space="preserve">
+    <value>Asettelun muuttaminen</value>
+  </data>
+  <data name="ManualTitle4" xml:space="preserve">
+    <value>Tiimin kemia</value>
+  </data>
+  <data name="ManualTitle5" xml:space="preserve">
+    <value>Miten on mahdollista, että joukkue hävisi, vaikka se olisi laadultaan parempi</value>
+  </data>
+  <data name="ManualTitle6" xml:space="preserve">
+    <value>Kuinka lisätä pelaajan energiaa</value>
+  </data>
+  <data name="ManualTitle7" xml:space="preserve">
+    <value>Kuinka parantaa pelaajiasi?</value>
+  </data>
+  <data name="ManualTitle8" xml:space="preserve">
+    <value>Lisää klubeja</value>
+  </data>
+  <data name="ManualTitle9" xml:space="preserve">
+    <value>Kolikoiden saaminen</value>
+  </data>
+  <data name="ManualUrl" xml:space="preserve">
+    <value>Opetus</value>
+  </data>
+  <data name="Multiplier1" xml:space="preserve">
+    <value>Kerroin riippuu stadionin tasosta</value>
+  </data>
+  <data name="Multiplier2" xml:space="preserve">
+    <value>Koskee kaikkia ottelutyyppejä</value>
+  </data>
+  <data name="Multiplier3" xml:space="preserve">
+    <value>Kerroin riippuu tapahtuman asetuksesta</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>muut</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Pelata</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>edellinen</value>
+  </data>
+  <data name="Upgrades" xml:space="preserve">
+    <value>Parannuksia</value>
+  </data>
+</root>

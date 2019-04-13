@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="@System.Globalization.CultureInfo.CurrentCulture.Name">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Club Manager 2019 - @Html.Raw(ViewData["Title"])</title>
+    <meta name="description" content="@Html.Raw(ViewData["Description"])" />
+    <meta property="og:locale" content="cs" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="@($"{Context.Request.Scheme}://{Context.Request.Host}{Context.Request.Path}{Context.Request.QueryString}")" />
+    <meta property="og:title" content="Club Manager 2019 - @Html.Raw(ViewData["Title"])" />
+    <meta property="og:description" content="@Html.Raw(ViewData["Description"])" />
+    <meta property="og:image" content="images/cm2019-og.jpg" />
+    <meta property="og:site_name" content="Club Manager 2019" />
+    <link rel="canonical" href="@($"{Context.Request.Scheme}://{Context.Request.Host}{Context.Request.Path}{Context.Request.QueryString}")" />
+
+
+    <link rel="stylesheet" href="~/css/site.min.css" />
+    <link rel="apple-touch-icon" sizes="57x57" href="~/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="~/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="~/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="~/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="~/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="~/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="~/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="~/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="~/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="~/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="~/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/favicon/favicon-16x16.png">
+    <link rel="manifest" href="~/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-46112739-37"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-46112739-37');
+    </script>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light navbar-my">
+            <div class="container">
+                <a class="navbar-brand" href="/@System.Globalization.CultureInfo.CurrentCulture.Name">
+                    <img src="~/images/misc/logo-cm-2019-inverted.png" width="80" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/@System.Globalization.CultureInfo.CurrentCulture.Name#game">@Localizer["Play"]</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/@System.Globalization.CultureInfo.CurrentCulture.Name/@Localizer["ManualUrl"]">@Localizer["Manual"]</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/@System.Globalization.CultureInfo.CurrentCulture.Name/@Localizer["CoinsUrl"]">@Localizer["Coins"]</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/@System.Globalization.CultureInfo.CurrentCulture.Name/@Localizer["LeaguesUrl"]">@Localizer["Leagues"]</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                @(ClubManager.Data.Entity.Languages.SupportedLangs.FirstOrDefault(x => x.ShortName == System.Globalization.CultureInfo.CurrentCulture.Name)?.LongName)
+                            </a>
+                            <div class="dropdown-menu navbar-dropdown-my scrollable-menu" aria-labelledby="navbarDropdown">
+                                @foreach (var l in ClubManager.Data.Entity.Languages.SupportedLangs)
+                                {
+                                    <a class="dropdown-item dropdown-item-my" href="/@l.ShortName">@l.LongName</a>
+                                }
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    @RenderSection("Game", required: false)
+    <div class="container">
+        @RenderBody()
+    </div>
+
+    <script src="~/js/site.min.js"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
